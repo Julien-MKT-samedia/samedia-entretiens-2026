@@ -5,16 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SAMEDIA — Entretiens Recrutement TC Ouest 2026</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            smd: { yellow: '#FFED00', black: '#1A1A1A', beige: '#F0F0EB', 'yellow-dark': '#D4C800' }
+          },
+          fontFamily: { sans: ['Poppins', 'system-ui', '-apple-system', 'sans-serif'] },
+          borderRadius: { card: '18px' },
+          boxShadow: {
+            card: '0 2px 12px rgba(0,0,0,.07)',
+            'card-hover': '0 8px 24px rgba(0,0,0,.12)'
+          }
+        }
+      }
+    }
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-    body { font-family: 'Inter', sans-serif; }
-    .sidebar-item { transition: all 0.15s ease; }
-    .sidebar-item:hover { background: rgba(255,255,255,0.1); }
-    .sidebar-item.active { background: rgba(255,255,255,0.15); border-left: 3px solid #f59e0b; }
-    .tab-btn { transition: all 0.15s ease; }
-    .tab-btn.active { border-bottom: 2px solid #f59e0b; color: #f59e0b; font-weight: 600; }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+    body { font-family: 'Poppins', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    .sidebar-item { transition: all 0.2s ease; }
+    .sidebar-item:hover { background: rgba(255,237,0,0.05); }
+    .sidebar-item.active { background: rgba(255,237,0,0.08); border-left: 3px solid #FFED00; }
+    .tab-btn { transition: all 0.2s ease; }
+    .tab-btn.active { border-bottom: 2px solid #FFED00; color: #1A1A1A; font-weight: 600; }
     .score-input::-webkit-inner-spin-button { -webkit-appearance: none; }
     .score-input { -moz-appearance: textfield; }
     textarea { resize: vertical; }
@@ -25,11 +42,22 @@
     .other-user-score { background: #f0fdf4; border: 1px solid #bbf7d0; }
     .progress-bar { transition: width 0.3s ease; }
 
+    /* Card hover effect */
+    .smd-card { background: white; border-radius: 18px; box-shadow: 0 2px 12px rgba(0,0,0,.07); transition: transform 0.25s ease, box-shadow 0.25s ease; }
+    .smd-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px rgba(0,0,0,.12); }
+    .smd-card-static { background: white; border-radius: 18px; box-shadow: 0 2px 12px rgba(0,0,0,.07); }
+
     /* Timer pulse animations */
-    @keyframes pulse-orange { 0%,100%{color:#f59e0b} 50%{color:#ea580c} }
-    @keyframes pulse-red { 0%,100%{color:#ef4444} 50%{color:#991b1b} }
-    .timer-warning { animation: pulse-orange 2s ease-in-out infinite; }
-    .timer-danger { animation: pulse-red 1.5s ease-in-out infinite; }
+    @keyframes pulse-warning { 0%,100%{color:#FFED00} 50%{color:#ea580c} }
+    @keyframes pulse-danger { 0%,100%{color:#ef4444} 50%{color:#991b1b} }
+    .timer-warning { animation: pulse-warning 2s ease-in-out infinite; }
+    .timer-danger { animation: pulse-danger 1.5s ease-in-out infinite; }
+
+    /* View transitions */
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes slideIn { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: translateX(0); } }
+    .view-enter { animation: fadeIn 0.25s ease-out; }
+    .slide-enter { animation: slideIn 0.2s ease-out; }
 
     /* PDF viewer */
     .cv-panel { transition: all 0.3s ease; }
@@ -47,36 +75,46 @@
     .focus-category.collapsed .focus-chevron { transform: rotate(-90deg); }
     .focus-chevron { transition: transform 0.2s ease; }
 
+    /* Status dots */
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .status-not-started { background: #9ca3af; }
+    .status-in-progress { background: #3b82f6; }
+    .status-scored { background: #FFED00; }
+    .status-decided { background: #22c55e; }
+
     /* Print styles */
     @media print {
       .no-print { display: none !important; }
       .print-only { display: block !important; }
-      body { font-size: 10px; }
+      body { font-family: 'Poppins', sans-serif; font-size: 10pt; color: #1A1A1A; background: white; }
+      .print-header { border-bottom: 3px solid #FFED00; padding-bottom: 8px; margin-bottom: 16px; }
+      table { page-break-inside: avoid; }
       .print-break { page-break-before: always; }
+      .smd-card, .smd-card-static { box-shadow: none; border: 1px solid #e5e7eb; }
     }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-800 min-h-screen">
+<body class="bg-smd-beige text-gray-800 min-h-screen">
 
 <!-- ============================================ -->
 <!-- MODALE SELECTION UTILISATEUR                 -->
 <!-- ============================================ -->
-<div id="userModal" class="fixed inset-0 bg-black/60 flex items-center justify-center z-50">
-  <div class="bg-white rounded-xl shadow-2xl p-8 max-w-md w-full mx-4">
+<div id="userModal" class="fixed inset-0 bg-smd-black/70 flex items-center justify-center z-50">
+  <div class="bg-white rounded-card shadow-2xl p-8 max-w-md w-full mx-4">
     <div class="text-center mb-6">
-      <div class="w-16 h-16 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4">
-        <svg class="w-8 h-8 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+      <div class="w-16 h-16 bg-smd-yellow rounded-2xl flex items-center justify-center mx-auto mb-4">
+        <svg class="w-8 h-8 text-smd-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
       </div>
-      <h2 class="text-xl font-bold text-gray-900">Plateforme Entretiens SAMEDIA</h2>
+      <h2 class="text-xl font-bold text-smd-black">Plateforme Entretiens SAMEDIA</h2>
       <p class="text-gray-500 text-sm mt-1">Recrutement TC Ouest 2026</p>
     </div>
     <p class="text-gray-700 font-medium mb-3">Qui etes-vous ?</p>
     <div class="flex gap-3 mb-4">
-      <button onclick="selectUser('Julien')" class="flex-1 py-3 px-4 bg-amber-500 hover:bg-amber-600 text-white rounded-lg font-semibold transition">Julien</button>
-      <button onclick="selectUser('Marie')" class="flex-1 py-3 px-4 bg-indigo-500 hover:bg-indigo-600 text-white rounded-lg font-semibold transition">Marie</button>
+      <button onclick="selectUser('Cédrick')" class="flex-1 py-3 px-4 bg-smd-yellow hover:brightness-110 text-smd-black rounded-xl font-semibold transition">Cédrick</button>
+      <button onclick="selectUser('Bruno')" class="flex-1 py-3 px-4 bg-smd-black hover:bg-gray-800 text-white rounded-xl font-semibold transition">Bruno</button>
     </div>
     <div class="flex gap-2">
-      <input id="customUserInput" type="text" placeholder="Autre prenom..." class="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-amber-400 focus:outline-none" onkeydown="if(event.key==='Enter')selectCustomUser()">
+      <input id="customUserInput" type="text" placeholder="Autre prenom..." class="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-smd-yellow focus:outline-none" onkeydown="if(event.key==='Enter')selectCustomUser()">
       <button onclick="selectCustomUser()" class="px-4 py-2 bg-gray-700 hover:bg-gray-800 text-white rounded-lg text-sm font-medium transition">OK</button>
     </div>
   </div>
@@ -88,24 +126,31 @@
 <div id="app" class="hidden flex h-screen">
 
   <!-- SIDEBAR -->
-  <aside class="w-64 bg-gray-900 text-white flex flex-col flex-shrink-0 no-print">
-    <div class="p-4 border-b border-gray-700">
-      <h1 class="text-lg font-bold text-amber-400">SAMEDIA</h1>
-      <p class="text-xs text-gray-400">Entretiens TC Ouest 2026</p>
-      <p class="text-xs text-gray-500 mt-1">Connecte : <span id="currentUserDisplay" class="text-amber-300 font-medium"></span></p>
+  <aside class="w-64 bg-smd-black text-white flex flex-col flex-shrink-0 no-print">
+    <div class="p-4 border-b border-white/10">
+      <div class="flex items-center gap-2 mb-1">
+        <span class="text-lg font-black tracking-wider text-white">SAMEDIA</span>
+        <span class="bg-smd-yellow text-smd-black text-[10px] font-bold px-2 py-0.5 rounded-full">TC OUEST</span>
+      </div>
+      <p class="text-[11px] text-gray-400 tracking-wide uppercase">Entretiens Recrutement 2026</p>
+      <p class="text-xs text-gray-500 mt-1.5">Connecte : <span id="currentUserDisplay" class="text-smd-yellow font-medium"></span></p>
     </div>
     <nav class="flex-1 py-2 overflow-y-auto">
-      <p class="px-4 py-2 text-xs text-gray-500 uppercase tracking-wider font-semibold">Candidats</p>
+      <p class="px-4 py-2 text-[10px] text-gray-500 uppercase tracking-widest font-semibold">Candidats</p>
       <div id="candidateNav"></div>
-      <div class="border-t border-gray-700 mt-3 pt-3">
+      <div class="border-t border-white/10 mt-3 pt-3">
+        <button onclick="showDashboard()" id="navDashboard" class="sidebar-item w-full text-left px-4 py-3 flex items-center gap-3 text-sm">
+          <svg class="w-4 h-4 text-smd-yellow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+          Dashboard
+        </button>
         <button onclick="showComparative()" id="navComparative" class="sidebar-item w-full text-left px-4 py-3 flex items-center gap-3 text-sm">
-          <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+          <svg class="w-4 h-4 text-smd-yellow" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
           Tableau comparatif
         </button>
       </div>
     </nav>
-    <div class="p-3 border-t border-gray-700">
-      <button onclick="changeUser()" class="w-full text-xs text-gray-400 hover:text-white transition py-1">Changer d'utilisateur</button>
+    <div class="p-3 border-t border-white/10">
+      <button onclick="changeUser()" class="w-full text-xs text-gray-400 hover:text-smd-yellow transition py-1">Changer d'utilisateur</button>
     </div>
   </aside>
 
@@ -176,6 +221,9 @@
       <div id="tabContent" class="p-6"></div>
     </div>
 
+    <!-- DASHBOARD VIEW -->
+    <div id="dashboardView" class="hidden p-6"></div>
+
     <!-- COMPARATIVE VIEW -->
     <div id="comparativeView" class="hidden p-6"></div>
   </main>
@@ -214,7 +262,7 @@
   <!-- Focus Header -->
   <div class="bg-gray-800 px-6 py-4 flex items-center justify-between border-b border-gray-700 flex-shrink-0">
     <div class="flex items-center gap-4">
-      <div class="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center text-white font-bold" id="focusAvatar"></div>
+      <div class="w-10 h-10 rounded-full bg-smd-yellow flex items-center justify-center text-white font-bold" id="focusAvatar"></div>
       <div>
         <h2 id="focusCandidateName" class="text-white font-bold text-lg"></h2>
         <p id="focusCandidateInfo" class="text-gray-400 text-xs"></p>
@@ -224,7 +272,7 @@
       <!-- Timer in focus mode -->
       <div id="focusTimer" class="flex items-center gap-2 bg-gray-700 rounded-lg px-4 py-2">
         <span id="focusTimerDisplay" class="text-white font-mono text-lg font-bold">00:00</span>
-        <button onclick="toggleTimer()" id="focusTimerBtn" class="p-1 hover:bg-gray-600 rounded text-amber-400">
+        <button onclick="toggleTimer()" id="focusTimerBtn" class="p-1 hover:bg-gray-600 rounded text-smd-yellow">
           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" id="focusTimerIcon"><path d="M8 5v14l11-7z"/></svg>
         </button>
         <button onclick="resetTimer()" class="p-1 hover:bg-gray-600 rounded text-gray-400">
@@ -307,6 +355,14 @@ const CRITERIA = [
 ];
 
 const MAX_SCORE = CRITERIA.reduce((sum, c) => sum + c.coeff * 5, 0); // 80
+
+const SCORE_RUBRIC = {
+  1: 'Insuffisant — Competence absente ou tres faible',
+  2: 'A developper — Bases presentes, lacunes importantes',
+  3: 'Correct — Niveau acceptable, axes d\'amelioration',
+  4: 'Bon — Competence solide, peu de reserves',
+  5: 'Excellent — Maitrise complete, au-dela des attentes'
+};
 
 const CANDIDATES = {
   guilbault: {
@@ -812,7 +868,7 @@ const DECISION_OPTIONS = ['—', 'A convoquer', 'Convoque', 'Retenu', 'Non reten
 const DECISION_COLORS = {
   '—': 'bg-gray-100 text-gray-500',
   'A convoquer': 'bg-blue-100 text-blue-700',
-  'Convoque': 'bg-amber-100 text-amber-700',
+  'Convoque': 'bg-smd-yellow/20 text-smd-black',
   'Retenu': 'bg-green-100 text-green-700',
   'Non retenu': 'bg-red-100 text-red-700'
 };
@@ -871,11 +927,14 @@ function saveLocal() {
 async function syncFromSupabase() {
   if (!supabaseReady) return;
   try {
-    const [scoresRes, notesRes, decisionsRes] = await Promise.all([
+    const results = await Promise.allSettled([
       sb.from('interview_scores').select('*'),
       sb.from('interview_notes').select('*'),
       sb.from('interview_decisions').select('*')
     ]);
+    const scoresRes = results[0].status === 'fulfilled' ? results[0].value : { data: null };
+    const notesRes = results[1].status === 'fulfilled' ? results[1].value : { data: null };
+    const decisionsRes = results[2].status === 'fulfilled' ? results[2].value : { data: null };
     if (scoresRes.data) scoresRes.data.forEach(r => {
       localScores[`${r.user_name}_${r.candidate_id}_${r.criterion_key}`] = r.score;
     });
@@ -1023,6 +1082,16 @@ function initApp() {
   showCandidate('guilbault');
 }
 
+function getCandidateStatus(candidateId) {
+  const score = calcWeightedScore(currentUser, candidateId);
+  const dec = getDecision(currentUser, candidateId);
+  const noteCount = Object.keys(localNotes).filter(k => k.startsWith(`${currentUser}_${candidateId}_`)).length;
+  if (dec.decision && dec.decision !== '' && dec.decision !== '—') return 'decided';
+  if (score.filled === CRITERIA.length) return 'scored';
+  if (score.filled > 0 || noteCount > 0) return 'in-progress';
+  return 'not-started';
+}
+
 function buildNav() {
   const nav = document.getElementById('candidateNav');
   nav.innerHTML = '';
@@ -1031,9 +1100,13 @@ function buildNav() {
     btn.className = 'sidebar-item w-full text-left px-4 py-3 flex items-center gap-3 text-sm';
     btn.dataset.id = c.id;
     const score = calcWeightedScore(currentUser, c.id);
-    const scoreDisplay = score.filled > 0 ? `<span class="ml-auto text-xs text-amber-300">${score.total}/${MAX_SCORE}</span>` : `<span class="ml-auto text-xs text-gray-600">${c.matchingScore}/10</span>`;
+    const status = getCandidateStatus(c.id);
+    const scoreDisplay = score.filled > 0 ? `<span class="ml-auto text-xs text-smd-yellow">${score.total}/${MAX_SCORE}</span>` : `<span class="ml-auto text-xs text-gray-600">${c.matchingScore}/10</span>`;
     btn.innerHTML = `
-      <span class="w-8 h-8 rounded-full bg-gray-700 flex items-center justify-center text-xs font-bold text-amber-400 flex-shrink-0">${c.name.split(' ').map(n=>n[0]).join('')}</span>
+      <div class="relative flex-shrink-0">
+        <span class="w-8 h-8 rounded-full bg-gray-700 flex items-center justify-center text-xs font-bold text-smd-yellow">${c.name.split(' ').map(n=>n[0]).join('')}</span>
+        <span class="status-dot status-${status} absolute -bottom-0.5 -right-0.5 ring-2 ring-smd-black"></span>
+      </div>
       <span class="truncate">${c.name}</span>
       ${scoreDisplay}
     `;
@@ -1045,29 +1118,50 @@ function buildNav() {
 // ============================================
 // NAVIGATION
 // ============================================
+function hideAllViews() {
+  document.getElementById('candidateView').classList.add('hidden');
+  document.getElementById('comparativeView').classList.add('hidden');
+  document.getElementById('dashboardView').classList.add('hidden');
+  document.querySelectorAll('#candidateNav .sidebar-item').forEach(el => el.classList.remove('active'));
+  document.getElementById('navComparative').classList.remove('active');
+  document.getElementById('navDashboard').classList.remove('active');
+}
+
 function showCandidate(id) {
   currentCandidate = CANDIDATES[id];
-  document.getElementById('candidateView').classList.remove('hidden');
-  document.getElementById('comparativeView').classList.add('hidden');
-  // Update nav
+  hideAllViews();
+  const view = document.getElementById('candidateView');
+  view.classList.remove('hidden');
+  view.classList.add('view-enter');
+  setTimeout(() => view.classList.remove('view-enter'), 300);
   document.querySelectorAll('#candidateNav .sidebar-item').forEach(el => {
     el.classList.toggle('active', el.dataset.id === id);
   });
-  document.getElementById('navComparative').classList.remove('active');
-  // Load timer for this candidate
   loadTimer(id);
-  // Render header
   renderHeader();
   switchTab(currentTab);
 }
 
 function showComparative() {
   currentCandidate = null;
-  document.getElementById('candidateView').classList.add('hidden');
-  document.getElementById('comparativeView').classList.remove('hidden');
-  document.querySelectorAll('#candidateNav .sidebar-item').forEach(el => el.classList.remove('active'));
+  hideAllViews();
+  const view = document.getElementById('comparativeView');
+  view.classList.remove('hidden');
+  view.classList.add('view-enter');
+  setTimeout(() => view.classList.remove('view-enter'), 300);
   document.getElementById('navComparative').classList.add('active');
   renderComparative();
+}
+
+function showDashboard() {
+  currentCandidate = null;
+  hideAllViews();
+  const view = document.getElementById('dashboardView');
+  view.classList.remove('hidden');
+  view.classList.add('view-enter');
+  setTimeout(() => view.classList.remove('view-enter'), 300);
+  document.getElementById('navDashboard').classList.add('active');
+  renderDashboard();
 }
 
 function switchTab(tab) {
@@ -1140,6 +1234,7 @@ function toggleTimer() {
   if (timerRunning) {
     stopTimerInterval();
   } else {
+    stopTimerInterval(); // Kill any orphaned interval
     timerRunning = true;
     timerInterval = setInterval(() => {
       timerSeconds++;
@@ -1219,7 +1314,7 @@ function renderHeader() {
         <!-- Timer -->
         <div class="flex items-center gap-1.5 bg-gray-800 rounded-lg px-3 py-1.5">
           <span id="headerTimerDisplay" class="font-mono text-sm font-bold ${timerColorClass || 'text-white'}">${timerDisplay}</span>
-          <button onclick="toggleTimer()" class="p-1 hover:bg-gray-700 rounded text-amber-400" title="Start/Pause">
+          <button onclick="toggleTimer()" class="p-1 hover:bg-gray-700 rounded text-smd-yellow" title="Start/Pause">
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" id="headerTimerIcon">${timerRunning ? '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>' : '<path d="M8 5v14l11-7z"/>'}</svg>
           </button>
           <button onclick="resetTimer()" class="p-1 hover:bg-gray-700 rounded text-gray-400" title="Reset">
@@ -1236,7 +1331,7 @@ function renderHeader() {
         </button>
         <!-- Score -->
         <div class="text-center">
-          <div class="text-2xl font-bold text-amber-500">${c.matchingScore}<span class="text-sm text-gray-400">/10</span></div>
+          <div class="text-2xl font-bold text-smd-black font-semibold">${c.matchingScore}<span class="text-sm text-gray-400">/10</span></div>
           <div class="text-xs text-gray-400">Match initial</div>
         </div>
         <!-- Decision -->
@@ -1438,7 +1533,7 @@ function renderFiche() {
   document.getElementById('ficheContent').innerHTML = `
     <div class="space-y-6">
       <!-- Infos cles -->
-      <div class="bg-white rounded-lg border p-5">
+      <div class="smd-card p-6">
         <h3 class="font-semibold text-gray-900 mb-3">Informations cles</h3>
         <div class="grid grid-cols-1 gap-3 text-sm">
           <div><span class="text-gray-500">Formation :</span> <span class="font-medium">${c.formation}</span></div>
@@ -1448,23 +1543,23 @@ function renderFiche() {
       </div>
 
       <!-- Parcours resume -->
-      <div class="bg-white rounded-lg border p-5">
+      <div class="smd-card p-6">
         <h3 class="font-semibold text-gray-900 mb-3">Resume du parcours</h3>
         <ul class="space-y-1.5">
-          ${c.summary.map(s => `<li class="text-sm flex gap-2"><span class="text-amber-500 mt-0.5">▸</span><span>${s}</span></li>`).join('')}
+          ${c.summary.map(s => `<li class="text-sm flex gap-2"><span class="text-smd-black font-semibold mt-0.5">▸</span><span>${s}</span></li>`).join('')}
         </ul>
       </div>
 
       <!-- Experiences -->
-      <div class="bg-white rounded-lg border p-5">
+      <div class="smd-card p-6">
         <h3 class="font-semibold text-gray-900 mb-3">Experiences professionnelles</h3>
         <div class="space-y-3">
           ${c.experiences.map(e => `
-            <div class="border-l-2 border-amber-300 pl-4 py-1">
+            <div class="border-l-2 border-smd-yellow pl-4 py-1">
               <div class="flex items-center gap-2">
                 <span class="text-xs text-gray-400 font-mono">${e.period}</span>
               </div>
-              <div class="font-medium text-sm">${e.role} — <span class="text-amber-600">${e.company}</span>${e.location ? ` (${e.location})` : ''}</div>
+              <div class="font-medium text-sm">${e.role} — <span class="text-smd-black font-bold">${e.company}</span>${e.location ? ` (${e.location})` : ''}</div>
               ${e.details ? `<p class="text-xs text-gray-500 mt-0.5">${e.details}</p>` : ''}
             </div>
           `).join('')}
@@ -1473,13 +1568,13 @@ function renderFiche() {
 
       <!-- Points forts / Vigilance -->
       <div class="grid grid-cols-1 xl:grid-cols-2 gap-4">
-        <div class="bg-white rounded-lg border p-5">
+        <div class="smd-card p-6">
           <h3 class="font-semibold text-green-700 mb-3">Points forts vs poste SAMEDIA</h3>
           <ul class="space-y-1.5">
             ${c.strengths.map(s => `<li class="text-sm flex gap-2"><span class="text-green-500">✓</span><span>${s}</span></li>`).join('')}
           </ul>
         </div>
-        <div class="bg-white rounded-lg border p-5">
+        <div class="smd-card p-6">
           <h3 class="font-semibold text-orange-600 mb-3">Points de vigilance</h3>
           <ul class="space-y-1.5">
             ${c.warnings.map(w => `<li class="text-sm flex gap-2"><span class="text-orange-500">⚠</span><span>${w}</span></li>`).join('')}
@@ -1488,9 +1583,9 @@ function renderFiche() {
       </div>
 
       <!-- Commentaire global -->
-      <div class="bg-white rounded-lg border p-5">
+      <div class="smd-card p-6">
         <h3 class="font-semibold text-gray-900 mb-3">Commentaire global — ${currentUser}</h3>
-        <textarea id="globalComment" rows="3" class="w-full border rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-amber-400 focus:outline-none"
+        <textarea id="globalComment" rows="3" class="w-full border rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-smd-yellow focus:outline-none"
           placeholder="Votre impression generale sur ce candidat..."
           oninput="debounceComment()">${getDecision(currentUser, c.id).comment || ''}</textarea>
         ${otherUsers.map(u => {
@@ -1524,7 +1619,7 @@ function renderQuestions() {
   Object.entries(c.questions).forEach(([catKey, questions]) => {
     const cat = QUESTION_CATEGORIES[catKey];
     html += `
-      <div class="bg-white rounded-lg border overflow-hidden">
+      <div class="smd-card-static overflow-hidden">
         <div class="bg-gray-50 px-5 py-3 border-b">
           <h3 class="font-semibold text-gray-900">${cat.icon} ${cat.label}</h3>
         </div>
@@ -1542,7 +1637,7 @@ function renderQuestions() {
         <div class="px-5 py-4">
           <p class="text-sm font-medium text-gray-800 mb-2">${i+1}. ${q.q}</p>
           <textarea data-qkey="${q.key}" rows="2"
-            class="question-note w-full border border-gray-200 rounded px-3 py-2 text-sm focus:ring-2 focus:ring-amber-400 focus:outline-none"
+            class="question-note w-full border border-gray-200 rounded px-3 py-2 text-sm focus:ring-2 focus:ring-smd-yellow focus:outline-none"
             placeholder="Notes de ${currentUser}..."
             oninput="debounceNote(this, '${q.key}')">${note}</textarea>
           ${otherNotesHtml}
@@ -1577,19 +1672,19 @@ function renderScoring() {
 
   // Score summary
   html += `
-    <div class="bg-white rounded-lg border p-5">
+    <div class="smd-card p-6">
       <div class="flex items-center justify-between mb-4">
         <h3 class="font-semibold text-gray-900">Score de ${currentUser}</h3>
-        <div class="text-2xl font-bold text-amber-500">${myScore.total}<span class="text-sm text-gray-400">/${MAX_SCORE}</span></div>
+        <div class="text-2xl font-bold text-smd-black font-semibold">${myScore.total}<span class="text-sm text-gray-400">/${MAX_SCORE}</span></div>
       </div>
       <div class="w-full bg-gray-200 rounded-full h-3">
-        <div class="bg-amber-500 h-3 rounded-full progress-bar" style="width: ${(myScore.total/MAX_SCORE*100).toFixed(1)}%"></div>
+        <div class="bg-smd-yellow h-3 rounded-full progress-bar" style="width: ${(myScore.total/MAX_SCORE*100).toFixed(1)}%"></div>
       </div>
     </div>
   `;
 
   // Criteria grid
-  html += `<div class="bg-white rounded-lg border overflow-hidden">
+  html += `<div class="smd-card-static overflow-hidden">
     <table class="w-full">
       <thead class="bg-gray-50">
         <tr>
@@ -1614,14 +1709,15 @@ function renderScoring() {
           <div class="flex items-center justify-center gap-1">
             ${[1,2,3,4,5].map(n => `
               <button onclick="setScore('${cr.key}', ${n})"
+                title="${SCORE_RUBRIC[n]}"
                 class="w-8 h-8 rounded-full text-xs font-bold transition
-                ${myVal === n ? 'bg-amber-500 text-white' : 'bg-gray-100 hover:bg-amber-100 text-gray-500'}">
+                ${myVal === n ? 'bg-smd-yellow text-smd-black ring-2 ring-smd-black/20' : 'bg-gray-100 hover:bg-smd-yellow/20 text-gray-500'}">
                 ${n}
               </button>
             `).join('')}
           </div>
         </td>
-        <td class="text-center px-3 py-3 text-sm font-bold ${myVal !== null ? 'text-amber-600' : 'text-gray-300'}">${weighted}</td>
+        <td class="text-center px-3 py-3 text-sm font-bold ${myVal !== null ? 'text-smd-black font-bold' : 'text-gray-300'}">${weighted}</td>
         ${otherUsers.map(u => {
           const val = getScore(u, c.id, cr.key);
           return `<td class="text-center px-3 py-3 text-sm ${val !== null ? 'text-indigo-600 font-medium' : 'text-gray-300'}">${val !== null ? val + '/5' : '—'}</td>`;
@@ -1636,7 +1732,7 @@ function renderScoring() {
         <td class="px-5 py-3 font-bold text-sm">TOTAL</td>
         <td></td>
         <td></td>
-        <td class="text-center py-3 text-lg font-bold text-amber-600">${myScore.total}/${MAX_SCORE}</td>
+        <td class="text-center py-3 text-lg font-bold text-smd-black font-bold">${myScore.total}/${MAX_SCORE}</td>
         ${otherUsers.map(u => {
           const s = calcWeightedScore(u, c.id);
           return `<td class="text-center py-3 text-sm font-bold text-indigo-600">${s.total}/${MAX_SCORE}</td>`;
@@ -1684,7 +1780,7 @@ function renderComparative() {
           <p class="text-sm text-gray-500">Classement dynamique par score moyen</p>
         </div>
         <div class="flex gap-2">
-          <button onclick="exportAllPDF()" class="no-print px-4 py-2 bg-amber-500 text-white rounded-lg text-sm font-medium hover:bg-amber-600 transition flex items-center gap-2">
+          <button onclick="exportAllPDF()" class="no-print px-4 py-2 bg-smd-yellow text-white rounded-lg text-sm font-medium hover:brightness-110 transition flex items-center gap-2">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
             Export recap
           </button>
@@ -1700,28 +1796,28 @@ function renderComparative() {
     const pct = MAX_SCORE > 0 ? (c.avgScore / MAX_SCORE * 100).toFixed(0) : 0;
 
     html += `
-      <div class="bg-white rounded-lg border p-5 hover:shadow-md transition cursor-pointer" onclick="showCandidate('${c.id}')">
+      <div class="smd-card p-6 hover:shadow-md transition cursor-pointer" onclick="showCandidate('${c.id}')">
         <div class="flex items-center gap-4">
-          <div class="w-10 h-10 rounded-full ${idx === 0 ? 'bg-amber-500 text-white' : 'bg-gray-200 text-gray-600'} flex items-center justify-center font-bold text-lg flex-shrink-0">
+          <div class="w-10 h-10 rounded-full ${idx === 0 ? 'bg-smd-yellow text-white' : 'bg-gray-200 text-gray-600'} flex items-center justify-center font-bold text-lg flex-shrink-0">
             ${idx + 1}
           </div>
           <div class="flex-1 min-w-0">
             <div class="flex items-center gap-3 mb-1">
               <span class="font-bold text-gray-900">${c.name}</span>
-              <span class="badge bg-amber-100 text-amber-700">Match: ${c.matchingScore}/10</span>
+              <span class="badge bg-smd-yellow/20 text-smd-black">Match: ${c.matchingScore}/10</span>
               ${dec.decision !== '—' ? `<span class="badge ${DECISION_COLORS[dec.decision]}">${dec.decision}</span>` : ''}
             </div>
             <div class="flex items-center gap-3">
               <div class="flex-1 bg-gray-200 rounded-full h-2.5">
-                <div class="bg-amber-500 h-2.5 rounded-full progress-bar" style="width: ${pct}%"></div>
+                <div class="bg-smd-yellow h-2.5 rounded-full progress-bar" style="width: ${pct}%"></div>
               </div>
-              <span class="text-sm font-bold text-amber-600 w-20 text-right">${c.avgScore}/${MAX_SCORE}</span>
+              <span class="text-sm font-bold text-smd-black font-bold w-20 text-right">${c.avgScore}/${MAX_SCORE}</span>
             </div>
             <div class="flex gap-4 mt-2">
               ${allUsers.map(u => {
                 const s = c.userScores[u];
                 const isMe = u === currentUser;
-                return `<span class="text-xs ${isMe ? 'text-amber-600 font-semibold' : 'text-indigo-600'}">${u}: ${s.filled > 0 ? s.total + '/' + MAX_SCORE : 'non note'}</span>`;
+                return `<span class="text-xs ${isMe ? 'text-smd-black font-bold font-semibold' : 'text-indigo-600'}">${u}: ${s.filled > 0 ? s.total + '/' + MAX_SCORE : 'non note'}</span>`;
               }).join('')}
             </div>
           </div>
@@ -1739,7 +1835,7 @@ function renderComparative() {
                   <span>${avgVal.toFixed(1)}/5</span>
                 </div>
                 <div class="bg-gray-200 rounded-full h-1.5">
-                  <div class="bg-amber-400 h-1.5 rounded-full progress-bar" style="width: ${pctCr}%"></div>
+                  <div class="bg-smd-yellow h-1.5 rounded-full progress-bar" style="width: ${pctCr}%"></div>
                 </div>
               </div>
             `;
@@ -1751,7 +1847,7 @@ function renderComparative() {
 
   html += `</div>
 
-    <div class="bg-white rounded-lg border p-5 mt-6">
+    <div class="smd-card p-6 mt-6">
       <h3 class="font-semibold text-gray-900 mb-4">Decisions — ${currentUser}</h3>
       <div class="grid grid-cols-2 gap-3">
         ${candidateList.map(c => {
@@ -1777,6 +1873,129 @@ function quickDecision(candidateId, value) {
   upsertDecision(currentUser, candidateId, value, comment);
   renderComparative();
   buildNav();
+}
+
+// ============================================
+// DASHBOARD
+// ============================================
+function renderDashboard() {
+  const candidates = Object.values(CANDIDATES);
+  const allUsers = getAllUsers();
+
+  // KPI calculations
+  let totalScored = 0, totalDecided = 0, totalScore = 0, scoredCount = 0;
+  candidates.forEach(c => {
+    const s = calcWeightedScore(currentUser, c.id);
+    const d = getDecision(currentUser, c.id);
+    if (s.filled === CRITERIA.length) { totalScored++; totalScore += s.total; scoredCount++; }
+    else if (s.filled > 0) { totalScore += s.total; scoredCount++; }
+    if (d.decision && d.decision !== '' && d.decision !== '—') totalDecided++;
+  });
+  const avgScore = scoredCount > 0 ? (totalScore / scoredCount).toFixed(1) : '—';
+
+  let html = `
+    <div class="max-w-6xl mx-auto">
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <h1 class="text-2xl font-bold text-smd-black">Dashboard</h1>
+          <p class="text-sm text-gray-500 mt-1">Vue d'ensemble du processus de recrutement</p>
+        </div>
+        <span class="bg-smd-yellow text-smd-black text-xs font-bold px-3 py-1.5 rounded-full">${currentUser}</span>
+      </div>
+
+      <!-- KPI Cards -->
+      <div class="grid grid-cols-4 gap-5 mb-8">
+        <div class="smd-card-static p-5 text-center">
+          <div class="text-3xl font-black text-smd-black">${candidates.length}</div>
+          <div class="text-xs text-gray-500 mt-1 uppercase tracking-wide">Candidats</div>
+        </div>
+        <div class="smd-card-static p-5 text-center">
+          <div class="text-3xl font-black text-smd-black">${totalScored}</div>
+          <div class="text-xs text-gray-500 mt-1 uppercase tracking-wide">Entierement scores</div>
+        </div>
+        <div class="smd-card-static p-5 text-center">
+          <div class="text-3xl font-black text-smd-black">${totalDecided}</div>
+          <div class="text-xs text-gray-500 mt-1 uppercase tracking-wide">Decisions prises</div>
+        </div>
+        <div class="smd-card-static p-5 text-center">
+          <div class="text-3xl font-black text-smd-black">${avgScore}</div>
+          <div class="text-xs text-gray-500 mt-1 uppercase tracking-wide">Score moyen /${MAX_SCORE}</div>
+        </div>
+      </div>
+
+      <!-- Candidate Grid -->
+      <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">Candidats</h2>
+      <div class="grid grid-cols-2 xl:grid-cols-3 gap-5 mb-8">`;
+
+  candidates.forEach((c, idx) => {
+    const score = calcWeightedScore(currentUser, c.id);
+    const dec = getDecision(currentUser, c.id);
+    const status = getCandidateStatus(c.id);
+    const pct = score.filled > 0 ? (score.total / MAX_SCORE * 100).toFixed(0) : 0;
+    const progressPct = (score.filled / CRITERIA.length * 100).toFixed(0);
+
+    const statusLabels = { 'not-started': 'Non commence', 'in-progress': 'En cours', 'scored': 'Score complet', 'decided': 'Decision prise' };
+    const statusColors = { 'not-started': 'bg-gray-200 text-gray-600', 'in-progress': 'bg-blue-100 text-blue-700', 'scored': 'bg-smd-yellow/30 text-smd-black', 'decided': 'bg-green-100 text-green-700' };
+
+    const decisionBadge = dec.decision && dec.decision !== '' && dec.decision !== '—'
+      ? `<span class="text-xs font-semibold px-2 py-0.5 rounded-full ${DECISION_COLORS[dec.decision] || 'bg-gray-100 text-gray-600'}">${dec.decision}</span>`
+      : '';
+
+    html += `
+      <div class="smd-card p-5 cursor-pointer" onclick="showCandidate('${c.id}')">
+        <div class="flex items-start justify-between mb-3">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-smd-black flex items-center justify-center text-smd-yellow font-bold text-sm flex-shrink-0">${c.name.split(' ').map(n=>n[0]).join('')}</div>
+            <div>
+              <div class="font-semibold text-smd-black text-sm">${c.name}</div>
+              <div class="text-xs text-gray-400">${c.location}</div>
+            </div>
+          </div>
+          <span class="badge ${statusColors[status]}">${statusLabels[status]}</span>
+        </div>
+        <div class="flex items-center gap-3 mb-2">
+          <div class="flex-1 bg-gray-100 rounded-full h-2.5">
+            <div class="bg-smd-yellow h-2.5 rounded-full progress-bar" style="width: ${pct}%"></div>
+          </div>
+          <span class="text-sm font-bold text-smd-black w-16 text-right">${score.filled > 0 ? score.total : '—'}/${MAX_SCORE}</span>
+        </div>
+        <div class="flex items-center justify-between text-xs text-gray-400">
+          <span>${score.filled}/${CRITERIA.length} criteres</span>
+          <span>Match: ${c.matchingScore}/10</span>
+        </div>
+        ${decisionBadge ? `<div class="mt-2 pt-2 border-t border-gray-100">${decisionBadge}</div>` : ''}
+      </div>`;
+  });
+
+  html += `</div>`;
+
+  // Multi-user score matrix if multiple users
+  if (allUsers.length > 1) {
+    html += `
+      <h2 class="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-4">Matrice des scores</h2>
+      <div class="smd-card-static overflow-hidden mb-8">
+        <table class="w-full text-sm">
+          <thead class="bg-smd-black text-white">
+            <tr>
+              <th class="text-left px-4 py-3 font-semibold">Candidat</th>
+              ${allUsers.map(u => `<th class="text-center px-4 py-3 font-semibold">${u}</th>`).join('')}
+            </tr>
+          </thead>
+          <tbody>`;
+    candidates.forEach((c, i) => {
+      html += `<tr class="${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}">
+        <td class="px-4 py-3 font-medium">${c.name}</td>`;
+      allUsers.forEach(u => {
+        const s = calcWeightedScore(u, c.id);
+        html += `<td class="text-center px-4 py-3 ${s.filled > 0 ? 'font-bold' : 'text-gray-300'}">${s.filled > 0 ? s.total + '/' + MAX_SCORE : '—'}</td>`;
+      });
+      html += `</tr>`;
+    });
+    html += `</tbody></table></div>`;
+  }
+
+  html += `</div>`;
+  document.getElementById('dashboardView').innerHTML = html;
 }
 
 // ============================================
@@ -1838,7 +2057,7 @@ function renderFocusContent() {
             <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
               <p class="text-white font-medium mb-4 text-base leading-relaxed">${i+1}. ${q.q}</p>
               <textarea data-focus-qkey="${q.key}" rows="4"
-                class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white text-sm placeholder-gray-400 focus:ring-2 focus:ring-amber-400 focus:outline-none focus:border-transparent"
+                class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white text-sm placeholder-gray-400 focus:ring-2 focus:ring-smd-yellow focus:outline-none focus:border-transparent"
                 placeholder="Vos notes ici..."
                 oninput="debounceFocusNote(this, '${q.key}')">${note}</textarea>
             </div>
@@ -1897,8 +2116,8 @@ function generatePrintContent(candidates) {
 
     html += `
       <div class="${idx > 0 ? 'print-break' : ''}" style="padding: 20px;">
-        <div style="text-align: center; margin-bottom: 20px; border-bottom: 2px solid #f59e0b; padding-bottom: 10px;">
-          <h1 style="font-size: 18px; font-weight: bold; color: #f59e0b;">SAMEDIA — Fiche d'evaluation</h1>
+        <div style="text-align: center; margin-bottom: 20px; border-bottom: 2px solid #FFED00; padding-bottom: 10px;">
+          <h1 style="font-size: 18px; font-weight: bold; color: #FFED00;">SAMEDIA — Fiche d'evaluation</h1>
           <p style="font-size: 10px; color: #666;">Recrutement TC Ouest 2026 — ${new Date().toLocaleDateString('fr-FR')} — Evaluateur: ${currentUser}</p>
         </div>
 
@@ -1963,18 +2182,80 @@ document.addEventListener('keydown', (e) => {
     e.preventDefault();
     if (focusActive) closeFocusMode();
     else if (currentCandidate) openFocusMode();
+    return;
   }
   // Escape = close overlays
   if (e.key === 'Escape') {
+    if (shortcutsVisible) { closeShortcutsHelp(); return; }
     if (focusActive) closeFocusMode();
     else closeCVFullscreen();
+    return;
   }
   // Arrow keys in focus mode
   if (focusActive) {
     if (e.key === 'ArrowLeft' && e.altKey) { e.preventDefault(); focusPrevCategory(); }
     if (e.key === 'ArrowRight' && e.altKey) { e.preventDefault(); focusNextCategory(); }
+    return;
   }
+  // Skip shortcuts when typing in inputs
+  const tag = document.activeElement.tagName;
+  if (tag === 'TEXTAREA' || tag === 'INPUT' || tag === 'SELECT') return;
+  if (e.ctrlKey || e.altKey || e.metaKey) return;
+  // Quick candidate navigation (1-7)
+  const candidateKeys = Object.keys(CANDIDATES);
+  const num = parseInt(e.key);
+  if (num >= 1 && num <= candidateKeys.length) { e.preventDefault(); showCandidate(candidateKeys[num - 1]); return; }
+  // Tab shortcuts
+  if (e.key === 'f' && currentCandidate) { e.preventDefault(); switchTab('fiche'); return; }
+  if (e.key === 'q' && currentCandidate) { e.preventDefault(); switchTab('questions'); return; }
+  if (e.key === 's' && currentCandidate) { e.preventDefault(); switchTab('scoring'); return; }
+  if (e.key === 'd') { e.preventDefault(); showDashboard(); return; }
+  if (e.key === 'c') { e.preventDefault(); showComparative(); return; }
+  if (e.key === ' ' && currentCandidate) { e.preventDefault(); toggleTimer(); return; }
+  if (e.key === '?') { e.preventDefault(); toggleShortcutsHelp(); return; }
 });
+
+// Shortcuts help modal
+let shortcutsVisible = false;
+function toggleShortcutsHelp() {
+  shortcutsVisible ? closeShortcutsHelp() : openShortcutsHelp();
+}
+function openShortcutsHelp() {
+  shortcutsVisible = true;
+  let overlay = document.getElementById('shortcutsOverlay');
+  if (!overlay) {
+    overlay = document.createElement('div');
+    overlay.id = 'shortcutsOverlay';
+    overlay.className = 'fixed inset-0 bg-black/50 flex items-center justify-center z-50';
+    overlay.onclick = (e) => { if (e.target === overlay) closeShortcutsHelp(); };
+    document.body.appendChild(overlay);
+  }
+  overlay.innerHTML = `
+    <div class="smd-card-static p-8 max-w-lg w-full mx-4">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-lg font-bold text-smd-black">Raccourcis clavier</h2>
+        <button onclick="closeShortcutsHelp()" class="text-gray-400 hover:text-gray-600">&times;</button>
+      </div>
+      <div class="grid grid-cols-2 gap-x-8 gap-y-3 text-sm">
+        <div><kbd class="bg-gray-100 px-2 py-0.5 rounded text-xs font-mono">1-7</kbd> <span class="text-gray-600">Candidat N</span></div>
+        <div><kbd class="bg-gray-100 px-2 py-0.5 rounded text-xs font-mono">f</kbd> <span class="text-gray-600">Fiche synthese</span></div>
+        <div><kbd class="bg-gray-100 px-2 py-0.5 rounded text-xs font-mono">q</kbd> <span class="text-gray-600">Questions</span></div>
+        <div><kbd class="bg-gray-100 px-2 py-0.5 rounded text-xs font-mono">s</kbd> <span class="text-gray-600">Grille scoring</span></div>
+        <div><kbd class="bg-gray-100 px-2 py-0.5 rounded text-xs font-mono">d</kbd> <span class="text-gray-600">Dashboard</span></div>
+        <div><kbd class="bg-gray-100 px-2 py-0.5 rounded text-xs font-mono">c</kbd> <span class="text-gray-600">Comparatif</span></div>
+        <div><kbd class="bg-gray-100 px-2 py-0.5 rounded text-xs font-mono">Espace</kbd> <span class="text-gray-600">Timer play/pause</span></div>
+        <div><kbd class="bg-gray-100 px-2 py-0.5 rounded text-xs font-mono">Ctrl+Shift+E</kbd> <span class="text-gray-600">Mode focus</span></div>
+        <div><kbd class="bg-gray-100 px-2 py-0.5 rounded text-xs font-mono">Esc</kbd> <span class="text-gray-600">Fermer overlay</span></div>
+        <div><kbd class="bg-gray-100 px-2 py-0.5 rounded text-xs font-mono">?</kbd> <span class="text-gray-600">Cette aide</span></div>
+      </div>
+    </div>`;
+  overlay.classList.remove('hidden');
+}
+function closeShortcutsHelp() {
+  shortcutsVisible = false;
+  const overlay = document.getElementById('shortcutsOverlay');
+  if (overlay) overlay.classList.add('hidden');
+}
 
 // ============================================
 // BOOT
