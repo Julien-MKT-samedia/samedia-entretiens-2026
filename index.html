@@ -344,14 +344,13 @@ if (window.pdfjsLib) {
 // DONNEES CANDIDATS
 // ============================================
 const CRITERIA = [
-  { key: 'exp_tc', label: 'Experience TC terrain', coeff: 3 },
-  { key: 'reseau_btp', label: 'Connaissance reseaux negoce BTP', coeff: 3 },
-  { key: 'secteur_geo', label: 'Couverture secteur geo', coeff: 2 },
-  { key: 'technicite', label: 'Technicite BTP / outillage', coeff: 2 },
-  { key: 'autonomie', label: 'Autonomie / Organisation', coeff: 2 },
-  { key: 'closing', label: 'Profil commercial / Closing', coeff: 2 },
-  { key: 'stabilite', label: 'Stabilite / Serieux du parcours', coeff: 1 },
-  { key: 'motivation', label: 'Motivation exprimee', coeff: 1 },
+  { key: 'presentation', label: 'Presentation', coeff: 2, desc: 'Premier contact visuel et humain : apparence professionnelle, aisance relationnelle, clarte d\'expression, confiance en soi. Represente SAMEDIA au quotidien.' },
+  { key: 'localisation', label: 'Localisation', coeff: 2, desc: 'Base en Pays de la Loire ou proximite immediate, au coeur du secteur. Verifier adresse reelle, pas une simple domiciliation administrative.' },
+  { key: 'technique', label: 'Technique', coeff: 2, desc: 'Connaissance produits/secteur SAMEDIA. Capacite a argumenter sur des produits techniques, dialoguer avec installateurs, RT, acheteurs negoce. Compensable par forte capacite d\'apprentissage.' },
+  { key: 'commerce', label: 'Commerce', coeff: 3, desc: 'Prospection, gestion portefeuille, cycle de vente complet, fidelisation, reporting. Chasseur/eleveur autonome avec resultats mesurables (CA, nouveaux comptes, taux de transformation).' },
+  { key: 'package', label: 'Package', coeff: 1, desc: 'Adequation entre l\'offre SAMEDIA (fixe, variable, avantages, evolution) et les attentes du candidat. Critere d\'attractivite ET de coherence.' },
+  { key: 'mobilite', label: 'Mobilite', coeff: 2, desc: 'Disponibilite et appetence pour les deplacements reguliers. Situation personnelle, permis B, experience terrain, attitude face aux deplacements frequents.' },
+  { key: 'prepa_entretien', label: 'Prepa entretien', coeff: 2, desc: 'Recherches sur SAMEDIA, son marche, ses produits. Revele la methode de travail, l\'interet reel pour le poste, et la capacite a se vendre face aux clients.' },
 ];
 
 const MAX_SCORE = CRITERIA.reduce((sum, c) => sum + c.coeff * 5, 0); // 80
@@ -1703,7 +1702,7 @@ function renderScoring() {
 
     html += `
       <tr>
-        <td class="px-5 py-3 text-sm">${cr.label}</td>
+        <td class="px-5 py-3 text-sm cursor-help" title="${cr.desc || ''}">${cr.label} ${cr.desc ? '<svg class="inline w-3.5 h-3.5 text-gray-300 ml-1 -mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke-width="2"/><path stroke-width="2" d="M12 16v-4m0-4h.01"/></svg>' : ''}</td>
         <td class="text-center px-3 py-3 text-sm font-mono text-gray-400">x${cr.coeff}</td>
         <td class="text-center px-3 py-3">
           <div class="flex items-center justify-center gap-1">
