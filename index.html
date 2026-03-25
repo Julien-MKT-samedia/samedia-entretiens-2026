@@ -922,9 +922,14 @@ function saveLocal() {
   localStorage.setItem(storageKey('decisions'), JSON.stringify(localDecisions));
 }
 
-// Supabase sync
+// Supabase sync — only imports OTHER users' data, never overwrites current user's local data
+let lastSyncTime = 0;
 async function syncFromSupabase() {
   if (!supabaseReady) return;
+  // Debounce rapid syncs (realtime can fire bursts)
+  const now = Date.now();
+  if (now - lastSyncTime < 2000) return;
+  lastSyncTime = now;
   try {
     const results = await Promise.allSettled([
       sb.from('interview_scores').select('*'),
@@ -934,56 +939,115 @@ async function syncFromSupabase() {
     const scoresRes = results[0].status === 'fulfilled' ? results[0].value : { data: null };
     const notesRes = results[1].status === 'fulfilled' ? results[1].value : { data: null };
     const decisionsRes = results[2].status === 'fulfilled' ? results[2].value : { data: null };
+    // Only merge OTHER users' data — never overwrite current user's local edits
     if (scoresRes.data) scoresRes.data.forEach(r => {
-      localScores[`${r.user_name}_${r.candidate_id}_${r.criterion_key}`] = r.score;
+      const key = `${r.user_name}_${r.candidate_id}_${r.criterion_key}`;
+      if (r.user_name !== currentUser || localScores[key] === undefined) {
+        localScores[key] = r.score;
+      }
     });
     if (notesRes.data) notesRes.data.forEach(r => {
-      localNotes[`${r.user_name}_${r.candidate_id}_${r.question_key}`] = r.note_text;
+      const key = `${r.user_name}_${r.candidate_id}_${r.question_key}`;
+      if (r.user_name !== currentUser || localNotes[key] === undefined) {
+        localNotes[key] = r.note_text;
+      }
     });
     if (decisionsRes.data) decisionsRes.data.forEach(r => {
-      localDecisions[`${r.user_name}_${r.candidate_id}`] = { decision: r.decision, comment: r.global_comment };
+      const key = `${r.user_name}_${r.candidate_id}`;
+      if (r.user_name !== currentUser || localDecisions[key] === undefined) {
+        localDecisions[key] = { decision: r.decision, comment: r.global_comment };
+      }
     });
     saveLocal();
   } catch(e) { console.warn('Erreur sync Supabase:', e); }
+}
+
+// Retry queue for failed Supabase operations
+let retryQueue = [];
+let retryRunning = false;
+
+function showSyncStatus(ok) {
+  let el = document.getElementById('syncStatus');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'syncStatus';
+    el.className = 'fixed bottom-4 right-4 px-4 py-2 rounded-xl text-sm font-medium shadow-lg transition-all duration-300 z-50';
+    document.body.appendChild(el);
+  }
+  if (ok) {
+    el.className = 'fixed bottom-4 right-4 px-4 py-2 rounded-xl text-sm font-medium shadow-lg transition-all duration-300 z-50 bg-green-100 text-green-800';
+    el.textContent = 'Sauvegarde OK';
+  } else {
+    el.className = 'fixed bottom-4 right-4 px-4 py-2 rounded-xl text-sm font-medium shadow-lg transition-all duration-300 z-50 bg-red-100 text-red-800';
+    el.textContent = 'Erreur reseau — sauvegarde locale OK, sync en attente...';
+  }
+  el.style.opacity = '1';
+  if (ok) setTimeout(() => { el.style.opacity = '0'; }, 2000);
+}
+
+async function supabaseUpsert(table, data, conflict) {
+  if (!supabaseReady) return;
+  try {
+    const { error } = await sb.from(table).upsert(data, { onConflict: conflict });
+    if (error) throw error;
+    showSyncStatus(true);
+  } catch(e) {
+    console.warn(`Erreur upsert ${table}:`, e);
+    showSyncStatus(false);
+    // Add to retry queue
+    retryQueue.push({ table, data, conflict });
+    scheduleRetry();
+  }
+}
+
+function scheduleRetry() {
+  if (retryRunning || retryQueue.length === 0) return;
+  retryRunning = true;
+  setTimeout(async () => {
+    const batch = [...retryQueue];
+    retryQueue = [];
+    for (const item of batch) {
+      try {
+        const { error } = await sb.from(item.table).upsert(item.data, { onConflict: item.conflict });
+        if (error) throw error;
+      } catch(e) {
+        retryQueue.push(item); // Re-queue if still failing
+      }
+    }
+    retryRunning = false;
+    if (retryQueue.length > 0) scheduleRetry();
+    else showSyncStatus(true);
+  }, 5000); // Retry after 5 seconds
 }
 
 async function upsertScore(user, candidateId, criterionKey, score) {
   const key = `${user}_${candidateId}_${criterionKey}`;
   localScores[key] = score;
   saveLocal();
-  if (!supabaseReady) return;
-  try {
-    await sb.from('interview_scores').upsert({
-      user_name: user, candidate_id: candidateId, criterion_key: criterionKey,
-      score, updated_at: new Date().toISOString()
-    }, { onConflict: 'user_name,candidate_id,criterion_key' });
-  } catch(e) { console.warn('Erreur upsert score:', e); }
+  await supabaseUpsert('interview_scores', {
+    user_name: user, candidate_id: candidateId, criterion_key: criterionKey,
+    score, updated_at: new Date().toISOString()
+  }, 'user_name,candidate_id,criterion_key');
 }
 
 async function upsertNote(user, candidateId, questionKey, text) {
   const key = `${user}_${candidateId}_${questionKey}`;
   localNotes[key] = text;
   saveLocal();
-  if (!supabaseReady) return;
-  try {
-    await sb.from('interview_notes').upsert({
-      user_name: user, candidate_id: candidateId, question_key: questionKey,
-      note_text: text, updated_at: new Date().toISOString()
-    }, { onConflict: 'user_name,candidate_id,question_key' });
-  } catch(e) { console.warn('Erreur upsert note:', e); }
+  await supabaseUpsert('interview_notes', {
+    user_name: user, candidate_id: candidateId, question_key: questionKey,
+    note_text: text, updated_at: new Date().toISOString()
+  }, 'user_name,candidate_id,question_key');
 }
 
 async function upsertDecision(user, candidateId, decision, comment) {
   const key = `${user}_${candidateId}`;
   localDecisions[key] = { decision, comment };
   saveLocal();
-  if (!supabaseReady) return;
-  try {
-    await sb.from('interview_decisions').upsert({
-      user_name: user, candidate_id: candidateId,
-      decision, global_comment: comment, updated_at: new Date().toISOString()
-    }, { onConflict: 'user_name,candidate_id' });
-  } catch(e) { console.warn('Erreur upsert decision:', e); }
+  await supabaseUpsert('interview_decisions', {
+    user_name: user, candidate_id: candidateId,
+    decision, global_comment: comment, updated_at: new Date().toISOString()
+  }, 'user_name,candidate_id');
 }
 
 function subscribeRealtime() {
@@ -1073,8 +1137,38 @@ function changeUser() {
 // ============================================
 // INIT
 // ============================================
+function cleanupOldCriteriaKeys() {
+  // Migration: remove scores for old criteria keys that no longer exist
+  const validKeys = new Set(CRITERIA.map(c => c.key));
+  const keysToRemove = [];
+  Object.keys(localScores).forEach(k => {
+    const parts = k.split('_');
+    // key format: user_candidateId_criterionKey — criterionKey is the last part(s)
+    // Find which criterion key this matches
+    const candidateIds = new Set(Object.keys(CANDIDATES));
+    let criterionKey = null;
+    for (const cId of candidateIds) {
+      const prefix = '_' + cId + '_';
+      const idx = k.indexOf(prefix);
+      if (idx !== -1) {
+        criterionKey = k.substring(idx + prefix.length);
+        break;
+      }
+    }
+    if (criterionKey && !validKeys.has(criterionKey)) {
+      keysToRemove.push(k);
+    }
+  });
+  keysToRemove.forEach(k => delete localScores[k]);
+  if (keysToRemove.length > 0) {
+    saveLocal();
+    console.log('Cleaned up', keysToRemove.length, 'old criteria scores');
+  }
+}
+
 function initApp() {
   loadLocal();
+  cleanupOldCriteriaKeys();
   initSupabase();
   if (supabaseReady) syncFromSupabase();
   buildNav();
@@ -1126,7 +1220,35 @@ function hideAllViews() {
   document.getElementById('navDashboard').classList.remove('active');
 }
 
+function flushPendingNotes() {
+  // Force-save any notes still in debounce before switching context
+  if (currentCandidate) {
+    Object.keys(noteTimers).forEach(qKey => {
+      clearTimeout(noteTimers[qKey]);
+      const el = document.querySelector(`textarea[data-qkey="${qKey}"]`);
+      if (el) upsertNote(currentUser, currentCandidate.id, qKey, el.value);
+    });
+    noteTimers = {};
+    Object.keys(focusNoteTimers).forEach(qKey => {
+      clearTimeout(focusNoteTimers[qKey]);
+      const el = document.querySelector(`textarea[data-focus-qkey="${qKey}"]`);
+      if (el) upsertNote(currentUser, currentCandidate.id, qKey, el.value);
+    });
+    focusNoteTimers = {};
+    if (commentTimer) {
+      clearTimeout(commentTimer);
+      commentTimer = null;
+      const el = document.getElementById('globalComment');
+      if (el) {
+        const dec = getDecision(currentUser, currentCandidate.id);
+        upsertDecision(currentUser, currentCandidate.id, dec.decision, el.value);
+      }
+    }
+  }
+}
+
 function showCandidate(id) {
+  flushPendingNotes(); // Save any unsaved notes from previous candidate
   currentCandidate = CANDIDATES[id];
   hideAllViews();
   const view = document.getElementById('candidateView');
@@ -2255,6 +2377,21 @@ function closeShortcutsHelp() {
   const overlay = document.getElementById('shortcutsOverlay');
   if (overlay) overlay.classList.add('hidden');
 }
+
+// ============================================
+// SAVE GUARD: Protect against data loss on tab close
+// ============================================
+window.addEventListener('beforeunload', () => {
+  flushPendingNotes();
+  saveLocal(); // Final localStorage flush
+});
+
+// Periodic backup: force-save every 30 seconds as safety net
+setInterval(() => {
+  if (currentUser && currentCandidate) {
+    saveLocal();
+  }
+}, 30000);
 
 // ============================================
 // BOOT
