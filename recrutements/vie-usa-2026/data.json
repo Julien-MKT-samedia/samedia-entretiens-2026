@@ -2,8 +2,8 @@
   "metadata": {
     "total_candidates": 51,
     "tier_distribution": {
-      "tier1": 15,
-      "tier2": 15,
+      "tier1": 8,
+      "tier2": 22,
       "tier3": 21
     },
     "scoring_system": {
@@ -113,19 +113,19 @@
       },
       "rank": 39,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 2,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Orlane Degras \u2014 Coordinator avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA 1an+ document\u00e9e |\n| Genre | 2/2 | Homme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **8/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Orlane Degras \u2014 Score audit: 2/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
+          "langues": 2,
+          "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -220,19 +220,19 @@
       },
       "rank": 25,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 5,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Titouan Benard \u2014 Business Development avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA 1an+ document\u00e9e |\n| Genre | 2/2 | Homme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **9/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Titouan Benard \u2014 Score audit: 5/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
-          "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 2
+          "langues": 2,
+          "vente": 2,
+          "prospection": 1,
+          "usa_exp": 0,
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -333,19 +333,19 @@
       },
       "rank": 9,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 7,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Hichem Boukeha \u2014 Developer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **7/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Hichem Boukeha \u2014 Score audit: 7/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
-          "prospection": 1,
+          "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -459,18 +459,18 @@
       "rank": 2,
       "refined_analysis": {
         "total_score": 8,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Alexis Bessiere \u2014 Developer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | B2 ou professionnel seulement \u2014 pas C1-C2 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA indiqu\u00e9e (dur\u00e9e non pr\u00e9cis\u00e9e) |\n| Genre | 2/2 | Homme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **10/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "\u00c0 revoir",
+        "verdict": "GO",
+        "bloc1": "**Profil:** Alexis Bessiere \u2014 Score audit: 8/12",
+        "bloc2": "Verdict: GO",
+        "bloc3": "",
+        "verdict_explanation": "GO",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
-          "prospection": 1,
-          "usa_exp": 2,
+          "prospection": 2,
+          "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 0
         }
       }
     },
@@ -582,19 +582,19 @@
       },
       "rank": 10,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 7,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Rollande Eyene \u2014 Manager avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 1/2 | Femme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **8/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Rollande Eyene \u2014 Score audit: 7/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -705,19 +705,19 @@
       },
       "rank": 3,
       "refined_analysis": {
-        "total_score": 11,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Adrien Faucheux \u2014 Business Development avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA indiqu\u00e9e (dur\u00e9e non pr\u00e9cis\u00e9e) |\n| Genre | 2/2 | Homme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **12/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 convoquer",
+        "total_score": 8,
+        "verdict": "GO",
+        "bloc1": "**Profil:** Adrien Faucheux \u2014 Score audit: 8/12",
+        "bloc2": "Verdict: GO",
+        "bloc3": "",
+        "verdict_explanation": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 2,
+          "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 1
         }
       }
     },
@@ -788,19 +788,19 @@
       },
       "rank": 47,
       "refined_analysis": {
-        "total_score": 4,
+        "total_score": 1,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Romain Mousselet \u2014 Professional avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Non\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 0/2 | Aucune exp\u00e9rience de vente d\u00e9montr\u00e9e |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 1/2 | Exp\u00e9rience pays anglophone non-USA |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **5/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA\n\u2022 Z\u00e9ro exp\u00e9rience vente/commercial \u2014 profil junior ou technique",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Romain Mousselet \u2014 Score audit: 1/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 1,
           "vente": 0,
-          "prospection": 1,
-          "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "prospection": 0,
+          "usa_exp": 0,
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -880,17 +880,17 @@
       "refined_analysis": {
         "total_score": 2,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Adhame Hasaine \u2014 Coordinator avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Courant (C1-C2)\n**Exp\u00e9rience commerciale:** Non\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 1/2 | C1-C2 ou fluent anglais indiqu\u00e9 |\n| Exp\u00e9rience vente B2B | 0/2 | Aucune exp\u00e9rience de vente d\u00e9montr\u00e9e |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **5/12** | |",
-        "bloc3": "\u2022 Z\u00e9ro exp\u00e9rience vente/commercial \u2014 profil junior ou technique",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Adhame Hasaine \u2014 Score audit: 2/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -999,18 +999,18 @@
       "rank": 4,
       "refined_analysis": {
         "total_score": 8,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Sabrina Kholkhal \u2014 Business Development avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA indiqu\u00e9e (dur\u00e9e non pr\u00e9cis\u00e9e) |\n| Genre | 1/2 | Femme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **9/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 revoir",
+        "verdict": "GO",
+        "bloc1": "**Profil:** Sabrina Kholkhal \u2014 Score audit: 8/12",
+        "bloc2": "Verdict: GO",
+        "bloc3": "",
+        "verdict_explanation": "GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
+          "langues": 2,
+          "vente": 2,
           "prospection": 2,
-          "usa_exp": 2,
+          "usa_exp": 0,
           "profil_marche": 2,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -1092,16 +1092,16 @@
       "refined_analysis": {
         "total_score": 4,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Thomas Barbez \u2014 business development avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 0/2 | Origine/background non clairement fran\u00e7ais ou am\u00e9ricain |\n| **TOTAL** | **5/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Thomas Barbez \u2014 Score audit: 4/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 1,
           "vente": 1,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
+          "profil_marche": 0,
           "ancrage_culturel": 0
         }
       }
@@ -1216,17 +1216,17 @@
       },
       "rank": 5,
       "refined_analysis": {
-        "total_score": 11,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Ghislain Painkin \u2014 BUSINESS DEVELOPMENT avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA 1an+ document\u00e9e |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **11/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 convoquer",
+        "total_score": 8,
+        "verdict": "GO",
+        "bloc1": "**Profil:** Ghislain Painkin \u2014 Score audit: 8/12",
+        "bloc2": "Verdict: GO",
+        "bloc3": "",
+        "verdict_explanation": "GO",
         "scoreDetails": {
-          "langues": 2,
+          "langues": 1,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 2,
+          "usa_exp": 0,
           "profil_marche": 2,
           "ancrage_culturel": 1
         }
@@ -1336,18 +1336,18 @@
       },
       "rank": 11,
       "refined_analysis": {
-        "total_score": 9,
+        "total_score": 7,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Matthias Mallarme \u2014 Developer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA indiqu\u00e9e (dur\u00e9e non pr\u00e9cis\u00e9e) |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **9/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Matthias Mallarme \u2014 Score audit: 7/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 1,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 2,
+          "usa_exp": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 1
         }
       }
@@ -1456,17 +1456,17 @@
       "refined_analysis": {
         "total_score": 6,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Sira Traore \u2014 Developer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 1/2 | Femme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **6/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Sira Traore \u2014 Score audit: 6/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 1,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -1564,18 +1564,18 @@
       "rank": 6,
       "refined_analysis": {
         "total_score": 8,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Nora Abounaim \u2014 Business Development avec University education. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA indiqu\u00e9e (dur\u00e9e non pr\u00e9cis\u00e9e) |\n| Genre | 1/2 | Femme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **8/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "\u00c0 revoir",
+        "verdict": "GO",
+        "bloc1": "**Profil:** Nora Abounaim \u2014 Score audit: 8/12",
+        "bloc2": "Verdict: GO",
+        "bloc3": "",
+        "verdict_explanation": "GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
+          "langues": 2,
+          "vente": 2,
           "prospection": 2,
-          "usa_exp": 2,
+          "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 1
         }
       }
     },
@@ -1659,19 +1659,19 @@
       },
       "rank": 26,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 5,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Jonathan Mabile \u2014 Manager avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **5/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Jonathan Mabile \u2014 Score audit: 5/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
-          "prospection": 0,
+          "langues": 2,
+          "vente": 2,
+          "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -1771,19 +1771,19 @@
       },
       "rank": 27,
       "refined_analysis": {
-        "total_score": 6,
+        "total_score": 5,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Coralie Tridon \u2014 business development avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Courant (C1-C2)\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 1/2 | C1-C2 ou fluent anglais indiqu\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 1/2 | Femme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **7/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Coralie Tridon \u2014 Score audit: 5/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
-          "prospection": 2,
+          "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -1868,19 +1868,19 @@
       },
       "rank": 41,
       "refined_analysis": {
-        "total_score": 4,
+        "total_score": 2,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Ramatoulaye Coly \u2014 Analyst avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Faible",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 1/2 | Femme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **4/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Ramatoulaye Coly \u2014 Score audit: 2/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
-          "prospection": 1,
+          "langues": 2,
+          "vente": 0,
+          "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -1946,17 +1946,18 @@
       "refined_analysis": {
         "total_score": 1,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Dylan Dourlen \u2014 Professional avec University education. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Non\n**Fit imm\u00e9diat:** Faible",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 0/2 | Aucune exp\u00e9rience de vente d\u00e9montr\u00e9e |\n| Profil prospection (Hunter) | 0/2 | Aucune indication de prospection ou back-office |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 0/2 | Origine/background non clairement fran\u00e7ais ou am\u00e9ricain |\n| **TOTAL** | **2/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA\n\u2022 Aucun profil de prospection terrain \u2014 candidat s\u00e9dentaire\n\u2022 Z\u00e9ro exp\u00e9rience vente/commercial \u2014 profil junior ou technique",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Dylan Dourlen \u2014 Score audit: 1/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 0,
-          "prospection": 0,
+          "english": 0,
+          "b2b": 0,
+          "prospect": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "market": 1,
+          "ancrage": 0,
+          "total": 1
         }
       }
     },
@@ -2053,19 +2054,19 @@
       },
       "rank": 19,
       "refined_analysis": {
-        "total_score": 7,
+        "total_score": 6,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Vincent Zimbris \u2014 DEVELOPER avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **7/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Vincent Zimbris \u2014 Score audit: 6/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 1,
           "vente": 2,
-          "prospection": 2,
-          "usa_exp": 0,
-          "profil_marche": 2,
-          "ancrage_culturel": 1
+          "prospection": 1,
+          "usa_exp": 2,
+          "profil_marche": 1,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -2138,19 +2139,19 @@
       },
       "rank": 49,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 1,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Guillaume Champlon \u2014 Professional avec University education. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Faible",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 0/2 | Aucune indication de prospection ou back-office |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **4/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA\n\u2022 Aucun profil de prospection terrain \u2014 candidat s\u00e9dentaire",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Guillaume Champlon \u2014 Score audit: 1/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
+          "langues": 1,
+          "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -2259,18 +2260,18 @@
       },
       "rank": 7,
       "refined_analysis": {
-        "total_score": 9,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Remy Jarod \u2014 Manager avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA indiqu\u00e9e (dur\u00e9e non pr\u00e9cis\u00e9e) |\n| Genre | 2/2 | Homme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **10/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 revoir",
+        "total_score": 8,
+        "verdict": "GO",
+        "bloc1": "**Profil:** Remy Jarod \u2014 Score audit: 8/12",
+        "bloc2": "Verdict: GO",
+        "bloc3": "",
+        "verdict_explanation": "GO",
         "scoreDetails": {
-          "langues": 2,
+          "langues": 1,
           "vente": 1,
           "prospection": 1,
-          "usa_exp": 2,
-          "profil_marche": 1,
+          "usa_exp": 0,
+          "profil_marche": 2,
           "ancrage_culturel": 2
         }
       }
@@ -2364,19 +2365,19 @@
       },
       "rank": 28,
       "refined_analysis": {
-        "total_score": 7,
+        "total_score": 5,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Adrien Cauchois \u2014 Developer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 1/2 | Exp\u00e9rience pays anglophone non-USA |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **8/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Adrien Cauchois \u2014 Score audit: 5/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 1,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "usa_exp": 0,
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -2446,19 +2447,19 @@
       },
       "rank": 35,
       "refined_analysis": {
-        "total_score": 4,
+        "total_score": 3,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Arthur Calvie-Gomez \u2014 Professional avec University education. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **6/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Arthur Calvie-Gomez \u2014 Score audit: 3/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 2,
+          "langues": 2,
+          "vente": 1,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -2538,19 +2539,19 @@
       },
       "rank": 42,
       "refined_analysis": {
-        "total_score": 6,
+        "total_score": 2,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Erwin Twagiramungu \u2014 BUSINESS DEVELOPMENT avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Courant (C1-C2)\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 1/2 | C1-C2 ou fluent anglais indiqu\u00e9 |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **7/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Erwin Twagiramungu \u2014 Score audit: 2/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 1,
-          "prospection": 2,
+          "langues": 2,
+          "vente": 0,
+          "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -2634,19 +2635,19 @@
       },
       "rank": 20,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 6,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Adrian Delecroix \u2014 Manager avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **6/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Adrian Delecroix \u2014 Score audit: 6/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 1,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -2727,19 +2728,19 @@
       },
       "rank": 43,
       "refined_analysis": {
-        "total_score": 4,
+        "total_score": 2,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Aadnan El Fahsi \u2014 Engineer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **8/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Aadnan El Fahsi \u2014 Score audit: 2/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 0,
-          "prospection": 2,
+          "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -2840,18 +2841,18 @@
       },
       "rank": 32,
       "refined_analysis": {
-        "total_score": 6,
+        "total_score": 4,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Thomas Becher \u2014 Developer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Courant (C1-C2)\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 1/2 | C1-C2 ou fluent anglais indiqu\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 0/2 | Origine/background non clairement fran\u00e7ais ou am\u00e9ricain |\n| **TOTAL** | **7/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Thomas Becher \u2014 Score audit: 4/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 2,
+          "langues": 1,
+          "vente": 1,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 2,
+          "profil_marche": 0,
           "ancrage_culturel": 0
         }
       }
@@ -2964,18 +2965,18 @@
       },
       "rank": 1,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Denis Fonseca Quintela \u2014 DEVELOPER avec University education. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **9/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 revoir",
+        "total_score": 9,
+        "verdict": "GO",
+        "bloc1": "**Profil:** Denis Fonseca Quintela \u2014 Score audit: 9/12",
+        "bloc2": "Verdict: GO",
+        "bloc3": "",
+        "verdict_explanation": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
+          "profil_marche": 2,
           "ancrage_culturel": 1
         }
       }
@@ -3051,17 +3052,17 @@
       "refined_analysis": {
         "total_score": 5,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Hugo Damoiselet \u2014 DEVELOPER avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **6/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Hugo Damoiselet \u2014 Score audit: 5/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
+          "langues": 1,
+          "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -3134,14 +3135,14 @@
       },
       "rank": 36,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Syriade Sapor \u2014 Professional avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Non\n**Fit imm\u00e9diat:** Faible",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 0/2 | Aucune exp\u00e9rience de vente d\u00e9montr\u00e9e |\n| Profil prospection (Hunter) | 0/2 | Aucune indication de prospection ou back-office |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **3/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA\n\u2022 Aucun profil de prospection terrain \u2014 candidat s\u00e9dentaire\n\u2022 Z\u00e9ro exp\u00e9rience vente/commercial \u2014 profil junior ou technique",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Syriade Sapor \u2014 Score audit: 3/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 1,
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
@@ -3255,19 +3256,19 @@
       },
       "rank": 12,
       "refined_analysis": {
-        "total_score": 9,
+        "total_score": 7,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Maceo Muccin \u2014 BUSINESS DEVELOPMENT avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Courant (C1-C2)\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 1/2 | C1-C2 ou fluent anglais indiqu\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 1/2 | Exp\u00e9rience pays anglophone non-USA |\n| Genre | 2/2 | Homme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **10/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Maceo Muccin \u2014 Score audit: 7/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 1,
-          "profil_marche": 2,
-          "ancrage_culturel": 2
+          "usa_exp": 0,
+          "profil_marche": 1,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -3365,18 +3366,18 @@
       },
       "rank": 33,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 4,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Sania Mahammedi \u2014 developer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 1/2 | Femme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **5/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Sania Mahammedi \u2014 Score audit: 4/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 1,
           "vente": 1,
-          "prospection": 2,
+          "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 2,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -3487,19 +3488,19 @@
       },
       "rank": 13,
       "refined_analysis": {
-        "total_score": 6,
+        "total_score": 7,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Mahmoud Satour \u2014 BUSINESS DEVELOPMENT avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA 1an+ document\u00e9e |\n| Genre | 2/2 | Homme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **10/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Mahmoud Satour \u2014 Score audit: 7/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -3579,19 +3580,19 @@
       },
       "rank": 44,
       "refined_analysis": {
-        "total_score": 6,
+        "total_score": 2,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Marion Heymann \u2014 Analyst avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Non\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 0/2 | Aucune exp\u00e9rience de vente d\u00e9montr\u00e9e |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA indiqu\u00e9e (dur\u00e9e non pr\u00e9cis\u00e9e) |\n| Genre | 1/2 | Femme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **5/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA\n\u2022 Z\u00e9ro exp\u00e9rience vente/commercial \u2014 profil junior ou technique",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Marion Heymann \u2014 Score audit: 2/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 0,
-          "prospection": 1,
-          "usa_exp": 2,
-          "profil_marche": 2,
-          "ancrage_culturel": 1
+          "prospection": 0,
+          "usa_exp": 0,
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -3701,19 +3702,19 @@
       },
       "rank": 14,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 7,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Alexandre Bethmont \u2014 Developer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 1/2 | Exp\u00e9rience pays anglophone non-USA |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **8/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Alexandre Bethmont \u2014 Score audit: 7/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 1,
-          "profil_marche": 2,
-          "ancrage_culturel": 1
+          "usa_exp": 0,
+          "profil_marche": 1,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -3822,19 +3823,19 @@
       },
       "rank": 15,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 7,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Baptiste Le Ray \u2014 Business Development avec Bachelor's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA indiqu\u00e9e (dur\u00e9e non pr\u00e9cis\u00e9e) |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **9/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Baptiste Le Ray \u2014 Score audit: 7/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 2,
+          "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -3936,19 +3937,19 @@
       },
       "rank": 21,
       "refined_analysis": {
-        "total_score": 7,
+        "total_score": 6,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Gaspard Volle \u2014 Business Development avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **8/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Gaspard Volle \u2014 Score audit: 6/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 1,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -4051,17 +4052,17 @@
       "refined_analysis": {
         "total_score": 6,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Valentin Cau \u2014 Developer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Courant (C1-C2)\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 1/2 | C1-C2 ou fluent anglais indiqu\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **8/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Valentin Cau \u2014 Score audit: 6/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
-          "prospection": 2,
+          "prospection": 1,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -4144,19 +4145,19 @@
       },
       "rank": 37,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 3,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Ines Brahim Tazi \u2014 business development avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 1/2 | Femme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **5/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Ines Brahim Tazi \u2014 Score audit: 3/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
-          "prospection": 2,
+          "langues": 2,
+          "vente": 0,
+          "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -4271,19 +4272,19 @@
       },
       "rank": 8,
       "refined_analysis": {
-        "total_score": 9,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Erwin Byll \u2014 Analyst avec Bachelor's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 1/2 | Exp\u00e9rience pays anglophone non-USA |\n| Genre | 2/2 | Homme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **10/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 revoir",
+        "total_score": 8,
+        "verdict": "GO",
+        "bloc1": "**Profil:** Erwin Byll \u2014 Score audit: 8/12",
+        "bloc2": "Verdict: GO",
+        "bloc3": "",
+        "verdict_explanation": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
-          "prospection": 1,
-          "usa_exp": 1,
+          "prospection": 2,
+          "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 1
         }
       }
     },
@@ -4396,17 +4397,17 @@
       "refined_analysis": {
         "total_score": 6,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** May Vivet \u2014 Manager avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA 1an+ document\u00e9e |\n| Genre | 1/2 | Femme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **10/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** May Vivet \u2014 Score audit: 6/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
-          "prospection": 0,
-          "usa_exp": 2,
+          "langues": 1,
+          "vente": 2,
+          "prospection": 2,
+          "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 0
         }
       }
     },
@@ -4508,19 +4509,19 @@
       },
       "rank": 24,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 6,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Alexandre Ringot \u2014 Analyst avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 1/2 | Exp\u00e9rience pays anglophone non-USA |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **9/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Alexandre Ringot \u2014 Score audit: 6/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 1,
+          "langues": 1,
+          "vente": 2,
           "prospection": 2,
-          "usa_exp": 1,
+          "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -4619,19 +4620,19 @@
       },
       "rank": 45,
       "refined_analysis": {
-        "total_score": 7,
+        "total_score": 2,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Chloe\u0301 Morel \u2014 business development avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Natif/Bilingual\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 2/2 | Natif/Bilingual anglais d\u00e9montr\u00e9 |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 1/2 | Exp\u00e9rience pays anglophone non-USA |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **8/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Chloe\u0301 Morel \u2014 Score audit: 2/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
           "langues": 2,
-          "vente": 1,
-          "prospection": 1,
-          "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "vente": 0,
+          "prospection": 0,
+          "usa_exp": 0,
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -4712,19 +4713,19 @@
       },
       "rank": 30,
       "refined_analysis": {
-        "total_score": 6,
+        "total_score": 5,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Zine-Eddine Arroussi \u2014 Developer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **6/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Zine-Eddine Arroussi \u2014 Score audit: 5/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
+          "langues": 1,
+          "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 2,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -4802,19 +4803,19 @@
       },
       "rank": 50,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 1,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Simon Dacosta \u2014 Officer avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA indiqu\u00e9e (dur\u00e9e non pr\u00e9cis\u00e9e) |\n| Genre | 2/2 | Homme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **8/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Simon Dacosta \u2014 Score audit: 1/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
+          "langues": 1,
+          "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -4886,16 +4887,16 @@
       "refined_analysis": {
         "total_score": 3,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Lucas Saint-Supe\u0301ry \u2014 Business Development avec University education. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 0/2 | Aucune indication de prospection ou back-office |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA indiqu\u00e9e (dur\u00e9e non pr\u00e9cis\u00e9e) |\n| Genre | 2/2 | Homme |\n| Origine/Background | 0/2 | Origine/background non clairement fran\u00e7ais ou am\u00e9ricain |\n| **TOTAL** | **5/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA\n\u2022 Aucun profil de prospection terrain \u2014 candidat s\u00e9dentaire\n\u2022 Parcours flou ou dates peu document\u00e9es",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Lucas Saint-Supe\u0301ry \u2014 Score audit: 3/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 0,
-          "prospection": 0,
-          "usa_exp": 2,
-          "profil_marche": 1,
+          "langues": 1,
+          "vente": 1,
+          "prospection": 1,
+          "usa_exp": 0,
+          "profil_marche": 0,
           "ancrage_culturel": 0
         }
       }
@@ -4977,19 +4978,19 @@
       },
       "rank": 34,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 4,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Manuel Corti \u2014 Business Development avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Courant (C1-C2)\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Moyenne",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 1/2 | C1-C2 ou fluent anglais indiqu\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **7/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Manuel Corti \u2014 Score audit: 4/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 2,
-          "prospection": 1,
+          "langues": 2,
+          "vente": 1,
+          "prospection": 0,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -5089,17 +5090,17 @@
       "refined_analysis": {
         "total_score": 7,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Romain Bergeal \u2014 Business Development avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA 1an+ document\u00e9e |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **9/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Romain Bergeal \u2014 Score audit: 7/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 1,
+          "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -5198,19 +5199,19 @@
       },
       "rank": 17,
       "refined_analysis": {
-        "total_score": 9,
+        "total_score": 7,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Walid Aissat \u2014 Manager avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Courant (C1-C2)\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Forte",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 1/2 | C1-C2 ou fluent anglais indiqu\u00e9 |\n| Exp\u00e9rience vente B2B | 2/2 | Exp\u00e9rience B2B explicite |\n| Profil prospection (Hunter) | 2/2 | Profil hunter/prospection terrain confirm\u00e9 |\n| Exp\u00e9rience USA 1an+ | 2/2 | Exp\u00e9rience USA 1an+ document\u00e9e |\n| Genre | 2/2 | Homme |\n| Origine/Background | 2/2 | Origine/background USA |\n| **TOTAL** | **11/12** | |",
-        "bloc3": "Profil propre \u2014 pas de vigilances majeures.",
-        "verdict_explanation": "\u00c0 revoir",
+        "bloc1": "**Profil:** Walid Aissat \u2014 Score audit: 7/12",
+        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
+        "bloc3": "",
+        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 2,
+          "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 0
         }
       }
     },
@@ -5285,19 +5286,19 @@
       },
       "rank": 51,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 1,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Kamil Ouaked \u2014 BUSINESS DEVELOPMENT avec Master's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Oui\n**Fit imm\u00e9diat:** Faible",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 1/2 | Exp\u00e9rience commerciale/vente mais pas B2B clairement indiqu\u00e9 |\n| Profil prospection (Hunter) | 0/2 | Aucune indication de prospection ou back-office |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **4/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA\n\u2022 Aucun profil de prospection terrain \u2014 candidat s\u00e9dentaire",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Kamil Ouaked \u2014 Score audit: 1/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 1,
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -5377,17 +5378,17 @@
       "refined_analysis": {
         "total_score": 2,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Clement Assier \u2014 Professional avec Bachelor's degree. Exp\u00e9rience commerciale pr\u00e9sente mais profondeur variable.\n**Anglais:** Incertain/Insuffisant\n**Exp\u00e9rience commerciale:** Non\n**Fit imm\u00e9diat:** Faible",
-        "bloc2": "| Crit\u00e8re | Note | Justification |\n|---------|------|---------------|\n| Langue (anglais) | 0/2 | Anglais non d\u00e9montr\u00e9 ou niveau insuffisant |\n| Exp\u00e9rience vente B2B | 0/2 | Aucune exp\u00e9rience de vente d\u00e9montr\u00e9e |\n| Profil prospection (Hunter) | 1/2 | Profil s\u00e9dentaire/support \u2014 pas de prospection terrain |\n| Exp\u00e9rience USA 1an+ | 0/2 | Aucune exp\u00e9rience USA ou anglophone |\n| Genre | 2/2 | Homme |\n| Origine/Background | 1/2 | Origine fran\u00e7aise |\n| **TOTAL** | **4/12** | |",
-        "bloc3": "\u2022 Anglais insuffisant \u2014 risque critique pour mission USA\n\u2022 Z\u00e9ro exp\u00e9rience vente/commercial \u2014 profil junior ou technique",
-        "verdict_explanation": "Ne correspond pas",
+        "bloc1": "**Profil:** Clement Assier \u2014 Score audit: 2/12",
+        "bloc2": "Verdict: NO GO",
+        "bloc3": "",
+        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "profil_marche": 0,
+          "ancrage_culturel": 0
         }
       }
     }
