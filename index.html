@@ -93,6 +93,9 @@
       .smd-card, .smd-card-static { box-shadow: none; border: 1px solid #e5e7eb; }
     }
   </style>
+  <script>
+    console.log('index.html: script tag starting...');
+  </script>
 </head>
 <body class="bg-smd-beige text-gray-800 min-h-screen">
 
@@ -353,26 +356,30 @@ let MAX_SCORE = 0;
 // CHARGEMENT VIE-USA-2026
 // ============================================
 async function loadVIEData() {
+  console.log('loadVIEData: START');
   try {
+    console.log('loadVIEData: fetching JSON files...');
     const [configRes, dataRes] = await Promise.all([
-      fetch('./recrutements/vie-usa-2026/config.json'),
-      fetch('./recrutements/vie-usa-2026/data.json')
+      fetch('./recrutements/vie-usa-2026/config.json').catch(e => { console.error('config fetch error:', e); throw e; }),
+      fetch('./recrutements/vie-usa-2026/data.json').catch(e => { console.error('data fetch error:', e); throw e; })
     ]);
-    
+
+    console.log(`loadVIEData: configRes.ok=${configRes.ok}, dataRes.ok=${dataRes.ok}`);
     if (!configRes.ok || !dataRes.ok) {
-      throw new Error('Impossible de charger les fichiers JSON');
+      throw new Error(`Impossible de charger les fichiers JSON (config: ${configRes.status}, data: ${dataRes.status})`);
     }
-    
+
     const config = await configRes.json();
     const data = await dataRes.json();
-    
+    console.log('loadVIEData: JSON parsed successfully');
+
     // Population depuis config
     CRITERIA = config.criteria || [];
     DECISION_OPTIONS = config.decisionOptions || [];
-    
+
     // Population depuis data
     CANDIDATES = data.candidates || {};
-    
+
     // Calcul du MAX_SCORE en fonction des VIE criteria
     MAX_SCORE = CRITERIA.reduce((sum, c) => {
       if (c.scoreOptions && Array.isArray(c.scoreOptions)) {
@@ -380,7 +387,7 @@ async function loadVIEData() {
       }
       return sum + (c.coeff || 1) * 5;
     }, 0);
-    
+
     // Construit QUESTION_CATEGORIES pour VIE (completo with all categories)
     QUESTION_CATEGORIES = {
       motivation: { label: 'Motivation & Projet', icon: '🎯' },
@@ -391,11 +398,25 @@ async function loadVIEData() {
       specifiques: { label: 'Questions Spécifiques', icon: '🎯' },
       generic: { label: 'Questions Générales', icon: '❓' }
     };
-    
-    console.log(`VIE-USA data loaded: ${Object.keys(CANDIDATES).length} candidates, ${CRITERIA.length} criteria`);
+
+    console.log(`VIE-USA data loaded: ${Object.keys(CANDIDATES).length} candidates, ${CRITERIA.length} criteria, MAX_SCORE=${MAX_SCORE}`);
   } catch (err) {
     console.error('Erreur chargement VIE data:', err);
-    alert('Erreur: impossible de charger les donnees. Verifie les fichiers JSON.');
+    // Init minimal data anyway so app doesn't crash
+    CRITERIA = [];
+    DECISION_OPTIONS = ['À évaluer', 'Top 15', 'Retenu', 'Non retenu'];
+    CANDIDATES = {};
+    MAX_SCORE = 80;
+    QUESTION_CATEGORIES = {
+      motivation: { label: 'Motivation & Projet', icon: '🎯' },
+      international: { label: 'Profil International', icon: '🌍' },
+      commercial: { label: 'Expérience Commerciale', icon: '💼' },
+      marche_usa: { label: 'Marché USA / BTP', icon: '🗺️' },
+      autonomie: { label: 'Autonomie & Organisation', icon: '⚡' },
+      specifiques: { label: 'Questions Spécifiques', icon: '🎯' },
+      generic: { label: 'Questions Générales', icon: '❓' }
+    };
+    console.warn('Fallback: App initialized with empty data. Check console for fetch errors.');
   }
 }
 
