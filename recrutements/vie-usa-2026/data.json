@@ -3,8 +3,8 @@
     "total_candidates": 66,
     "tier_distribution": {
       "tier1": 27,
-      "tier2": 18,
-      "tier3": 21
+      "tier2": 16,
+      "tier3": 23
     },
     "scoring_system": {
       "english_proficiency": "0-2 pts",
@@ -111,7 +111,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 39,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 2,
         "verdict": "NO GO",
@@ -218,7 +218,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 25,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 5,
         "verdict": "À ÉTUDIER",
@@ -331,7 +331,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 9,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 7,
         "verdict": "À ÉTUDIER",
@@ -456,7 +456,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 2,
+      "rank": 11,
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
@@ -580,7 +580,7 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 10,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 7,
         "verdict": "À ÉTUDIER",
@@ -703,7 +703,7 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 3,
+      "rank": 12,
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
@@ -786,7 +786,7 @@
         "market_fit": "Standard market fit",
         "culture": "International background with some anglophone exposure"
       },
-      "rank": 47,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 1,
         "verdict": "NO GO",
@@ -876,7 +876,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 40,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 2,
         "verdict": "NO GO",
@@ -996,7 +996,7 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "European/francophone background"
       },
-      "rank": 4,
+      "rank": 13,
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
@@ -1088,7 +1088,7 @@
         "market_fit": "Standard market fit",
         "culture": "International background with some anglophone exposure"
       },
-      "rank": 31,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 4,
         "verdict": "NO GO",
@@ -1214,7 +1214,7 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 5,
+      "rank": 14,
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
@@ -1334,7 +1334,7 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "European/francophone background"
       },
-      "rank": 11,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 7,
         "verdict": "À ÉTUDIER",
@@ -1452,7 +1452,7 @@
         "market_fit": "Standard market fit",
         "culture": "English-speaking country cultural background"
       },
-      "rank": 18,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 6,
         "verdict": "À ÉTUDIER",
@@ -1561,7 +1561,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 6,
+      "rank": 15,
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
@@ -1657,7 +1657,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 26,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 5,
         "verdict": "À ÉTUDIER",
@@ -1769,7 +1769,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 27,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 5,
         "verdict": "À ÉTUDIER",
@@ -1866,7 +1866,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 41,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 2,
         "verdict": "NO GO",
@@ -1942,7 +1942,7 @@
         "market_fit": "Standard market fit",
         "culture": "Non-anglophone background"
       },
-      "rank": 48,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 1,
         "verdict": "NO GO",
@@ -2052,7 +2052,7 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "International background with some anglophone exposure"
       },
-      "rank": 19,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 6,
         "verdict": "À ÉTUDIER",
@@ -2137,7 +2137,7 @@
         "market_fit": "Standard market fit",
         "culture": "International background with some anglophone exposure"
       },
-      "rank": 49,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 1,
         "verdict": "NO GO",
@@ -2258,7 +2258,7 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 7,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
@@ -2363,7 +2363,7 @@
         "market_fit": "Standard market fit",
         "culture": "International background with some anglophone exposure"
       },
-      "rank": 28,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 5,
         "verdict": "À ÉTUDIER",
@@ -2445,7 +2445,7 @@
         "market_fit": "Standard market fit",
         "culture": "International background with some anglophone exposure"
       },
-      "rank": 35,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 3,
         "verdict": "NO GO",
@@ -2537,7 +2537,7 @@
         "market_fit": "Standard market fit",
         "culture": "Non-anglophone background"
       },
-      "rank": 42,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 2,
         "verdict": "NO GO",
@@ -2633,7 +2633,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 20,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 6,
         "verdict": "À ÉTUDIER",
@@ -2726,7 +2726,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 43,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 2,
         "verdict": "NO GO",
@@ -2839,7 +2839,7 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "European/francophone background"
       },
-      "rank": 32,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 4,
         "verdict": "NO GO",
@@ -2963,7 +2963,7 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 1,
+      "rank": 3,
       "refined_analysis": {
         "total_score": 9,
         "verdict": "GO",
@@ -3048,7 +3048,7 @@
         "market_fit": "Standard market fit",
         "culture": "Non-anglophone background"
       },
-      "rank": 29,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 5,
         "verdict": "À ÉTUDIER",
@@ -3133,7 +3133,7 @@
         "market_fit": "Standard market fit",
         "culture": "Non-anglophone background"
       },
-      "rank": 36,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 3,
         "verdict": "NO GO",
@@ -3254,7 +3254,7 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "English-speaking country cultural background"
       },
-      "rank": 12,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 7,
         "verdict": "À ÉTUDIER",
@@ -3364,7 +3364,7 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "International background with some anglophone exposure"
       },
-      "rank": 33,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 4,
         "verdict": "NO GO",
@@ -3486,7 +3486,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 13,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 7,
         "verdict": "À ÉTUDIER",
@@ -3578,7 +3578,7 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "European/francophone background"
       },
-      "rank": 44,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 2,
         "verdict": "NO GO",
@@ -3700,7 +3700,7 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "European/francophone background"
       },
-      "rank": 14,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 7,
         "verdict": "À ÉTUDIER",
@@ -3821,7 +3821,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 15,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 7,
         "verdict": "À ÉTUDIER",
@@ -3935,7 +3935,7 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 21,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 6,
         "verdict": "À ÉTUDIER",
@@ -4048,7 +4048,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 22,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 6,
         "verdict": "À ÉTUDIER",
@@ -4143,7 +4143,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 37,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 3,
         "verdict": "NO GO",
@@ -4270,7 +4270,7 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 8,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
@@ -4393,7 +4393,7 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 23,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 6,
         "verdict": "À ÉTUDIER",
@@ -4507,7 +4507,7 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 24,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 6,
         "verdict": "À ÉTUDIER",
@@ -4618,7 +4618,7 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 45,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 2,
         "verdict": "NO GO",
@@ -4711,7 +4711,7 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "European/francophone background"
       },
-      "rank": 30,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 5,
         "verdict": "À ÉTUDIER",
@@ -4801,7 +4801,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 50,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 1,
         "verdict": "NO GO",
@@ -4883,7 +4883,7 @@
         "market_fit": "Standard market fit",
         "culture": "International background with some anglophone exposure"
       },
-      "rank": 38,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 3,
         "verdict": "NO GO",
@@ -4976,7 +4976,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 34,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 4,
         "verdict": "NO GO",
@@ -5086,7 +5086,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 16,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 7,
         "verdict": "À ÉTUDIER",
@@ -5197,7 +5197,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 17,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 7,
         "verdict": "À ÉTUDIER",
@@ -5284,7 +5284,7 @@
         "market_fit": "Standard market fit",
         "culture": "International background with some anglophone exposure"
       },
-      "rank": 51,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 1,
         "verdict": "NO GO",
@@ -5374,7 +5374,7 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 46,
+      "rank": 0,
       "refined_analysis": {
         "total_score": 2,
         "verdict": "NO GO",
@@ -5397,12 +5397,12 @@
       "number": 52,
       "name": "Phitoria Mfoume Obame",
       "tier": 1,
-      "matchingScore": 11,
+      "matchingScore": 9,
       "scoreDetails": {
         "langues": 2,
         "vente": 2,
         "prospection": 2,
-        "usa_exp": 2,
+        "usa_exp": 0,
         "profil_marche": 2,
         "ancrage_culturel": 1
       },
@@ -5485,7 +5485,7 @@
         "market_fit": "Market fit: BTP/Construction fit",
         "culture": "Cultural anchoring: International background"
       },
-      "rank": 0,
+      "rank": 4,
       "refined_analysis": {
         "total_score": 11,
         "verdict": "GO",
@@ -5508,13 +5508,13 @@
       "number": 53,
       "name": "Arthur Roche",
       "tier": 2,
-      "matchingScore": 6,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 1,
+        "langues": 0,
         "vente": 1,
         "prospection": 2,
-        "usa_exp": 2,
-        "profil_marche": 0,
+        "usa_exp": 0,
+        "profil_marche": 2,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -5606,13 +5606,13 @@
       "number": 54,
       "name": "Elsa Gomez",
       "tier": 1,
-      "matchingScore": 10,
+      "matchingScore": 12,
       "scoreDetails": {
         "langues": 2,
         "vente": 2,
         "prospection": 2,
         "usa_exp": 2,
-        "profil_marche": 0,
+        "profil_marche": 2,
         "ancrage_culturel": 2
       },
       "location": "USA (TBD)",
@@ -5681,7 +5681,7 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: Anglophone"
       },
-      "rank": 0,
+      "rank": 1,
       "refined_analysis": {
         "total_score": 10,
         "verdict": "GO",
@@ -5704,13 +5704,13 @@
       "number": 55,
       "name": "Arthur Dekiouk",
       "tier": 1,
-      "matchingScore": 8,
+      "matchingScore": 9,
       "scoreDetails": {
         "langues": 0,
         "vente": 2,
         "prospection": 2,
         "usa_exp": 2,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 2
       },
       "location": "USA (TBD)",
@@ -5782,7 +5782,7 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: Anglophone"
       },
-      "rank": 0,
+      "rank": 5,
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
@@ -5805,9 +5805,9 @@
       "number": 56,
       "name": "Lauren Abbou",
       "tier": 1,
-      "matchingScore": 10,
+      "matchingScore": 9,
       "scoreDetails": {
-        "langues": 1,
+        "langues": 0,
         "vente": 2,
         "prospection": 2,
         "usa_exp": 2,
@@ -5888,7 +5888,7 @@
         "market_fit": "Market fit: BTP/Construction fit",
         "culture": "Cultural anchoring: International background"
       },
-      "rank": 0,
+      "rank": 6,
       "refined_analysis": {
         "total_score": 10,
         "verdict": "GO",
@@ -5916,8 +5916,8 @@
         "langues": 2,
         "vente": 2,
         "prospection": 2,
-        "usa_exp": 2,
-        "profil_marche": 0,
+        "usa_exp": 1,
+        "profil_marche": 1,
         "ancrage_culturel": 1
       },
       "location": "USA (TBD)",
@@ -5998,7 +5998,7 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: International background"
       },
-      "rank": 0,
+      "rank": 7,
       "refined_analysis": {
         "total_score": 9,
         "verdict": "GO",
@@ -6021,14 +6021,14 @@
       "number": 58,
       "name": "Matteo Morel",
       "tier": 1,
-      "matchingScore": 10,
+      "matchingScore": 9,
       "scoreDetails": {
         "langues": 1,
         "vente": 2,
         "prospection": 2,
         "usa_exp": 2,
         "profil_marche": 1,
-        "ancrage_culturel": 2
+        "ancrage_culturel": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -6107,7 +6107,7 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: Anglophone"
       },
-      "rank": 0,
+      "rank": 8,
       "refined_analysis": {
         "total_score": 10,
         "verdict": "GO",
@@ -6130,13 +6130,13 @@
       "number": 59,
       "name": "Melanie Bret",
       "tier": 1,
-      "matchingScore": 8,
+      "matchingScore": 7,
       "scoreDetails": {
         "langues": 2,
         "vente": 2,
         "prospection": 2,
-        "usa_exp": 2,
-        "profil_marche": 0,
+        "usa_exp": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -6236,13 +6236,13 @@
       "number": 60,
       "name": "Remi Goizé",
       "tier": 1,
-      "matchingScore": 10,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 1,
+        "langues": 1,
+        "vente": 2,
         "prospection": 2,
-        "usa_exp": 2,
-        "profil_marche": 2,
+        "usa_exp": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 1
       },
       "location": "USA (TBD)",
@@ -6341,13 +6341,13 @@
       "id": "61-romain-quero",
       "number": 61,
       "name": "Romain Quero",
-      "tier": 2,
-      "matchingScore": 4,
+      "tier": 3,
+      "matchingScore": 2,
       "scoreDetails": {
         "langues": 0,
         "vente": 0,
         "prospection": 0,
-        "usa_exp": 2,
+        "usa_exp": 0,
         "profil_marche": 1,
         "ancrage_culturel": 1
       },
@@ -6435,13 +6435,13 @@
       "number": 62,
       "name": "Estelle Ottou",
       "tier": 1,
-      "matchingScore": 12,
+      "matchingScore": 9,
       "scoreDetails": {
         "langues": 2,
-        "vente": 2,
+        "vente": 1,
         "prospection": 2,
-        "usa_exp": 2,
-        "profil_marche": 2,
+        "usa_exp": 1,
+        "profil_marche": 1,
         "ancrage_culturel": 2
       },
       "location": "USA (TBD)",
@@ -6522,7 +6522,7 @@
         "market_fit": "Market fit: BTP/Construction fit",
         "culture": "Cultural anchoring: Anglophone"
       },
-      "rank": 0,
+      "rank": 9,
       "refined_analysis": {
         "total_score": 12,
         "verdict": "GO",
@@ -6620,7 +6620,7 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: Anglophone"
       },
-      "rank": 0,
+      "rank": 2,
       "refined_analysis": {
         "total_score": 11,
         "verdict": "GO",
@@ -6643,13 +6643,13 @@
       "number": 64,
       "name": "Yanis Armande-Lapierre",
       "tier": 1,
-      "matchingScore": 8,
+      "matchingScore": 7,
       "scoreDetails": {
         "langues": 2,
         "vente": 2,
         "prospection": 2,
-        "usa_exp": 2,
-        "profil_marche": 0,
+        "usa_exp": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -6752,14 +6752,14 @@
       "id": "65-audrey-mappa",
       "number": 65,
       "name": "Audrey Mappa",
-      "tier": 2,
-      "matchingScore": 6,
+      "tier": 3,
+      "matchingScore": 3,
       "scoreDetails": {
-        "langues": 2,
+        "langues": 1,
         "vente": 0,
-        "prospection": 0,
-        "usa_exp": 2,
-        "profil_marche": 2,
+        "prospection": 1,
+        "usa_exp": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -6854,9 +6854,9 @@
       "number": 66,
       "name": "Romain Poirier",
       "tier": 1,
-      "matchingScore": 8,
+      "matchingScore": 9,
       "scoreDetails": {
-        "langues": 0,
+        "langues": 1,
         "vente": 2,
         "prospection": 2,
         "usa_exp": 2,
@@ -6930,7 +6930,7 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: International background"
       },
-      "rank": 0,
+      "rank": 10,
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
