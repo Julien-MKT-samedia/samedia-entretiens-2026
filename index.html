@@ -651,7 +651,8 @@ function calcWeightedScore(user, candidateId) {
   CRITERIA.forEach(c => {
     const s = getScore(user, candidateId, c.key);
     if (s !== null) {
-      total += s * c.coeff;
+      const coeff = c.coeff || 1;
+      total += s * coeff;
       filled++;
     }
   });
