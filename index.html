@@ -2071,14 +2071,14 @@ function generatePrintContent(candidates) {
         ${Object.entries(c.questions).map(([catKey, questions]) => {
           const cat = QUESTION_CATEGORIES[catKey] || { icon: '❓', label: catKey };
           const notesHtml = Array.isArray(questions) ? questions.map((q, i) => {
-            const qKey = \`\${catKey}_\${i}\`;
+            const qKey = `${catKey}_${i}`;
             const qText = typeof q === 'string' ? q : (q.q || q);
             const note = getNote(currentUser, c.id, qKey);
             if (!note) return '';
-            return \`<div style="margin: 3px 0;"><em style="font-size: 9px; color: #666;">\${qText}</em><p style="font-size: 9px; margin-top: 1px;">\${note}</p></div>\`;
+            return `<div style="margin: 3px 0;"><em style="font-size: 9px; color: #666;">${qText}</em><p style="font-size: 9px; margin-top: 1px;">${note}</p></div>`;
           }).filter(Boolean).join('') : '';
           if (!notesHtml) return '';
-          return \`<div style="margin-top: 6px;"><strong style="font-size: 10px;">\${cat.icon} \${cat.label}</strong>\${notesHtml}</div>\`;
+          return `<div style="margin-top: 6px;"><strong style="font-size: 10px;">${cat.icon} ${cat.label}</strong>${notesHtml}</div>`;
         }).join('')}
       </div>
     `;
@@ -2134,10 +2134,10 @@ function generateDashboardPrint() {
         ${top15.map((c, idx) => {
           const verdict = c.matchingScore >= 8 ? 'GO' : (c.matchingScore >= 5 ? 'À ÉTUDIER' : 'NO GO');
           const verdictBg = verdict === 'GO' ? '#dcfce7' : (verdict === 'À ÉTUDIER' ? '#fef3c7' : '#fee2e2');
-          return \`<tr>
-            <td style="text-align: center; padding: 4px; border: 1px solid #e5e7eb; font-weight: bold;">\${idx + 1}</td>
-            <td style="text-align: left; padding: 4px; border: 1px solid #e5e7eb;">\${c.name}</td>
-            <td style="text-align: center; padding: 4px; border: 1px solid #e5e7eb; font-weight: bold;">\${c.matchingScore}/12</td>
+          return `<tr>
+            <td style="text-align: center; padding: 4px; border: 1px solid #e5e7eb; font-weight: bold;">${idx + 1}</td>
+            <td style="text-align: left; padding: 4px; border: 1px solid #e5e7eb;">${c.name}</td>
+            <td style="text-align: center; padding: 4px; border: 1px solid #e5e7eb; font-weight: bold;">${c.matchingScore}/12</td>
             <td style="text-align: center; padding: 4px; border: 1px solid #e5e7eb; background: ${verdictBg}; font-weight: bold;">${verdict}</td>
           </tr>`;
         }).join('')}
@@ -2176,13 +2176,13 @@ function generateComparativePrint() {
         ${allCandidates.map((c, idx) => {
           const verdict = c.matchingScore >= 8 ? 'GO' : (c.matchingScore >= 5 ? 'ÉTUD' : 'NO');
           const verdictBg = verdict === 'GO' ? '#dcfce7' : (verdict === 'ÉTUD' ? '#fef3c7' : '#fee2e2');
-          return \`<tr>
-            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb; font-weight: bold;">\${c.rank}</td>
-            <td style="text-align: left; padding: 2px; border: 1px solid #e5e7eb;">\${c.name}</td>
-            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb; font-weight: bold;">\${c.matchingScore}</td>
-            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">\${c.scoreDetails?.langues || 0}</td>
-            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">\${c.scoreDetails?.vente || 0}</td>
-            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">\${c.scoreDetails?.prospection || 0}</td>
+          return `<tr>
+            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb; font-weight: bold;">${c.rank}</td>
+            <td style="text-align: left; padding: 2px; border: 1px solid #e5e7eb;">${c.name}</td>
+            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb; font-weight: bold;">${c.matchingScore}</td>
+            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">${c.scoreDetails?.langues || 0}</td>
+            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">${c.scoreDetails?.vente || 0}</td>
+            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">${c.scoreDetails?.prospection || 0}</td>
             <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">${c.scoreDetails?.usa_exp || 0}</td>
             <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">${c.scoreDetails?.profil_marche || 0}</td>
             <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">${c.scoreDetails?.ancrage_culturel || 0}</td>
