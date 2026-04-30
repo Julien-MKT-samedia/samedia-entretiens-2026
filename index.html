@@ -547,11 +547,19 @@ function showSyncStatus(ok) {
 async function supabaseUpsert(table, data, conflict) {
   if (!supabaseReady) return;
   try {
-    const { error } = await sb.from(table).insert(data, { ignoreDuplicates: true });
-    if (error && error.code !== 'PGRST116') throw error;
+    // Delete existing row (if conflict cols match) then insert fresh
+    if (table === 'interview_scores' && data.recruitment_id && data.user_name && data.candidate_id && data.criterion_key) {
+      await sb.from(table).delete().eq('recruitment_id', data.recruitment_id).eq('user_name', data.user_name).eq('candidate_id', data.candidate_id).eq('criterion_key', data.criterion_key);
+    } else if (table === 'interview_notes' && data.recruitment_id && data.user_name && data.candidate_id && data.question_key) {
+      await sb.from(table).delete().eq('recruitment_id', data.recruitment_id).eq('user_name', data.user_name).eq('candidate_id', data.candidate_id).eq('question_key', data.question_key);
+    } else if (table === 'interview_decisions' && data.recruitment_id && data.user_name && data.candidate_id) {
+      await sb.from(table).delete().eq('recruitment_id', data.recruitment_id).eq('user_name', data.user_name).eq('candidate_id', data.candidate_id);
+    }
+    const { error } = await sb.from(table).insert(data);
+    if (error) throw error;
     showSyncStatus(true);
   } catch(e) {
-    console.warn(`Erreur insert ${table}:`, e);
+    console.warn(`Erreur upsert ${table}:`, e);
     showSyncStatus(false);
     // Add to retry queue
     retryQueue.push({ table, data, conflict });
