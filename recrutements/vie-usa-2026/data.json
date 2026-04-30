@@ -113,19 +113,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Orlane Degras \u2014 Score audit: 2/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
-          "vente": 0,
-          "prospection": 0,
-          "usa_exp": 0,
+          "vente": 1,
+          "prospection": 1,
+          "usa_exp": 2,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -220,17 +216,13 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Titouan Benard \u2014 Score audit: 5/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
+          "langues": 1,
           "vente": 2,
-          "prospection": 1,
-          "usa_exp": 0,
+          "prospection": 2,
+          "usa_exp": 2,
           "profil_marche": 1,
           "ancrage_culturel": 0
         }
@@ -333,19 +325,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Hichem Boukeha \u2014 Score audit: 7/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
-          "prospection": 2,
+          "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "profil_marche": 2,
+          "ancrage_culturel": 1
         }
       }
     },
@@ -458,19 +446,15 @@
       },
       "rank": 4,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 10,
         "verdict": "GO",
-        "bloc1": "**Profil:** Alexis Bessiere \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 2,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -582,19 +566,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Rollande Eyene \u2014 Score audit: 7/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -705,17 +685,13 @@
       },
       "rank": 5,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 10,
         "verdict": "GO",
-        "bloc1": "**Profil:** Adrien Faucheux \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 2,
           "profil_marche": 1,
           "ancrage_culturel": 1
         }
@@ -788,19 +764,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Romain Mousselet \u2014 Score audit: 1/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
           "langues": 1,
           "vente": 0,
-          "prospection": 0,
-          "usa_exp": 0,
+          "prospection": 1,
+          "usa_exp": 1,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -880,10 +852,6 @@
       "refined_analysis": {
         "total_score": 3,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Adhame Hasaine \u2014 Score audit: 2/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 0,
@@ -1000,17 +968,13 @@
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
-        "bloc1": "**Profil:** Sabrina Kholkhal \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 2,
-          "ancrage_culturel": 0
+          "profil_marche": 1,
+          "ancrage_culturel": 1
         }
       }
     },
@@ -1090,19 +1054,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Thomas Barbez \u2014 Score audit: 4/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 1,
-          "vente": 1,
+          "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -1218,16 +1178,12 @@
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
-        "bloc1": "**Profil:** Ghislain Painkin \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "GO",
         "scoreDetails": {
-          "langues": 1,
+          "langues": 2,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 2,
+          "profil_marche": 1,
           "ancrage_culturel": 1
         }
       }
@@ -1336,17 +1292,13 @@
       },
       "rank": 10,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Matthias Mallarme \u2014 Score audit: 7/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 9,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 1,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 2,
           "profil_marche": 1,
           "ancrage_culturel": 1
         }
@@ -1454,19 +1406,15 @@
       },
       "rank": 11,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Sira Traore \u2014 Score audit: 6/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 9,
+        "verdict": "GO",
         "scoreDetails": {
-          "langues": 1,
+          "langues": 2,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 2
         }
       }
     },
@@ -1563,17 +1511,13 @@
       },
       "rank": 6,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 10,
         "verdict": "GO",
-        "bloc1": "**Profil:** Nora Abounaim \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 2,
           "profil_marche": 1,
           "ancrage_culturel": 1
         }
@@ -1659,19 +1603,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Jonathan Mabile \u2014 Score audit: 5/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "profil_marche": 2,
+          "ancrage_culturel": 1
         }
       }
     },
@@ -1771,19 +1711,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Coralie Tridon \u2014 Score audit: 5/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
-          "prospection": 1,
+          "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -1868,19 +1804,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Ramatoulaye Coly \u2014 Score audit: 2/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
-          "vente": 0,
-          "prospection": 0,
+          "vente": 2,
+          "prospection": 1,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -1943,21 +1875,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 1,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Dylan Dourlen \u2014 Score audit: 1/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "english": 0,
-          "b2b": 0,
-          "prospect": 0,
+          "langues": 0,
+          "vente": 0,
+          "prospection": 0,
           "usa_exp": 0,
-          "market": 1,
-          "ancrage": 0,
-          "total": 1,
-          "profil_marche": 1
+          "profil_marche": 1,
+          "ancrage_culturel": 0
         }
       }
     },
@@ -2056,17 +1982,13 @@
       "refined_analysis": {
         "total_score": 6,
         "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Vincent Zimbris \u2014 Score audit: 6/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
+          "langues": 0,
           "vente": 2,
-          "prospection": 1,
-          "usa_exp": 2,
+          "prospection": 2,
+          "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -2139,19 +2061,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Guillaume Champlon \u2014 Score audit: 1/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 0,
+          "langues": 0,
+          "vente": 1,
           "prospection": 0,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -2262,17 +2180,13 @@
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
-        "bloc1": "**Profil:** Remy Jarod \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "GO",
         "scoreDetails": {
-          "langues": 1,
+          "langues": 2,
           "vente": 1,
           "prospection": 1,
-          "usa_exp": 0,
-          "profil_marche": 2,
-          "ancrage_culturel": 2
+          "usa_exp": 2,
+          "profil_marche": 1,
+          "ancrage_culturel": 1
         }
       }
     },
@@ -2365,19 +2279,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Adrien Cauchois \u2014 Score audit: 5/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 1,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 1,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -2447,19 +2357,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 4,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Arthur Calvie-Gomez \u2014 Score audit: 3/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
-          "vente": 1,
+          "vente": 2,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "profil_marche": 2,
+          "ancrage_culturel": 1
         }
       }
     },
@@ -2541,10 +2447,6 @@
       "refined_analysis": {
         "total_score": 3,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Erwin Twagiramungu \u2014 Score audit: 2/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 0,
@@ -2635,19 +2537,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Adrian Delecroix \u2014 Score audit: 6/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
-          "vente": 1,
+          "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -2728,19 +2626,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Aadnan El Fahsi \u2014 Score audit: 2/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
-          "vente": 0,
-          "prospection": 0,
+          "vente": 2,
+          "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -2841,19 +2735,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Thomas Becher \u2014 Score audit: 4/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 1,
+          "langues": 2,
+          "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -2967,10 +2857,6 @@
       "refined_analysis": {
         "total_score": 9,
         "verdict": "GO",
-        "bloc1": "**Profil:** Denis Fonseca Quintela \u2014 Score audit: 9/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
@@ -3050,18 +2936,14 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Hugo Damoiselet \u2014 Score audit: 5/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 2,
+          "langues": 2,
+          "vente": 1,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
+          "profil_marche": 2,
           "ancrage_culturel": 0
         }
       }
@@ -3135,19 +3017,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 2,
         "verdict": "NO GO",
-        "bloc1": "**Profil:** Syriade Sapor \u2014 Score audit: 3/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
         "scoreDetails": {
           "langues": 1,
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0
         }
       }
     },
@@ -3256,19 +3134,15 @@
       },
       "rank": 7,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Maceo Muccin \u2014 Score audit: 7/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 10,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 1,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 2
         }
       }
     },
@@ -3366,19 +3240,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 4,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Sania Mahammedi \u2014 Score audit: 4/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
           "langues": 1,
           "vente": 1,
-          "prospection": 1,
+          "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -3488,19 +3358,15 @@
       },
       "rank": 8,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Mahmoud Satour \u2014 Score audit: 7/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 10,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 2,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -3580,19 +3446,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Marion Heymann \u2014 Score audit: 2/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 0,
-          "prospection": 0,
-          "usa_exp": 0,
+          "langues": 1,
+          "vente": 1,
+          "prospection": 1,
+          "usa_exp": 2,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -3702,19 +3564,15 @@
       },
       "rank": 13,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Alexandre Bethmont \u2014 Score audit: 7/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 9,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 1,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -3823,19 +3681,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Baptiste Le Ray \u2014 Score audit: 7/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -3937,19 +3791,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Gaspard Volle \u2014 Score audit: 6/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 1,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -4050,19 +3900,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Valentin Cau \u2014 Score audit: 6/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
-          "prospection": 1,
+          "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -4145,19 +3991,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 4,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Ines Brahim Tazi \u2014 Score audit: 3/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
-          "vente": 0,
+          "vente": 2,
           "prospection": 1,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -4272,19 +4114,15 @@
       },
       "rank": 14,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 9,
         "verdict": "GO",
-        "bloc1": "**Profil:** Erwin Byll \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
-          "prospection": 2,
-          "usa_exp": 0,
+          "prospection": 1,
+          "usa_exp": 1,
           "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 2
         }
       }
     },
@@ -4395,19 +4233,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** May Vivet \u2014 Score audit: 6/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 1,
-          "vente": 2,
+          "vente": 1,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 2,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -4509,19 +4343,15 @@
       },
       "rank": 15,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Alexandre Ringot \u2014 Score audit: 6/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 9,
+        "verdict": "GO",
         "scoreDetails": {
-          "langues": 1,
+          "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 1,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -4620,19 +4450,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Chloe\u0301 Morel \u2014 Score audit: 2/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 8,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
-          "vente": 0,
-          "prospection": 0,
-          "usa_exp": 0,
+          "vente": 2,
+          "prospection": 1,
+          "usa_exp": 1,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -4713,19 +4539,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Zine-Eddine Arroussi \u2014 Score audit: 5/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 1,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -4803,19 +4625,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Simon Dacosta \u2014 Score audit: 1/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 0,
+          "langues": 2,
+          "vente": 1,
           "prospection": 0,
-          "usa_exp": 0,
+          "usa_exp": 2,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -4885,19 +4703,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 4,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Lucas Saint-Supe\u0301ry \u2014 Score audit: 3/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 1,
-          "vente": 1,
-          "prospection": 1,
+          "vente": 2,
+          "prospection": 2,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -4978,19 +4792,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 4,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Manuel Corti \u2014 Score audit: 4/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 7,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
-          "vente": 1,
-          "prospection": 0,
+          "vente": 2,
+          "prospection": 1,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -5088,19 +4898,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Romain Bergeal \u2014 Score audit: 7/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 9,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 1,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -5199,19 +5005,15 @@
       },
       "rank": 9,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "\u00c0 \u00c9TUDIER",
-        "bloc1": "**Profil:** Walid Aissat \u2014 Score audit: 7/12",
-        "bloc2": "Verdict: \u00c0 \u00c9TUDIER",
-        "bloc3": "",
-        "verdict_explanation": "\u00c0 \u00c9TUDIER",
+        "total_score": 10,
+        "verdict": "GO",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 0,
+          "usa_exp": 2,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -5286,19 +5088,15 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Kamil Ouaked \u2014 Score audit: 1/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
           "langues": 1,
-          "vente": 0,
+          "vente": 2,
           "prospection": 0,
           "usa_exp": 0,
           "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 1
         }
       }
     },
@@ -5376,16 +5174,12 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
-        "verdict": "NO GO",
-        "bloc1": "**Profil:** Clement Assier \u2014 Score audit: 2/12",
-        "bloc2": "Verdict: NO GO",
-        "bloc3": "",
-        "verdict_explanation": "NO GO",
+        "total_score": 4,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
           "langues": 2,
           "vente": 0,
-          "prospection": 0,
+          "prospection": 1,
           "usa_exp": 0,
           "profil_marche": 1,
           "ancrage_culturel": 0
@@ -5487,18 +5281,14 @@
       },
       "rank": 4,
       "refined_analysis": {
-        "total_score": 11,
+        "total_score": 8,
         "verdict": "GO",
-        "bloc1": "**Profil:** Phitoria Mfoume Obame \u2014 Score audit: 11/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 2,
+          "usa_exp": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 1
         }
       }
@@ -5585,18 +5375,14 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "MAYBE",
-        "bloc1": "**Profil:** Arthur Roche \u2014 Score audit: 6/12",
-        "bloc2": "Verdict: \u00c0 APPROFONDIR",
-        "bloc3": "",
-        "verdict_explanation": "",
+        "total_score": 4,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
+          "langues": 0,
           "vente": 1,
           "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 0,
+          "usa_exp": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -5688,18 +5474,14 @@
       },
       "rank": 1,
       "refined_analysis": {
-        "total_score": 10,
+        "total_score": 12,
         "verdict": "GO",
-        "bloc1": "**Profil:** Elsa Gomez \u2014 Score audit: 10/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 2,
-          "profil_marche": 0,
+          "profil_marche": 2,
           "ancrage_culturel": 2
         }
       }
@@ -5791,17 +5573,13 @@
       "refined_analysis": {
         "total_score": 8,
         "verdict": "GO",
-        "bloc1": "**Profil:** Arthur Dekiouk \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 0,
-          "ancrage_culturel": 2
+          "usa_exp": 0,
+          "profil_marche": 1,
+          "ancrage_culturel": 1
         }
       }
     },
@@ -5895,18 +5673,14 @@
       },
       "rank": 6,
       "refined_analysis": {
-        "total_score": 10,
-        "verdict": "GO",
-        "bloc1": "**Profil:** Lauren Abbou \u2014 Score audit: 10/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 2,
-          "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 2,
+          "langues": 2,
+          "vente": 1,
+          "prospection": 1,
+          "usa_exp": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 1
         }
       }
@@ -6005,18 +5779,14 @@
       },
       "rank": 7,
       "refined_analysis": {
-        "total_score": 9,
+        "total_score": 8,
         "verdict": "GO",
-        "bloc1": "**Profil:** Maxime Tessier \u2014 Score audit: 9/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
         "scoreDetails": {
           "langues": 2,
-          "vente": 2,
+          "vente": 1,
           "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 0,
+          "usa_exp": 0,
+          "profil_marche": 2,
           "ancrage_culturel": 1
         }
       }
@@ -6114,19 +5884,15 @@
       },
       "rank": 8,
       "refined_analysis": {
-        "total_score": 10,
+        "total_score": 9,
         "verdict": "GO",
-        "bloc1": "**Profil:** Matteo Morel \u2014 Score audit: 10/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
         "scoreDetails": {
           "langues": 1,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 2,
           "profil_marche": 1,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 1
         }
       }
     },
@@ -6220,18 +5986,14 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 7,
         "verdict": "GO",
-        "bloc1": "**Profil:** Melanie Bret \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 0,
+          "usa_exp": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -6326,18 +6088,14 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 10,
+        "total_score": 7,
         "verdict": "GO",
-        "bloc1": "**Profil:** Remi Goize\u0301 \u2014 Score audit: 10/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
         "scoreDetails": {
           "langues": 2,
-          "vente": 1,
-          "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 2,
+          "vente": 2,
+          "prospection": 1,
+          "usa_exp": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 1
         }
       }
@@ -6419,17 +6177,13 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 4,
-        "verdict": "MAYBE",
-        "bloc1": "**Profil:** Romain Quero \u2014 Score audit: 4/12",
-        "bloc2": "Verdict: \u00c0 APPROFONDIR",
-        "bloc3": "",
-        "verdict_explanation": "",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 0,
-          "prospection": 0,
-          "usa_exp": 2,
+          "prospection": 1,
+          "usa_exp": 0,
           "profil_marche": 1,
           "ancrage_culturel": 1
         }
@@ -6529,19 +6283,15 @@
       },
       "rank": 9,
       "refined_analysis": {
-        "total_score": 12,
-        "verdict": "GO",
-        "bloc1": "**Profil:** Estelle Ottou \u2014 Score audit: 12/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
+        "total_score": 3,
+        "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
-          "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 2,
-          "ancrage_culturel": 2
+          "langues": 1,
+          "vente": 0,
+          "prospection": 0,
+          "usa_exp": 0,
+          "profil_marche": 1,
+          "ancrage_culturel": 1
         }
       }
     },
@@ -6629,10 +6379,6 @@
       "refined_analysis": {
         "total_score": 11,
         "verdict": "GO",
-        "bloc1": "**Profil:** Alvaro Juanes \u2014 Score audit: 11/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
@@ -6727,19 +6473,15 @@
       },
       "rank": 3,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 11,
         "verdict": "GO",
-        "bloc1": "**Profil:** Yanis Armande-Lapierre \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
         "scoreDetails": {
           "langues": 2,
           "vente": 2,
           "prospection": 2,
           "usa_exp": 2,
-          "profil_marche": 0,
-          "ancrage_culturel": 0
+          "profil_marche": 1,
+          "ancrage_culturel": 2
         }
       }
     },
@@ -6828,18 +6570,14 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "MAYBE",
-        "bloc1": "**Profil:** Audrey Mappa \u2014 Score audit: 6/12",
-        "bloc2": "Verdict: \u00c0 APPROFONDIR",
-        "bloc3": "",
-        "verdict_explanation": "",
+        "total_score": 4,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
           "langues": 2,
           "vente": 0,
-          "prospection": 0,
-          "usa_exp": 2,
-          "profil_marche": 2,
+          "prospection": 1,
+          "usa_exp": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -6927,17 +6665,13 @@
       },
       "rank": 10,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 7,
         "verdict": "GO",
-        "bloc1": "**Profil:** Romain Poirier \u2014 Score audit: 8/12",
-        "bloc2": "Verdict: GO",
-        "bloc3": "",
-        "verdict_explanation": "",
         "scoreDetails": {
-          "langues": 0,
+          "langues": 2,
           "vente": 2,
-          "prospection": 2,
-          "usa_exp": 2,
+          "prospection": 1,
+          "usa_exp": 0,
           "profil_marche": 1,
           "ancrage_culturel": 1
         }
