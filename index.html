@@ -624,7 +624,11 @@ function subscribeRealtime() {
 // UTILITY
 // ============================================
 function getScore(user, candidateId, criterionKey) {
-  return localScores[`${user}_${candidateId}_${criterionKey}`] ?? null;
+  // Priority: Nicolas's score > CV score (scoreDetails) > null
+  const nicolasScore = localScores[`${user}_${candidateId}_${criterionKey}`];
+  if (nicolasScore !== undefined) return nicolasScore;
+  const cvScore = CANDIDATES[candidateId]?.scoreDetails?.[criterionKey];
+  return cvScore !== undefined ? cvScore : null;
 }
 
 function getNote(user, candidateId, questionKey) {
