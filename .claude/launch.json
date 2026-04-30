@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "samedia-entretiens",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "/Users/juliendufau/Desktop/SAMEDIA-2026/CANDIDATURE-2026", "-l", "8080"],
+      "port": 8080
+    }
+  ]
+}

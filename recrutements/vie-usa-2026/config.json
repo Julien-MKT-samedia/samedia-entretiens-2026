@@ -1,0 +1,51 @@
+{
+  "id": "vie-usa-2026",
+  "title": "VIE Business Development Manager — North America",
+  "subtitle": "USA & Canada 2026 — Samedia Corp & Carbodiam",
+  "presetUsers": ["Nicolas"],
+  "decisionOptions": ["À évaluer", "Top 15", "Retenu", "Non retenu"],
+  "criteria": [
+    {
+      "key": "langues",
+      "label": "Maîtrise anglais",
+      "scoreOptions": [0, 1, 2],
+      "scoreLabels": ["B1/B2", "C1/C2", "Native/Biculturel"],
+      "desc": "Niveau anglais évalué sur le CV, expérience internationale, et capacité à communiquer en anglais en contexte professionnel."
+    },
+    {
+      "key": "vente",
+      "label": "Expérience vente",
+      "scoreOptions": [0, 1, 2],
+      "scoreLabels": ["Aucune", "Hors B2B", "B2B confirmé"],
+      "desc": "Expérience commerciale directe et mesurable. Idéalement B2B avec gestion active de portefeuille clients et KPIs commerciaux."
+    },
+    {
+      "key": "prospection",
+      "label": "Profil terrain",
+      "scoreOptions": [0, 1, 2],
+      "scoreLabels": ["Aucune", "Support/Back-office", "Chasseur terrain"],
+      "desc": "Capacité démontrée à prospecter activement, aller chercher de nouveaux clients, posture 'hunter' entrepreneuriale."
+    },
+    {
+      "key": "usa_exp",
+      "label": "Immersion USA/anglophone",
+      "scoreOptions": [0, 1, 2],
+      "scoreLabels": ["Non", "Autre anglophone", "USA 1an+"],
+      "desc": "Expérience de vie ou de travail aux USA (≥1 an) ou dans un pays anglophone (UK, Canada, Australie, Singapour, etc.)."
+    },
+    {
+      "key": "profil_marche",
+      "label": "Adéquation profil marché US",
+      "scoreOptions": [1, 2],
+      "scoreLabels": ["Adapté", "Très adapté"],
+      "desc": "Évaluation globale de l'adéquation du profil avec les attentes du marché américain : posture entrepreneuriale, réseau, compréhension de la culture business US."
+    },
+    {
+      "key": "ancrage_culturel",
+      "label": "Ancrage culturel anglophone",
+      "scoreOptions": [0, 1, 2],
+      "scoreLabels": ["International non-anglophone", "Européen francophone", "Natif anglophone"],
+      "desc": "Origine et bain culturel facilitant l'intégration sur le marché américain. Crédibilité locale auprès des clients et partenaires nord-américains."
+    }
+  ]
+}

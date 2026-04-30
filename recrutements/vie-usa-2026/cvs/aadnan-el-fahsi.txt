@@ -1,0 +1,60 @@
+Aadnan El Fahsi
+Phone-Alt +32 465 92 28 95 | Envelope aadnanelfahsi@gmail.com | LINKEDIN aadnan-el-fahsi | Map-marker-alt Brussels, Belgium | Driving Lic.
+Electromechanical Engineer | Open to Graduate Opportunities (July 2026)
+
+SUMMARY
+Graduate Electromechanical Engineer (MSc) focused on complex industrial projects and technical innovation.
+Quick learner with strong analytical skills, dedicated to operational excellence in demanding environments.
+
+EXPERIENCE
+Car Parts Industries (Borg Automotive Group)
+Feb. 2026 – Jun. 2026
+Master’s Thesis - Remanufacturing & Reliability Engineer - New Business Development
+Nivelles, Belgium
+– Conducting a comprehensive FMEA (Failure Mode and Effects Analysis) to identify critical design and operational
+risks in next-generation automotive electric drive systems (E-drives).
+– Designing a prototype test bench for mechanical and electrical validation, including instrumentation and
+performance measurements.
+– Defining technical compliance criteria and tolerance thresholds to ensure system efficiency, durability and
+operational reliability of electric traction units.
+– Managing technical documentation and process definitions for international technology transfer.
+
+Car Parts Industries (Borg Automotive Group)
+Jan. 2026 – Feb. 2026
+Engineering Intern - New Business Development
+Nivelles, Belgium
+– Performed an in-depth Gap Analysis between current production capabilities and emerging disruptive technologies
+for both traditional automotive and EV market.
+– Evaluated advanced automotive components, focusing on automotive communication protocols and sensor
+technologies.
+– Conducted technical benchmarking of major EV propulsion systems to establish performance standards.
+
+Université libre de Bruxelles (ULB) (University of Brussels)
+Mar. 2023 – Apr. 2023
+Electrical & Instrumentation Engineering Intern
+Brussels, Belgium
+– Instrumented and tested a wind turbine system to analyze electrical and mechanical performance of a DFIG-based
+energy conversion system.
+– Designed and tested a compact measurement unit for real-time analysis of three-phase currents and voltages.
+– Led and supervised practical lab sessions (TP) for Civil and Bio-engineering students, teaching core concepts of
+Electrical Machines and Power Electronics.
+
+EDUCATION
+ECAM Brussels Engineering School
+Master of Industrial Engineering in Electromechanics
+ECAM Brussels Engineering School
+Bachelor of Industrial Engineering in Electromechanics
+
+Sept. 2024 – June 2026
+Brussels, Belgium
+2018 – 2024
+Brussels, Belgium
+
+SKILLS
+Management & Operations: Project Management, KPI Tracking, Lean Manufacturing, Cross-functional Collaboration,
+Technology Transfer.
+Software & Digital : SolidWorks, Abaqus, Fusion360,MATLAB/Simulink, AutoCAD, LabVIEW, C, C++, Python (NumPy,
+PyTorch)
+Languages : English (Full professional proficiency), French (Native), Arabic (Native), Dutch (Elementary).
+
+

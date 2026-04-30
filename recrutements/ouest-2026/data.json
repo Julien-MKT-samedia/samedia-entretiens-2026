@@ -1,0 +1,43 @@
+{
+  "candidates": {
+    "guilbault": {
+      "id": "guilbault",
+      "name": "Nicolas GUILBAULT",
+      "age": 41,
+      "location": "Bégrolles en Mauges (49)",
+      "contact": {"email": "nicolas.guilbault@orange.fr", "phone": "06 89 25 33 08"},
+      "situation": "Marié, 2 enfants",
+      "formation": "BEP Vente Action Marchande + BAC PRO Commerce (mention AB) — St Thomas d'Aquin, Ancenis 44",
+      "matchingScore": 8.5,
+      "cvFile": "cvs/ResumeNicolasGUILBAULT (1).pdf",
+      "summary": ["20 ans de relation client, 15 ans de relation fournisseur", "12 ans Responsable secteur couverture chez Belliard Matériaux (49)", "5 ans Technico-commercial chez Berner (outillage/fixations BTP)", "Expertise complète achats-ventes", "Connaissance parfaite du tissu économique BTP 44/49/85"],
+      "experiences": [
+        {"period": "Mai 2014 → aujourd'hui", "role": "Responsable secteur couverture", "company": "BELLIARD MATÉRIAUX", "location": "Beaupréau 49", "details": "Couverture, bac acier, zinguerie. Secteur 44/49/85. Achats + Commercial + Informatique."}
+      ],
+      "strengths": ["Connaissance parfaite des réseaux négoce BTP secteur 44/49/85", "Expérience TC chez Berner (outillage fixations)", "Secteur géographique identique", "Vision complète achats-vente", "Profil senior, maturité commerciale"],
+      "warnings": ["Pourquoi quitter après 12 ans ?", "Poste actuel plus sédentaire/achats", "Formation initiale limitée (BAC PRO)", "Rémunération actuelle élevée", "Adaptabilité nouveau catalogue produit"],
+      "questions": {
+        "motivation": [
+          {"key": "g_m1", "q": "Après 12 ans chez Belliard Matériaux, qu'est-ce qui motive votre départ ?"},
+          {"key": "g_m2", "q": "Que savez-vous de SAMEDIA et de nos produits ?"}
+        ],
+        "experience": [
+          {"key": "g_e1", "q": "Chez Belliard, quel était votre CA annuel sur le secteur couverture ?"},
+          {"key": "g_e2", "q": "Chez Berner, comment prospectiez-vous ? Rythme de visites terrain ?"}
+        ],
+        "technique": [
+          {"key": "g_t1", "q": "Quels produits d'outillage vendiez-vous chez Berner ?"}
+        ],
+        "secteur": [
+          {"key": "g_s1", "q": "Citez 5 enseignes de négoce BTP sur votre secteur 44/49/85."}
+        ],
+        "softskills": [
+          {"key": "g_ss1", "q": "Votre accroche CV dit 'On continue ensemble ?'. Que recherchez-vous dans votre prochain employeur ?"}
+        ],
+        "specifiques": [
+          {"key": "g_sp1", "q": "Quelle est votre rémunération actuelle ? Attentes salariales ?"}
+        ]
+      }
+    }
+  }
+}

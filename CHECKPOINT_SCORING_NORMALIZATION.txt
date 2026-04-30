@@ -1,0 +1,102 @@
+================================================================================
+CHECKPOINT: VIE USA 2026 Recruitment Platform — Scoring Normalization Complete
+Date: 2026-04-29
+================================================================================
+
+SESSION OBJECTIVE: Fix scoring inconsistencies on live platform
+- User reported 3 different scores displayed for same candidate (sidebar, header, detail table)
+- Root cause: 38/51 candidates had mismatches between top-level scoreDetails vs refined_analysis.scoreDetails
+
+WORK COMPLETED:
+================================================================================
+
+1. AUDIT (audit_scoring_mismatch.py)
+   - Analyzed all 51 candidates
+   - Found 38 candidates with score mismatches
+   - Largest delta: Chloé Morel (+5: 2/12 → 7/12)
+   - Report: /tmp/mismatch_report.json
+
+2. NORMALIZATION (normalize_scores.py)
+   - Established top-level scoreDetails as single source of truth
+   - Reason: Contains latest audit corrections from this session
+   - Removed conflicting refined_analysis.scoreDetails
+   - Regenerated refined_analysis to match top-level scores
+   - Result: 0/51 mismatches (verified)
+
+3. REDEPLOYMENT
+   - Git commit: dc624ed "Fix: Normalize scoring system — eliminate 38 mismatches..."
+   - Pushed to GitHub: samedia-entretiens-2026 repo
+   - Netlify deployed successfully
+
+CURRENT STATE:
+================================================================================
+
+Data File: recrutements/vie-usa-2026/data.json
+- All 51 candidates normalized
+- Consistent scoring across all display layers
+- Single source of truth: top-level scoreDetails
+
+Tier Distribution (Final):
+  Tier 1 (GO, ≥8/12): 8 candidates
+  Tier 2 (À ÉTUDIER, 5-7/12): 22 candidates
+  Tier 3 (NO GO, <5/12): 21 candidates
+
+Platform Live:
+  URL: https://samedia-entretiens-2026.netlify.app
+  Status: All scores now consistent (sidebar = header = detail table)
+
+Top 10 Ranking:
+  1. Denis Fonseca Quintela — 9/12 GO
+  2. Alexis Bessiere — 8/12 GO
+  3. Adrien Faucheux — 8/12 GO
+  4. Sabrina Kholkhal — 8/12 GO
+  5. Ghislain Painkin — 8/12 GO
+  6. Nora Abounaim — 8/12 GO
+  7. Remy Jarod — 8/12 GO
+  8. Erwin Byll — 8/12 GO
+  9. Hichem Boukeha — 7/12 À ÉTUDIER
+  10. Rollande Eyene — 7/12 À ÉTUDIER
+
+VERIFICATION:
+================================================================================
+✓ No more scoring mismatches (confirmed by audit script)
+✓ All candidates have matchingScore = sum(scoreDetails)
+✓ refined_analysis.total_score matches top-level matchingScore
+✓ All verdicts (GO/À ÉTUDIER/NO GO) generated automatically from score tier
+✓ Rankings recalculated correctly
+✓ Metadata updated with correct tier distribution
+✓ Deployed to Netlify production
+
+NEXT STEPS (if needed):
+================================================================================
+
+If scores need further adjustment:
+1. Edit top-level scoreDetails in data.json
+2. Run normalize_scores.py to regenerate refined_analysis
+3. Commit and deploy
+
+If platform display issues arise:
+- Check data-loader.js is loading scoreDetails from correct path
+- Verify platform uses refined_analysis.scoreDetails (now synchronized with top-level)
+
+RELATED FILES:
+================================================================================
+- Data: /Users/juliendufau/Desktop/SAMEDIA-2026/CANDIDATURE-2026/recrutements/vie-usa-2026/data.json
+- Scripts: /tmp/audit_scoring_mismatch.py, /tmp/normalize_scores.py
+- Report: /tmp/mismatch_report.json
+- Git: samedia-entretiens-2026 repo (GitHub)
+- Netlify: Production environment linked to main branch
+
+CRITICAL NOTES:
+================================================================================
+- Top-level scoreDetails = source of truth (from manual audit done in this session)
+- refined_analysis now mirrors top-level (no longer independent/conflicting)
+- Platform displays one consistent score per candidate
+- All 50 audit corrections from previous session preserved in top-level data
+
+To resume: Load data.json and verify tier distribution matches above.
+If making new corrections, update top-level scoreDetails and run normalize_scores.py.
+
+================================================================================
+End Checkpoint
+================================================================================

@@ -1,0 +1,212 @@
+================================================================================
+CHECKPOINT — PLATEFORME V2 RECRUTEMENT VIE USA-2026
+Session: 29 avril 2026
+================================================================================
+
+OBJECTIF GLOBAL
+Plateforme d'analyse CV multi-recrutement scalable (V2 refactorisée).
+Intégration recrutement VIE Business Development Manager North America.
+51 candidats, analyse exhaustive, scoring rigoureux, facilitation entretiens Nicolas.
+
+================================================================================
+ARCHITECTURE PLATEFORME V2
+================================================================================
+
+Structure multi-tenant JSON:
+- /recrutements/[recruitment-id]/
+  ├── config.json (critères, options décision, users)
+  ├── data.json (candidats, scores, analyses, questions)
+  └── cvs/ (PDFs + LDMs)
+- manifest.json (liste recrutements actifs)
+
+Data-loader.js: charge dynamiquement par recruitment-id (URL param r=vie-usa-2026)
+Rétrocompatibilité: ouest-2026 scoring 1-5 inchangé
+
+================================================================================
+GRILLE SCORING VIE-USA-2026 (6 CRITÈRES, MAX 12 PTS)
+================================================================================
+
+1. LANGUES (Anglais) — 0-2 pts
+   0: B1/B2 ou moins
+   1: C1-C2
+   2: Native/Bilingual
+
+2. VENTE (Expérience vente B2B) — 0-2 pts
+   0: Aucune
+   1: Hors B2B
+   2: B2B confirmé
+
+3. PROSPECTION (Profil terrain/Hunter) — 0-2 pts
+   0: Aucune
+   1: Support/Back-office
+   2: Chasseur terrain
+
+4. USA_EXP (Expérience USA 1an+) — 0-2 pts
+   0: Non
+   1: Autre anglophone (UK, Canada, Australie)
+   2: USA 1an+
+
+5. PROFIL_MARCHE (Adéquation profil marché US) — 1-2 pts
+   1: Adapté
+   2: Très adapté (entrepreneur, autonome)
+
+6. ANCRAGE_CULTUREL (Background anglophone) — 0-2 pts
+   0: International non-anglophone
+   1: Européen francophone
+   2: Natif anglophone
+
+GENRE: ENLEVÉ (demande user, scoring neutre demandé)
+
+================================================================================
+DISTRIBUTION 51 CANDIDATS
+================================================================================
+
+TOP 15 (TIER 1 — GO, ≥10/12)
+ 1. Adrien Faucheux         11/12  Hunter confirmé B2B, expérience USA, français
+ 2. Ghislain Painkin        11/12  B2B 600+ clients, SHOXX ready, master
+ 3-7. (9/12) Erwin Byll, Maceo Muccin, Matthias Mallarme, Remy Jarod, Walid Aissat
+ 8-15. (8/12) + candidats scores 7-8
+
+TIER 2 (À ÉTUDIER, 7-9/12): 15 candidats
+TIER 3 (NO GO, <7/12): 21 candidats
+
+================================================================================
+ANALYSES COMPLÈTES (REFINED_ANALYSIS)
+================================================================================
+
+Chaque candidat contient:
+- BLOC 1: Lecture rapide (profil 2-3 lignes, anglais, commerce, fit immédiat)
+- BLOC 2: Scoring détaillé (tableau 6 critères + justifications)
+- BLOC 3: Points de vigilance (max 3 signaux d'attention)
+- BLOC 4: Verdict + explication
+
+Critères extraction CV: education[], experiences[], languages[], skills[], justifications
+
+================================================================================
+QUESTIONS ENTRETIEN (PAR TIER & PROFIL)
+================================================================================
+
+TIER 1 (25 questions ciblées, 6 catégories):
+- motivation (VIE USA, connaissance SAMEDIA)
+- international (expérience, anglais pro)
+- commercial (B2B, prospection, méthode)
+- marche_usa (connaissance marché américain)
+- autonomie (travail seul, reporting)
+- specifiques (ciblées CV)
+
+TIER 2 (12 questions réduites, 2/catégorie)
+TIER 3 (5 questions génériques, même pour tous)
+
+Questions explorent points clés CV (startup → autonomie, B2B → négociation, etc)
+
+================================================================================
+INTERFACE PLATEFORME (INDEX.HTML)
+================================================================================
+
+ONGLETS:
+1. Fiche synthèse
+   - Verdict GO/À ÉTUDIER/NO GO en haut (couleur, texte)
+   - Pré-score 12 avec 6 critères dynamiques (CRITERIA via config.json)
+   - 4 blocs analyse (Lecture rapide, Scoring détaillé, Vigilances, Verdict)
+   - Infos clés (formation, contact, localisation)
+   - Parcours professionnel (top 5 expériences)
+   - Langues (badges)
+   - Zone notes entretien pour Nicolas (sauvegarde localStorage)
+
+2. Questions d'entretien
+   - Affichage par catégorie
+   - Questions ciblées par profil candidat
+   - Zone notes par question (débounce 500ms)
+
+3. Grille de scoring
+   - Colonne "Pré-scoring (CV)" — mon score auto (0-2, couleur code)
+   - Colonne "Nicolas" — ses notes (boutons interactifs)
+   - Colonne "Pondéré" — calcul automatique
+   - Autres users (Enrico, Julien) si présents
+   - Total dynamique
+
+SIDEBAR:
+- Ranking 1-51 par score (tri décroissant)
+- Top 15 jaune (bg-smd-yellow)
+- Scores visibles (#rank + matchingScore/12)
+- Sélection candidat → affichage fiche complète
+
+================================================================================
+DONNÉES CLÉS (DATA.JSON)
+================================================================================
+
+Candidats: 51
+- id: "01-orlane-degras" (format numérique + slug)
+- matchingScore: 11 (mon pré-score)
+- tier: 1 (1=top15, 2=16-30, 3=31-51)
+- rank: 1 (position finale 1-51)
+- refined_analysis:
+  - total_score: 11
+  - verdict: "GO"
+  - scoreDetails: {langues: 2, vente: 2, prospection: 2, usa_exp: 2, profil_marche: 2, ancrage_culturel: 1}
+  - bloc1, bloc2, bloc3 (texte analyse 4 blocs)
+- cvFile, ldmFile: "recrutements/vie-usa-2026/cvs/[slug]-cv.pdf"
+- questions: {motivation: [...], international: [...], etc}
+- education[], experiences[], languages[], skills[]
+
+Config.json: 6 critères scoreOptions/scoreLabels, decisionOptions, presetUsers
+Manifest.json: liste recrutements actifs
+
+================================================================================
+WORKFLOW ENTRETIEN (POUR NICOLAS)
+================================================================================
+
+1. Ouvre candidat (sidebar, click #1-15 en priorité)
+2. Lit "Fiche synthèse" → mon pré-score + 4 blocs (contexte rapide)
+3. Clique "Questions d'entretien" → question liées CV
+4. Conduit entretien, prend notes par question (textarea)
+5. Clique "Grille de scoring" → remplit notes 0-2 pour 6 critères
+6. Saisit son "Commentaire global" + décision (À évaluer/Top 15/Retenu/Non retenu)
+7. Résultats = localStorage (personne, candidat ID, notes)
+
+Comparaison: mon pré-score (gris indicatif) vs score Nicolas (jaune quand rempli)
+
+================================================================================
+ÉTAT ACTUEL (29 AVRIL 2026)
+================================================================================
+
+✓ Architecture V2 multi-recrutement scalable
+✓ 51 candidats analysés exhaustivement (CVs texte extraits)
+✓ Scoring rigoureux 6 critères (sans Genre, neutre)
+✓ Top 15 identifiés (GO ≥10/12)
+✓ 4 blocs analyse complets par candidat
+✓ Questions d'entretien ciblées (25+12+5 par tier)
+✓ Plateforme fonctionnelle (fiche, questions, grille)
+✓ Pré-scoring & interface entretien Nicolas
+✓ localStorage sauvegarde notes + décisions
+✓ Sidebar ranking 1-51, top 15 jaune
+
+================================================================================
+NEXT STEPS (POST-CHECKPOINT)
+================================================================================
+
+À faire selon priorité:
+1. Test complet plateforme: tous onglets, tous top 15, export notes
+2. Onglet LDM viewer: switch CV/LDM, gestion candidats sans LDM (grisé)
+3. Export/Dashboard: synthèse notes Nicolas, ranking post-entretien
+4. Intégration Obsidian: suivi candidats, comparaison pre vs post score
+5. Optimisation UX: scrolling, pagination, filtres (score, tier, verdict)
+
+================================================================================
+FICHIERS CLÉS
+================================================================================
+
+/Desktop/SAMEDIA-2026/CANDIDATURE-2026/
+├── index.html (plateforme UI, 1700+ lignes)
+├── data-loader.js (chargement dynamique, MAX_SCORE auto)
+├── recrutements/
+│   ├── manifest.json
+│   ├── ouest-2026/ (legacy, inchangé)
+│   └── vie-usa-2026/
+│       ├── config.json (6 critères)
+│       ├── data.json (51 candidats, analyses complètes)
+│       └── cvs/ (49 PDFs + 2 .docx extraits → .txt)
+
+================================================================================
+END CHECKPOINT
+================================================================================

@@ -1,0 +1,31 @@
+{
+  "candidates": {
+    "slug-candidat": {
+      "id": "slug-candidat",
+      "name": "Prénom NOM",
+      "age": 35,
+      "location": "Ville (XX)",
+      "contact": {"email": "email@domain.fr", "phone": "06 XX XX XX XX"},
+      "situation": "Marié, 2 enfants",
+      "formation": "BAC Pro Truc + BTS Bidule",
+      "matchingScore": 7.5,
+      "cvFile": "cvs/slug-candidat.pdf",
+      "summary": ["Bullet 1", "Bullet 2", "Bullet 3"],
+      "experiences": [
+        {"period": "2020 → 2025", "role": "Job Title", "company": "Company Name", "location": "City", "details": "Description brève"}
+      ],
+      "strengths": ["Force 1", "Force 2"],
+      "warnings": ["Point de vigilance 1"],
+      "questions": {
+        "motivation": [
+          {"key": "slug_m1", "q": "Question ?"}
+        ],
+        "experience": [],
+        "technique": [],
+        "secteur": [],
+        "softskills": [],
+        "specifiques": []
+      }
+    }
+  }
+}

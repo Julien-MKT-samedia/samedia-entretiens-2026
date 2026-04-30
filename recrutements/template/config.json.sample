@@ -1,0 +1,21 @@
+{
+  "id": "nouveau-recrutement-XXXX",
+  "title": "Titre du poste",
+  "subtitle": "Localisation et contexte",
+  "presetUsers": ["Julien", "Autre Prénom"],
+  "decisionOptions": ["À convoquer", "Convoqué", "Retenu", "Non retenu"],
+  "criteria": [
+    {
+      "key": "critere1",
+      "label": "Critère 1",
+      "coeff": 2,
+      "desc": "Description du critère et ce qu'on évalue"
+    },
+    {
+      "key": "critere2",
+      "label": "Critère 2",
+      "coeff": 3,
+      "desc": "Description..."
+    }
+  ]
+}
