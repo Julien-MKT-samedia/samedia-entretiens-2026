@@ -468,17 +468,11 @@ let focusCategoryKeys = [];
 function storageKey(type) { return `samedia_interviews_${type}`; }
 
 function loadLocal() {
-  try {
-    localScores = JSON.parse(localStorage.getItem(storageKey('scores')) || '{}');
-    localNotes = JSON.parse(localStorage.getItem(storageKey('notes')) || '{}');
-    localDecisions = JSON.parse(localStorage.getItem(storageKey('decisions')) || '{}');
-  } catch(e) { console.warn('Erreur chargement localStorage', e); }
+  // DISABLED: Supabase only — start with empty scores
 }
 
 function saveLocal() {
-  localStorage.setItem(storageKey('scores'), JSON.stringify(localScores));
-  localStorage.setItem(storageKey('notes'), JSON.stringify(localNotes));
-  localStorage.setItem(storageKey('decisions'), JSON.stringify(localDecisions));
+  // DISABLED: Supabase only — no localStorage fallback
 }
 
 // Supabase sync — only imports OTHER users' data, never overwrites current user's local data
