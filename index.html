@@ -1577,6 +1577,8 @@ function setScore(criterionKey, value) {
   } else {
     upsertScore(currentUser, currentCandidate.id, criterionKey, newVal);
   }
+  // Recalc matchingScore
+  currentCandidate.matchingScore = Object.values(currentCandidate.scoreDetails || {}).reduce((a, b) => (a || 0) + (b || 0), 0);
   renderScoring();
   buildNav();
 }
