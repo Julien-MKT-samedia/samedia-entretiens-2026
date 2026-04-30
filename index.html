@@ -305,8 +305,8 @@
 // ============================================
 // CONFIGURATION SUPABASE (PLACEHOLDERS)
 // ============================================
-const SUPABASE_URL = 'https://sghfewgvplhmbyyznmkh.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNnaGZld2d2cGxobWJ5eXpubWtoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzNTA3ODQsImV4cCI6MjA4OTkyNjc4NH0.6ki4yPyg5KF2ycZKcLO1N5S4NoSLhuoxsdbvNwbcCzQ';
+const SUPABASE_URL = 'https://qdeffonyxxsdtcfpyaxe.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFkZWZmb255eHhzZHRjZnB5YXhlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc1MjA5NzEsImV4cCI6MjA5MzA5Njk3MX0.nvn0E3hXz76EpXkfUsswmtlKBKqBiO34i4Fru_e52d4';
 
 let sb = null;
 let supabaseReady = false;
@@ -547,7 +547,7 @@ function showSyncStatus(ok) {
 async function supabaseUpsert(table, data, conflict) {
   if (!supabaseReady) return;
   try {
-    const { error } = await sb.from(table).upsert(data, { onConflict: conflict });
+    const { error } = await sb.from(table).upsert(data);
     if (error) throw error;
     showSyncStatus(true);
   } catch(e) {
