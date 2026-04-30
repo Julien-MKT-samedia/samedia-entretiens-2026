@@ -2138,8 +2138,8 @@ function generateDashboardPrint() {
             <td style="text-align: center; padding: 4px; border: 1px solid #e5e7eb; font-weight: bold;">\${idx + 1}</td>
             <td style="text-align: left; padding: 4px; border: 1px solid #e5e7eb;">\${c.name}</td>
             <td style="text-align: center; padding: 4px; border: 1px solid #e5e7eb; font-weight: bold;">\${c.matchingScore}/12</td>
-            <td style="text-align: center; padding: 4px; border: 1px solid #e5e7eb; background: \${verdictBg}; font-weight: bold;">\${verdict}</td>
-          </tr>\`;
+            <td style="text-align: center; padding: 4px; border: 1px solid #e5e7eb; background: ${verdictBg}; font-weight: bold;">${verdict}</td>
+          </tr>`;
         }).join('')}
       </table>
     </div>
@@ -2183,11 +2183,11 @@ function generateComparativePrint() {
             <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">\${c.scoreDetails?.langues || 0}</td>
             <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">\${c.scoreDetails?.vente || 0}</td>
             <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">\${c.scoreDetails?.prospection || 0}</td>
-            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">\${c.scoreDetails?.usa_exp || 0}</td>
-            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">\${c.scoreDetails?.profil_marche || 0}</td>
-            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">\${c.scoreDetails?.ancrage_culturel || 0}</td>
-            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb; background: \${verdictBg}; font-weight: bold;">\${verdict}</td>
-          </tr>\`;
+            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">${c.scoreDetails?.usa_exp || 0}</td>
+            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">${c.scoreDetails?.profil_marche || 0}</td>
+            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb;">${c.scoreDetails?.ancrage_culturel || 0}</td>
+            <td style="text-align: center; padding: 2px; border: 1px solid #e5e7eb; background: ${verdictBg}; font-weight: bold;">${verdict}</td>
+          </tr>`;
         }).join('')}
       </table>
     </div>
