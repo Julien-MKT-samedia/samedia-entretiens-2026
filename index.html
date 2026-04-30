@@ -759,9 +759,14 @@ function buildNav() {
   const nav = document.getElementById('candidateNav');
   nav.innerHTML = '';
 
-  // Sort candidates by matchingScore descending
+  // Sort candidates by CV score (scoreDetails sum) descending
+  const getCVScore = (candidate) => {
+    return Object.values(candidate.scoreDetails || {}).reduce((sum, val) => sum + (val || 0), 0);
+  };
   const sorted = Object.values(CANDIDATES).sort((a, b) => {
-    if (b.matchingScore !== a.matchingScore) return b.matchingScore - a.matchingScore;
+    const scoreA = getCVScore(a);
+    const scoreB = getCVScore(b);
+    if (scoreB !== scoreA) return scoreB - scoreA;
     return a.name.localeCompare(b.name);
   });
 
