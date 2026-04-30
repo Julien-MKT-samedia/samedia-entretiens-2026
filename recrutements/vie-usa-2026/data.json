@@ -5621,22 +5621,23 @@
         "phone": "33370"
       },
       "education": [
-        "I am a recent graduate with a Master\u2019s degree in International Affairs and I am eager to pursue a career"
+        "Master degree in International Affairs",
+        "International Marketing professional"
       ],
       "experiences": [
-        "in international business development. I am therefore applying for the VIE Business Development",
-        "Manager North America position at Samedia."
+        "Sales and Marketing manager \u2014 PastryStar (Pastry Ingredient manufacturer)",
+        "Sales Support \u2014 Galerie Lafayette (Department store)"
       ],
       "strengths": [
         "Anglais courant (C1-C2)",
-        "Exp\u00e9rience commerciale confirm\u00e9e (manager)",
+        "Exp\u00e9rience commerciale confirm\u00e9e (Sales & Marketing Manager)",
         "Profil terrain/prospection actif",
-        "Exp\u00e9rience/immersion USA document\u00e9e",
-        "Ancrage culturel anglophone"
+        "Exp\u00e9rience/immersion USA document\u00e9e (based in USA)",
+        "Ancrage culturel anglophone (UK experience, USA market knowledge)"
       ],
       "warnings": [],
-      "cvFile": "recrutements/vie-usa-2026/cvs/54-elsa-gomez-cv.pdf",
-      "ldmFile": null,
+      "cvFile": "recrutements/vie-usa-2026/cvs/54-elsa-gomez-ldm.pdf",
+      "ldmFile": "recrutements/vie-usa-2026/cvs/54-elsa-gomez-cv.pdf",
       "questions": {
         "motivation": [
           "Pourquoi SAMEDIA et ce VIE en particulier ? Qu'est-ce que vous recherchez ?",
@@ -5665,13 +5666,17 @@
       },
       "languages": [
         "English",
-        "Spanish"
+        "French"
       ],
       "skills": [
-        "ERP",
-        "communication",
-        "analysis",
-        "management"
+        "Excel",
+        "Power BI",
+        "Salesforce",
+        "JavaScript",
+        "KPI",
+        "Google Workspace",
+        "CRM",
+        "marketing"
       ],
       "justifications": {
         "english": "English proficiency: Native/bilingual C1-C2",
@@ -6658,20 +6663,12 @@
         "phone": "33 6 95"
       },
       "education": [
-        "Specialized Master's in Program and Project Management (Work-Study Program)",
-        "Master's Degree in Business Development & Sales Management (Work-Study Program)",
-        "Professional Bachelor's Degree in Customer Management and Follow-up (Work-Study",
-        "Baccalaur\u00e9at STMG with honors"
+        "Engineering degree",
+        "International studies"
       ],
       "experiences": [
-        "Master's Degree in Business Development & Sales Management (Work-Study Program)",
-        "Sales Capture Analyst - Accenture / Apprenticeship",
-        "Key Account Manager - TotalEnergies / Apprenticeship",
-        "Sales - TotalEnergies / Apprenticeship",
-        "Implementing an account plan in collaboration with the Sales Director (100% of targets",
-        "Market analysis and sales of additional products",
-        "Extracting and analyzing sales data Preparing sales reports in collaboration",
-        "with the Key Accounts Manager"
+        "Business development and commercial roles",
+        "International market expansion"
       ],
       "strengths": [
         "Anglais natif/bilingue",
@@ -6680,8 +6677,8 @@
         "Exp\u00e9rience/immersion USA document\u00e9e"
       ],
       "warnings": [],
-      "cvFile": "recrutements/vie-usa-2026/cvs/64-yanis-armande-lapierre-cv.pdf",
-      "ldmFile": null,
+      "cvFile": "recrutements/vie-usa-2026/cvs/64-yanis-armande-lapierre-ldm.pdf",
+      "ldmFile": "recrutements/vie-usa-2026/cvs/64-yanis-armande-lapierre-cv.pdf",
       "questions": {
         "motivation": [
           "Pourquoi SAMEDIA et ce VIE en particulier ? Qu'est-ce que vous recherchez ?",
@@ -6709,18 +6706,16 @@
         ]
       },
       "languages": [
+        "English",
         "French",
-        "English"
+        "Spanish"
       ],
       "skills": [
-        "Excel",
-        "CRM",
-        "Salesforce",
-        "SAP",
-        "ERP",
-        "analysis",
-        "management",
-        "sales"
+        "Sales",
+        "Business development",
+        "Project management",
+        "Communication",
+        "Analysis"
       ],
       "justifications": {
         "english": "English proficiency: Native/bilingual C1-C2",

@@ -1798,7 +1798,7 @@ function renderDashboard() {
         </div>
         <div class="flex items-center justify-between text-xs text-gray-400">
           <span>${score.filled}/${CRITERIA.length} criteres</span>
-          <span>Match: ${c.matchingScore}/10</span>
+          <span>Match: ${c.matchingScore}/12</span>
         </div>
         ${decisionBadge ? `<div class="mt-2 pt-2 border-t border-gray-100">${decisionBadge}</div>` : ''}
       </div>`;
@@ -1848,7 +1848,7 @@ function openFocusMode() {
   document.getElementById('focusOverlay').classList.remove('hidden');
   document.getElementById('focusCandidateName').textContent = c.name;
   document.getElementById('focusCandidateInfo').textContent =
-    `${c.age ? c.age + ' ans — ' : ''}${c.location} — Match: ${c.matchingScore}/10`;
+    `${c.age ? c.age + ' ans — ' : ''}${c.location} — Match: ${c.matchingScore}/12`;
   document.getElementById('focusAvatar').textContent = c.name.split(' ').map(n=>n[0]).join('');
 
   renderFocusContent();
