@@ -3,8 +3,8 @@
     "total_candidates": 66,
     "tier_distribution": {
       "tier1": 27,
-      "tier2": 16,
-      "tier3": 23
+      "tier2": 19,
+      "tier3": 20
     },
     "scoring_system": {
       "english_proficiency": "0-2 pts",
@@ -27,13 +27,13 @@
       "number": 1,
       "name": "Orlane Degras",
       "tier": 3,
-      "matchingScore": 2,
+      "matchingScore": 3,
       "scoreDetails": {
         "langues": 2,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -113,7 +113,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Orlane Degras — Score audit: 2/12",
         "bloc2": "Verdict: NO GO",
@@ -124,7 +124,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -134,13 +134,13 @@
       "number": 2,
       "name": "Titouan Benard",
       "tier": 2,
-      "matchingScore": 5,
+      "matchingScore": 6,
       "scoreDetails": {
         "langues": 2,
         "vente": 2,
         "prospection": 1,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -220,7 +220,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 6,
         "verdict": "À ÉTUDIER",
         "bloc1": "**Profil:** Titouan Benard — Score audit: 5/12",
         "bloc2": "Verdict: À ÉTUDIER",
@@ -231,7 +231,7 @@
           "vente": 2,
           "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -726,13 +726,13 @@
       "number": 7,
       "name": "Romain Mousselet",
       "tier": 3,
-      "matchingScore": 1,
+      "matchingScore": 2,
       "scoreDetails": {
         "langues": 1,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -788,7 +788,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 1,
+        "total_score": 2,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Romain Mousselet — Score audit: 1/12",
         "bloc2": "Verdict: NO GO",
@@ -799,7 +799,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -809,13 +809,13 @@
       "number": 8,
       "name": "Adhame Hasaine",
       "tier": 3,
-      "matchingScore": 2,
+      "matchingScore": 3,
       "scoreDetails": {
         "langues": 2,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -878,7 +878,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Adhame Hasaine — Score audit: 2/12",
         "bloc2": "Verdict: NO GO",
@@ -889,7 +889,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -1018,14 +1018,14 @@
       "id": "10-thomas-barbez",
       "number": 10,
       "name": "Thomas Barbez",
-      "tier": 3,
-      "matchingScore": 4,
+      "tier": 2,
+      "matchingScore": 5,
       "scoreDetails": {
         "langues": 1,
         "vente": 1,
         "prospection": 2,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -1090,7 +1090,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 4,
+        "total_score": 5,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Thomas Barbez — Score audit: 4/12",
         "bloc2": "Verdict: NO GO",
@@ -1101,7 +1101,7 @@
           "vente": 1,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -1583,14 +1583,14 @@
       "id": "15-jonathan-mabile",
       "number": 15,
       "name": "Jonathan Mabile",
-      "tier": 3,
-      "matchingScore": 5,
+      "tier": 2,
+      "matchingScore": 6,
       "scoreDetails": {
         "langues": 2,
         "vente": 2,
         "prospection": 1,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -1659,7 +1659,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 6,
         "verdict": "À ÉTUDIER",
         "bloc1": "**Profil:** Jonathan Mabile — Score audit: 5/12",
         "bloc2": "Verdict: À ÉTUDIER",
@@ -1670,7 +1670,7 @@
           "vente": 2,
           "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -1680,13 +1680,13 @@
       "number": 16,
       "name": "Coralie Tridon",
       "tier": 2,
-      "matchingScore": 5,
+      "matchingScore": 6,
       "scoreDetails": {
         "langues": 2,
         "vente": 2,
         "prospection": 1,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -1771,7 +1771,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 6,
         "verdict": "À ÉTUDIER",
         "bloc1": "**Profil:** Coralie Tridon — Score audit: 5/12",
         "bloc2": "Verdict: À ÉTUDIER",
@@ -1782,7 +1782,7 @@
           "vente": 2,
           "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -1792,13 +1792,13 @@
       "number": 17,
       "name": "Ramatoulaye Coly",
       "tier": 3,
-      "matchingScore": 2,
+      "matchingScore": 3,
       "scoreDetails": {
         "langues": 2,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -1868,7 +1868,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Ramatoulaye Coly — Score audit: 2/12",
         "bloc2": "Verdict: NO GO",
@@ -1879,7 +1879,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -1889,7 +1889,7 @@
       "number": 18,
       "name": "Dylan Dourlen",
       "tier": 3,
-      "matchingScore": 1,
+      "matchingScore": 3,
       "scoreDetails": {
         "english": 0,
         "b2b": 0,
@@ -1897,7 +1897,8 @@
         "usa_exp": 0,
         "market": 1,
         "ancrage": 0,
-        "total": 1
+        "total": 1,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1944,7 +1945,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 1,
+        "total_score": 3,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Dylan Dourlen — Score audit: 1/12",
         "bloc2": "Verdict: NO GO",
@@ -1957,7 +1958,8 @@
           "usa_exp": 0,
           "market": 1,
           "ancrage": 0,
-          "total": 1
+          "total": 1,
+          "profil_marche": 1
         }
       }
     },
@@ -2075,13 +2077,13 @@
       "number": 20,
       "name": "Guillaume Champlon",
       "tier": 3,
-      "matchingScore": 1,
+      "matchingScore": 2,
       "scoreDetails": {
         "langues": 1,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -2139,7 +2141,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 1,
+        "total_score": 2,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Guillaume Champlon — Score audit: 1/12",
         "bloc2": "Verdict: NO GO",
@@ -2150,7 +2152,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -2281,13 +2283,13 @@
       "number": 22,
       "name": "Adrien Cauchois",
       "tier": 2,
-      "matchingScore": 5,
+      "matchingScore": 6,
       "scoreDetails": {
         "langues": 1,
         "vente": 2,
         "prospection": 2,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -2365,7 +2367,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 6,
         "verdict": "À ÉTUDIER",
         "bloc1": "**Profil:** Adrien Cauchois — Score audit: 5/12",
         "bloc2": "Verdict: À ÉTUDIER",
@@ -2376,7 +2378,7 @@
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -2385,14 +2387,14 @@
       "id": "23-arthur-calvie-gomez",
       "number": 23,
       "name": "Arthur Calvie-Gomez",
-      "tier": 3,
-      "matchingScore": 3,
+      "tier": 2,
+      "matchingScore": 4,
       "scoreDetails": {
         "langues": 2,
         "vente": 1,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -2447,7 +2449,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 4,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Arthur Calvie-Gomez — Score audit: 3/12",
         "bloc2": "Verdict: NO GO",
@@ -2458,7 +2460,7 @@
           "vente": 1,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -2467,14 +2469,14 @@
       "id": "24-erwin-twagiramungu",
       "number": 24,
       "name": "Erwin Twagiramungu",
-      "tier": 2,
-      "matchingScore": 2,
+      "tier": 3,
+      "matchingScore": 3,
       "scoreDetails": {
         "langues": 2,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -2539,7 +2541,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Erwin Twagiramungu — Score audit: 2/12",
         "bloc2": "Verdict: NO GO",
@@ -2550,7 +2552,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -2656,13 +2658,13 @@
       "number": 26,
       "name": "Aadnan El Fahsi",
       "tier": 3,
-      "matchingScore": 2,
+      "matchingScore": 3,
       "scoreDetails": {
         "langues": 2,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -2728,7 +2730,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Aadnan El Fahsi — Score audit: 2/12",
         "bloc2": "Verdict: NO GO",
@@ -2739,7 +2741,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -2749,13 +2751,13 @@
       "number": 27,
       "name": "Thomas Becher",
       "tier": 2,
-      "matchingScore": 4,
+      "matchingScore": 5,
       "scoreDetails": {
         "langues": 1,
         "vente": 1,
         "prospection": 2,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -2841,7 +2843,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 4,
+        "total_score": 5,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Thomas Becher — Score audit: 4/12",
         "bloc2": "Verdict: NO GO",
@@ -2852,7 +2854,7 @@
           "vente": 1,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -2985,14 +2987,14 @@
       "id": "29-hugo-damoiselet",
       "number": 29,
       "name": "Hugo Damoiselet",
-      "tier": 3,
-      "matchingScore": 5,
+      "tier": 2,
+      "matchingScore": 6,
       "scoreDetails": {
         "langues": 1,
         "vente": 2,
         "prospection": 2,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -3050,7 +3052,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 6,
         "verdict": "À ÉTUDIER",
         "bloc1": "**Profil:** Hugo Damoiselet — Score audit: 5/12",
         "bloc2": "Verdict: À ÉTUDIER",
@@ -3061,7 +3063,7 @@
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -3508,14 +3510,14 @@
       "id": "34-marion-heymann",
       "number": 34,
       "name": "Marion Heymann",
-      "tier": 2,
-      "matchingScore": 2,
+      "tier": 3,
+      "matchingScore": 3,
       "scoreDetails": {
         "langues": 2,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -3580,7 +3582,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Marion Heymann — Score audit: 2/12",
         "bloc2": "Verdict: NO GO",
@@ -3591,7 +3593,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -4070,14 +4072,14 @@
       "id": "39-ines-brahim-tazi",
       "number": 39,
       "name": "Ines Brahim Tazi",
-      "tier": 3,
-      "matchingScore": 3,
+      "tier": 2,
+      "matchingScore": 4,
       "scoreDetails": {
         "langues": 2,
         "vente": 0,
         "prospection": 1,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -4145,7 +4147,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 4,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Ines Brahim Tazi — Score audit: 3/12",
         "bloc2": "Verdict: NO GO",
@@ -4156,7 +4158,7 @@
           "vente": 0,
           "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -4529,14 +4531,14 @@
       "id": "43-chloe-morel",
       "number": 43,
       "name": "Chloé Morel",
-      "tier": 2,
-      "matchingScore": 2,
+      "tier": 3,
+      "matchingScore": 3,
       "scoreDetails": {
         "langues": 2,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -4620,7 +4622,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Chloé Morel — Score audit: 2/12",
         "bloc2": "Verdict: NO GO",
@@ -4631,7 +4633,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -4641,13 +4643,13 @@
       "number": 44,
       "name": "Zine-Eddine Arroussi",
       "tier": 2,
-      "matchingScore": 5,
+      "matchingScore": 6,
       "scoreDetails": {
         "langues": 1,
         "vente": 2,
         "prospection": 2,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -4713,7 +4715,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 6,
         "verdict": "À ÉTUDIER",
         "bloc1": "**Profil:** Zine-Eddine Arroussi — Score audit: 5/12",
         "bloc2": "Verdict: À ÉTUDIER",
@@ -4724,7 +4726,7 @@
           "vente": 2,
           "prospection": 2,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -4734,13 +4736,13 @@
       "number": 45,
       "name": "Simon Dacosta",
       "tier": 3,
-      "matchingScore": 1,
+      "matchingScore": 2,
       "scoreDetails": {
         "langues": 1,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -4803,7 +4805,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 1,
+        "total_score": 2,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Simon Dacosta — Score audit: 1/12",
         "bloc2": "Verdict: NO GO",
@@ -4814,7 +4816,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -4823,14 +4825,14 @@
       "id": "46-lucas-saint-supery",
       "number": 46,
       "name": "Lucas Saint-Supéry",
-      "tier": 3,
-      "matchingScore": 3,
+      "tier": 2,
+      "matchingScore": 4,
       "scoreDetails": {
         "langues": 1,
         "vente": 1,
         "prospection": 1,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -4885,7 +4887,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 4,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Lucas Saint-Supéry — Score audit: 3/12",
         "bloc2": "Verdict: NO GO",
@@ -4896,7 +4898,7 @@
           "vente": 1,
           "prospection": 1,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -5220,13 +5222,13 @@
       "number": 50,
       "name": "Kamil Ouaked",
       "tier": 3,
-      "matchingScore": 1,
+      "matchingScore": 2,
       "scoreDetails": {
         "langues": 1,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -5286,7 +5288,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 1,
+        "total_score": 2,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Kamil Ouaked — Score audit: 1/12",
         "bloc2": "Verdict: NO GO",
@@ -5297,7 +5299,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
@@ -5307,13 +5309,13 @@
       "number": 51,
       "name": "Clement Assier",
       "tier": 3,
-      "matchingScore": 2,
+      "matchingScore": 3,
       "scoreDetails": {
         "langues": 2,
         "vente": 0,
         "prospection": 0,
         "usa_exp": 0,
-        "profil_marche": 0,
+        "profil_marche": 1,
         "ancrage_culturel": 0
       },
       "location": "USA (TBD)",
@@ -5376,7 +5378,7 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
         "bloc1": "**Profil:** Clement Assier — Score audit: 2/12",
         "bloc2": "Verdict: NO GO",
@@ -5387,7 +5389,7 @@
           "vente": 0,
           "prospection": 0,
           "usa_exp": 0,
-          "profil_marche": 0,
+          "profil_marche": 1,
           "ancrage_culturel": 0
         }
       }
