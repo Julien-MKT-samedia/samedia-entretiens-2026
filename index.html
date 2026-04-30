@@ -396,7 +396,7 @@ async function loadVIEData() {
     CRITERIA = [];
     DECISION_OPTIONS = ['À évaluer', 'Top 15', 'Retenu', 'Non retenu'];
     CANDIDATES = {};
-    MAX_SCORE = 80;
+    MAX_SCORE = 12;
     QUESTION_CATEGORIES = {
       motivation: { label: 'Motivation & Projet', icon: '🎯' },
       international: { label: 'Profil International', icon: '🌍' },
@@ -1035,7 +1035,7 @@ function renderHeader() {
         </button>
         <!-- Score -->
         <div class="text-center">
-          <div class="text-2xl font-bold text-smd-black font-semibold">${c.matchingScore}<span class="text-sm text-gray-400">/10</span></div>
+          <div class="text-2xl font-bold text-smd-black font-semibold">${c.matchingScore}<span class="text-sm text-gray-400">/12</span></div>
           <div class="text-xs text-gray-400">Match initial</div>
         </div>
         <!-- Decision -->
@@ -1278,7 +1278,7 @@ function renderFiche() {
         <div class="space-y-3">
           <!-- Rank & Verdict badges -->
           <div class="flex items-center gap-3">
-            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-blue-100 text-blue-800">Classé #${c.rank || '?'} sur 51</span>
+            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-blue-100 text-blue-800">Classé #${c.rank || '?'} sur ${Object.keys(CANDIDATES).length}</span>
             ${analysis.verdict ? `<span class="text-xs font-semibold px-3 py-1 rounded-full ${{'GO':'bg-green-100 text-green-800','À ÉTUDIER':'bg-yellow-100 text-yellow-800','NO GO':'bg-red-100 text-red-800'}[analysis.verdict] || 'bg-gray-100 text-gray-800'}">${analysis.verdict}</span>` : ''}
           </div>
           <!-- Strengths -->
@@ -1379,7 +1379,7 @@ function renderFiche() {
           <!-- Ranking -->
           <div>
             <p class="text-gray-500 text-xs font-medium">Classement:</p>
-            <p class="font-medium text-gray-900 mt-1">Rang #${c.rank || '?'} sur 51 candidats</p>
+            <p class="font-medium text-gray-900 mt-1">Rang #${c.rank || '?'} sur ${Object.keys(CANDIDATES).length} candidats</p>
           </div>
           <!-- LDM availability -->
           ${c.ldmFile ? `
@@ -1641,7 +1641,7 @@ function renderComparative() {
           <div class="flex-1 min-w-0">
             <div class="flex items-center gap-3 mb-1">
               <span class="font-bold text-gray-900">${c.name}</span>
-              <span class="badge bg-smd-yellow/20 text-smd-black">Match: ${c.matchingScore}/10</span>
+              <span class="badge bg-smd-yellow/20 text-smd-black">Match: ${c.matchingScore}/12</span>
               ${dec.decision !== '—' ? `<span class="badge ${getDecisionColor(dec.decision)}">${dec.decision}</span>` : ''}
             </div>
             <div class="flex items-center gap-3">
