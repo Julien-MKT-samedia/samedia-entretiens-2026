@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "total_candidates": 66,
+    "total_candidates": 68,
     "tier_distribution": {
       "Tier1": 51,
       "Tier2": 9,
@@ -19,7 +19,8 @@
       "tier2_threshold": "4-6",
       "tier3_threshold": "<4",
       "criteria_count": 5
-    }
+    },
+    "generated": "2026-04-30"
   },
   "candidates": {
     "01-orlane-degras": {
@@ -27,14 +28,14 @@
       "number": 1,
       "name": "Orlane Degras",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 1,
+        "anglais": 0,
         "prospection": 1,
+        "vente_industrie": 1,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -94,8 +95,9 @@
         ]
       },
       "languages": [
-        "French",
-        "Spanish"
+        "French NATIVE",
+        "English ADVANCED",
+        "Spanish INTERMEDIATE"
       ],
       "skills": [
         "Excel",
@@ -113,31 +115,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 1,
+          "anglais": 0,
           "prospection": 1,
+          "vente_industrie": 1,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "02-titouan-benard": {
       "id": "02-titouan-benard",
       "number": 2,
       "name": "Titouan Benard",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 0
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -197,8 +202,8 @@
         ]
       },
       "languages": [
-        "English",
-        "French"
+        "English FLUENT",
+        "Spanish ADVANCED"
       ],
       "skills": [
         "Python",
@@ -214,33 +219,36 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 0,
+      "rank": 5,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "03-hichem-boukeha": {
       "id": "03-hichem-boukeha",
       "number": 3,
       "name": "Hichem Boukeha",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
-        "prospection": 1,
-        "usa_exp": 0,
-        "profil_marche": 2,
-        "ancrage_culturel": 1
+        "anglais": 0,
+        "prospection": 2,
+        "vente_industrie": 2,
+        "usa_exp": 1,
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -301,7 +309,10 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "French",
+        "Spanish",
+        "Arabic"
       ],
       "skills": [
         "Python",
@@ -325,31 +336,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
-          "prospection": 1,
-          "usa_exp": 0,
-          "profil_marche": 2,
-          "ancrage_culturel": 1
+          "anglais": 0,
+          "prospection": 2,
+          "vente_industrie": 2,
+          "usa_exp": 1,
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "04-alexis-bessiere": {
       "id": "04-alexis-bessiere",
       "number": 4,
       "name": "Alexis Bessiere",
       "tier": "Tier1",
-      "matchingScore": 10,
+      "matchingScore": 8,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 1,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -421,9 +435,9 @@
         ]
       },
       "languages": [
-        "English",
-        "French",
-        "Mandarin"
+        "French NATIVE",
+        "English FLUENT",
+        "Mandarin BASIC"
       ],
       "skills": [
         "Excel",
@@ -444,33 +458,36 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 4,
+      "rank": 3,
       "refined_analysis": {
-        "total_score": 10,
+        "total_score": 8,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 1,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "05-rollande-eyene": {
       "id": "05-rollande-eyene",
       "number": 5,
       "name": "Rollande Eyene",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -542,8 +559,7 @@
         ]
       },
       "languages": [
-        "English",
-        "French"
+        "English PROFESSIONAL"
       ],
       "skills": [
         "Excel",
@@ -566,31 +582,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "06-adrien-faucheux": {
       "id": "06-adrien-faucheux",
       "number": 6,
       "name": "Adrien Faucheux",
       "tier": "Tier1",
-      "matchingScore": 10,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -662,9 +681,10 @@
         ]
       },
       "languages": [
-        "English",
-        "French",
-        "German"
+        "French NATIVE",
+        "English FLUENT",
+        "Dutch NATIVE",
+        "German INTERMEDIATE"
       ],
       "skills": [
         "CRM",
@@ -683,33 +703,36 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 5,
+      "rank": 6,
       "refined_analysis": {
-        "total_score": 10,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "07-romain-mousselet": {
       "id": "07-romain-mousselet",
       "number": 7,
       "name": "Romain Mousselet",
       "tier": "Tier2",
-      "matchingScore": 5,
+      "matchingScore": 4,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 0,
+        "anglais": 0,
         "prospection": 1,
+        "vente_industrie": 1,
         "usa_exp": 1,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -747,7 +770,9 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "French",
+        "Spanish"
       ],
       "skills": [
         "Excel",
@@ -764,31 +789,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
+        "total_score": 4,
         "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 0,
+          "anglais": 0,
           "prospection": 1,
+          "vente_industrie": 1,
           "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "08-adhame-hasaine": {
       "id": "08-adhame-hasaine",
       "number": 8,
       "name": "Adhame Hasaine",
       "tier": 3,
-      "matchingScore": 3,
+      "matchingScore": 1,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 0,
+        "anglais": 0,
         "prospection": 0,
+        "vente_industrie": 0,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 0
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -850,31 +878,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 1,
         "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 0,
+          "anglais": 0,
           "prospection": 0,
+          "vente_industrie": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "low"
     },
     "09-sabrina-kholkhal": {
       "id": "09-sabrina-kholkhal",
       "number": 9,
       "name": "Sabrina Kholkhal",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
-        "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "vente_industrie": 1,
+        "usa_exp": 2,
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -964,33 +995,36 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "European/francophone background"
       },
-      "rank": 13,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
-          "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "vente_industrie": 1,
+          "usa_exp": 2,
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "10-thomas-barbez": {
       "id": "10-thomas-barbez",
       "number": 10,
       "name": "Thomas Barbez",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1054,31 +1088,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "11-ghislain-painkin": {
       "id": "11-ghislain-painkin",
       "number": 11,
       "name": "Ghislain Painkin",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
-        "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "vente_industrie": 2,
+        "usa_exp": 2,
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1152,7 +1189,9 @@
       },
       "languages": [
         "English",
-        "French"
+        "French",
+        "German",
+        "Arabic"
       ],
       "skills": [
         "SAP",
@@ -1174,33 +1213,36 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 14,
+      "rank": 7,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
-          "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "vente_industrie": 2,
+          "usa_exp": 2,
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "12-matthias-mallarme": {
       "id": "12-matthias-mallarme",
       "number": 12,
       "name": "Matthias Mallarme",
       "tier": "Tier1",
-      "matchingScore": 9,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1290,19 +1332,22 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "European/francophone background"
       },
-      "rank": 10,
+      "rank": 8,
       "refined_analysis": {
-        "total_score": 9,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "13-sira-traore": {
       "id": "13-sira-traore",
@@ -1311,12 +1356,12 @@
       "tier": "Tier1",
       "matchingScore": 9,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
-        "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 2
+        "vente_industrie": 2,
+        "usa_exp": 2,
+        "ancrage_culturel": 2,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1388,7 +1433,9 @@
         ]
       },
       "languages": [
-        "Spanish"
+        "English B2",
+        "French C2",
+        "Spanish B1"
       ],
       "skills": [
         "CRM",
@@ -1404,33 +1451,36 @@
         "market_fit": "Standard market fit",
         "culture": "English-speaking country cultural background"
       },
-      "rank": 11,
+      "rank": 2,
       "refined_analysis": {
         "total_score": 9,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
-          "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 2
+          "vente_industrie": 2,
+          "usa_exp": 2,
+          "ancrage_culturel": 2,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "14-nora-abounaim": {
       "id": "14-nora-abounaim",
       "number": 14,
       "name": "Nora Abounaim",
       "tier": "Tier1",
-      "matchingScore": 10,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1490,7 +1540,10 @@
         ]
       },
       "languages": [
-        "English"
+        "Spanish NATIVE",
+        "Arabic NATIVE",
+        "English FLUENT",
+        "French FLUENT"
       ],
       "skills": [
         "CRM",
@@ -1509,33 +1562,36 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 6,
+      "rank": 9,
       "refined_analysis": {
-        "total_score": 10,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "15-jonathan-mabile": {
       "id": "15-jonathan-mabile",
       "number": 15,
       "name": "Jonathan Mabile",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 1,
-        "usa_exp": 0,
-        "profil_marche": 2,
-        "ancrage_culturel": 1
+        "vente_industrie": 2,
+        "usa_exp": 2,
+        "ancrage_culturel": 1,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1579,8 +1635,9 @@
         ]
       },
       "languages": [
-        "English",
-        "French"
+        "Arabic NATIVE",
+        "English PROFESSIONAL",
+        "Spanish BASIC"
       ],
       "skills": [
         "Python",
@@ -1601,33 +1658,36 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 0,
+      "rank": 10,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 1,
-          "usa_exp": 0,
-          "profil_marche": 2,
-          "ancrage_culturel": 1
+          "vente_industrie": 2,
+          "usa_exp": 2,
+          "ancrage_culturel": 1,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "16-coralie-tridon": {
       "id": "16-coralie-tridon",
       "number": 16,
       "name": "Coralie Tridon",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 1,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1688,9 +1748,8 @@
         ]
       },
       "languages": [
-        "English",
-        "Spanish",
-        "Mandarin"
+        "English C1",
+        "Spanish B1"
       ],
       "skills": [
         "Excel",
@@ -1711,31 +1770,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 1,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "17-ramatoulaye-coly": {
       "id": "17-ramatoulaye-coly",
       "number": 17,
       "name": "Ramatoulaye Coly",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
-        "prospection": 1,
+        "anglais": 0,
+        "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1779,9 +1841,9 @@
         ]
       },
       "languages": [
-        "English",
-        "French",
-        "Spanish"
+        "French NATIVE",
+        "English FLUENT",
+        "Spanish INTERMEDIATE"
       ],
       "skills": [
         "SQL",
@@ -1804,31 +1866,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
-          "prospection": 1,
+          "anglais": 0,
+          "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "18-dylan-dourlen": {
       "id": "18-dylan-dourlen",
       "number": 18,
       "name": "Dylan Dourlen",
       "tier": "Tier3",
-      "matchingScore": 1,
+      "matchingScore": 3,
       "scoreDetails": {
-        "langues": 0,
-        "vente": 0,
-        "prospection": 0,
+        "anglais": 0,
+        "prospection": 1,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 0
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1836,10 +1901,11 @@
         "phone": null
       },
       "education": [
-        "No education details found"
+        "Bachelor's Degrees - Finance Paris,"
       ],
       "experiences": [
-        "Professional experiences not clearly detailed"
+        "Risk Analyst & Clients Management - SwissLife Juin 2024 - Present",
+        "Recruitment Consultant, Finance & Accountancy - Adecco Oct 2018 - Mars 2019"
       ],
       "strengths": [
         "CV analys\u00e9"
@@ -1860,10 +1926,14 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "French"
       ],
       "skills": [
-        "Skills not detailed"
+        "Risk Analysis",
+        "Financial Advisor",
+        "Banking",
+        "Finance"
       ],
       "justifications": {
         "english": "No English proficiency indicators found",
@@ -1875,31 +1945,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 1,
+        "total_score": 3,
         "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 0,
-          "prospection": 0,
+          "anglais": 0,
+          "prospection": 1,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "extraction_method": "OCR",
+      "confidence_extraction": 100,
+      "extraction_quality": "medium"
     },
     "19-vincent-zimbris": {
       "id": "19-vincent-zimbris",
       "number": 19,
       "name": "Vincent Zimbris",
       "tier": "Tier2",
-      "matchingScore": 6,
+      "matchingScore": 4,
       "scoreDetails": {
-        "langues": 0,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -1960,7 +2033,8 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "Spanish"
       ],
       "skills": [
         "Excel",
@@ -1980,31 +2054,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
+        "total_score": 4,
         "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "20-guillaume-champlon": {
       "id": "20-guillaume-champlon",
       "number": 20,
       "name": "Guillaume Champlon",
       "tier": "Tier3",
-      "matchingScore": 3,
+      "matchingScore": 4,
       "scoreDetails": {
-        "langues": 0,
-        "vente": 1,
-        "prospection": 0,
+        "anglais": 0,
+        "prospection": 2,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -2044,7 +2121,9 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "French",
+        "German"
       ],
       "skills": [
         "CRM",
@@ -2061,31 +2140,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
-        "verdict": "NO GO",
+        "total_score": 4,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
-          "prospection": 0,
+          "anglais": 0,
+          "prospection": 2,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "21-remy-jarod": {
       "id": "21-remy-jarod",
       "number": 21,
       "name": "Remy Jarod",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 1,
+        "anglais": 0,
         "prospection": 1,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -2157,7 +2239,9 @@
       },
       "languages": [
         "English",
-        "French"
+        "French",
+        "Spanish",
+        "Italian"
       ],
       "skills": [
         "Excel",
@@ -2178,31 +2262,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 1,
+          "anglais": 0,
           "prospection": 1,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "22-adrien-cauchois": {
       "id": "22-adrien-cauchois",
       "number": 22,
       "name": "Adrien Cauchois",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 1,
         "usa_exp": 1,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -2261,7 +2348,10 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "French",
+        "Spanish",
+        "German"
       ],
       "skills": [
         "Excel",
@@ -2279,31 +2369,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 1,
           "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "23-arthur-calvie-gomez": {
       "id": "23-arthur-calvie-gomez",
       "number": 23,
       "name": "Arthur Calvie-Gomez",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 4,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
-        "prospection": 0,
+        "anglais": 0,
+        "prospection": 1,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 2,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -2342,7 +2435,9 @@
         ]
       },
       "languages": [
-        "English"
+        "English",
+        "French",
+        "Spanish"
       ],
       "skills": [
         "communication"
@@ -2357,31 +2452,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 4,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
-          "prospection": 0,
+          "anglais": 0,
+          "prospection": 1,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 2,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "24-erwin-twagiramungu": {
       "id": "24-erwin-twagiramungu",
       "number": 24,
       "name": "Erwin Twagiramungu",
       "tier": 3,
-      "matchingScore": 3,
+      "matchingScore": 1,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 0,
+        "anglais": 0,
         "prospection": 0,
+        "vente_industrie": 0,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 0
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -2445,31 +2543,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 1,
         "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 0,
+          "anglais": 0,
           "prospection": 0,
+          "vente_industrie": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "low"
     },
     "25-adrian-delecroix": {
       "id": "25-adrian-delecroix",
       "number": 25,
       "name": "Adrian Delecroix",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -2513,9 +2614,8 @@
         ]
       },
       "languages": [
-        "English",
-        "French",
-        "Spanish"
+        "English FLUENT",
+        "Spanish FLUENT"
       ],
       "skills": [
         "Excel",
@@ -2537,31 +2637,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "26-aadnan-el-fahsi": {
       "id": "26-aadnan-el-fahsi",
       "number": 26,
       "name": "Aadnan El Fahsi",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 4,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
-        "prospection": 2,
+        "anglais": 0,
+        "prospection": 1,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -2607,7 +2710,8 @@
       },
       "languages": [
         "English",
-        "French"
+        "French",
+        "Arabic"
       ],
       "skills": [
         "Python",
@@ -2626,31 +2730,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 4,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
-          "prospection": 2,
+          "anglais": 0,
+          "prospection": 1,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "27-thomas-becher": {
       "id": "27-thomas-becher",
       "number": 27,
       "name": "Thomas Becher",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 1,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -2711,7 +2818,8 @@
         ]
       },
       "languages": [
-        "English"
+        "English C1",
+        "German A2"
       ],
       "skills": [
         "Python",
@@ -2735,31 +2843,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 1,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "28-denis-fonseca-quintela": {
       "id": "28-denis-fonseca-quintela",
       "number": 28,
       "name": "Denis Fonseca Quintela",
       "tier": "Tier1",
-      "matchingScore": 9,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 2,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -2832,9 +2943,10 @@
         ]
       },
       "languages": [
-        "English",
-        "French",
-        "Spanish"
+        "French NATIVE",
+        "English FLUENT",
+        "Portuguese NATIVE",
+        "Spanish FLUENT"
       ],
       "skills": [
         "CRM",
@@ -2853,33 +2965,36 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 12,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 9,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 2,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "29-hugo-damoiselet": {
       "id": "29-hugo-damoiselet",
       "number": 29,
       "name": "Hugo Damoiselet",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 1,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 2,
-        "ancrage_culturel": 0
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -2920,7 +3035,9 @@
         ]
       },
       "languages": [
-        "French"
+        "English",
+        "French",
+        "Spanish"
       ],
       "skills": [
         "Excel",
@@ -2936,31 +3053,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 1,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 2,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "low"
     },
     "30-syriade-sapor": {
       "id": "30-syriade-sapor",
       "number": 30,
       "name": "Syriade Sapor",
       "tier": "Tier3",
-      "matchingScore": 2,
+      "matchingScore": 3,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 0,
-        "prospection": 0,
+        "anglais": 0,
+        "prospection": 1,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 0
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -3002,7 +3122,8 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "German"
       ],
       "skills": [
         "Excel"
@@ -3017,31 +3138,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 2,
+        "total_score": 3,
         "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 0,
-          "prospection": 0,
+          "anglais": 0,
+          "prospection": 1,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "31-maceo-muccin": {
       "id": "31-maceo-muccin",
       "number": 31,
       "name": "Maceo Muccin",
       "tier": "Tier1",
-      "matchingScore": 10,
+      "matchingScore": 8,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 1,
-        "profil_marche": 1,
-        "ancrage_culturel": 2
+        "ancrage_culturel": 2,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -3111,9 +3235,9 @@
         ]
       },
       "languages": [
-        "English",
-        "French",
-        "Spanish"
+        "French NATIVE",
+        "English FLUENT",
+        "Spanish INTERMEDIATE"
       ],
       "skills": [
         "CRM",
@@ -3132,33 +3256,36 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "English-speaking country cultural background"
       },
-      "rank": 7,
+      "rank": 4,
       "refined_analysis": {
-        "total_score": 10,
+        "total_score": 8,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 2,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "32-sania-mahammedi": {
       "id": "32-sania-mahammedi",
       "number": 32,
       "name": "Sania Mahammedi",
       "tier": "Tier2",
-      "matchingScore": 6,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 1,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -3220,7 +3347,10 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "French",
+        "Spanish",
+        "Arabic"
       ],
       "skills": [
         "Excel",
@@ -3240,31 +3370,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
+        "total_score": 5,
         "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 1,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "33-mahmoud-satour": {
       "id": "33-mahmoud-satour",
       "number": 33,
       "name": "Mahmoud Satour",
       "tier": "Tier1",
-      "matchingScore": 10,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 1,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -3336,7 +3469,9 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "French",
+        "Spanish"
       ],
       "skills": [
         "Python",
@@ -3356,33 +3491,36 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 8,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 10,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 1,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "34-marion-heymann": {
       "id": "34-marion-heymann",
       "number": 34,
       "name": "Marion Heymann",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 4,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 1,
+        "anglais": 0,
         "prospection": 1,
+        "vente_industrie": 0,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -3426,7 +3564,9 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "French",
+        "Spanish"
       ],
       "skills": [
         "Python",
@@ -3446,31 +3586,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 4,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 1,
+          "anglais": 0,
           "prospection": 1,
+          "vente_industrie": 0,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "35-alexandre-bethmont": {
       "id": "35-alexandre-bethmont",
       "number": 35,
       "name": "Alexandre Bethmont",
       "tier": "Tier1",
-      "matchingScore": 9,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 1,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -3542,7 +3685,7 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "French C1"
       ],
       "skills": [
         "negotiation",
@@ -3562,33 +3705,36 @@
         "market_fit": "Entrepreneurial/startup mindset - strong market fit",
         "culture": "European/francophone background"
       },
-      "rank": 13,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 9,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "36-baptiste-le-ray": {
       "id": "36-baptiste-le-ray",
       "number": 36,
       "name": "Baptiste Le Ray",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
-        "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "vente_industrie": 2,
+        "usa_exp": 2,
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -3659,8 +3805,8 @@
         ]
       },
       "languages": [
-        "English",
-        "French"
+        "English FLUENT",
+        "French NATIVE"
       ],
       "skills": [
         "Excel",
@@ -3679,33 +3825,36 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 0,
+      "rank": 11,
       "refined_analysis": {
-        "total_score": 8,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
-          "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "vente_industrie": 2,
+          "usa_exp": 2,
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "37-gaspard-volle": {
       "id": "37-gaspard-volle",
       "number": 37,
       "name": "Gaspard Volle",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
-        "prospection": 1,
+        "anglais": 1,
+        "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -3767,9 +3916,11 @@
         ]
       },
       "languages": [
-        "English",
-        "French",
-        "Mandarin"
+        "Portuguese C1",
+        "French NATIVE",
+        "English C1",
+        "Spanish A2",
+        "Italian A1"
       ],
       "skills": [
         "Excel",
@@ -3791,31 +3942,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
-          "prospection": 1,
+          "anglais": 1,
+          "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "38-valentin-cau": {
       "id": "38-valentin-cau",
       "number": 38,
       "name": "Valentin Cau",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -3900,31 +4054,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "39-ines-brahim-tazi": {
       "id": "39-ines-brahim-tazi",
       "number": 39,
       "name": "Ines Brahim Tazi",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 4,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
-        "prospection": 1,
+        "anglais": 0,
+        "prospection": 2,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -3969,8 +4126,9 @@
         ]
       },
       "languages": [
-        "English",
-        "French"
+        "English FLUENT",
+        "French NATIVE",
+        "Arabic NATIVE"
       ],
       "skills": [
         "Excel",
@@ -3991,31 +4149,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 4,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
-          "prospection": 1,
+          "anglais": 0,
+          "prospection": 2,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "40-erwin-byll": {
       "id": "40-erwin-byll",
       "number": 40,
       "name": "Erwin Byll",
       "tier": "Tier1",
-      "matchingScore": 9,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 1,
+        "vente_industrie": 2,
         "usa_exp": 1,
-        "profil_marche": 1,
-        "ancrage_culturel": 2
+        "ancrage_culturel": 2,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -4112,33 +4273,36 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 14,
+      "rank": 12,
       "refined_analysis": {
-        "total_score": 9,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 1,
+          "vente_industrie": 2,
           "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 2,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "41-may-vivet": {
       "id": "41-may-vivet",
       "number": 41,
       "name": "May Vivet",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 1,
-        "prospection": 2,
+        "anglais": 0,
+        "prospection": 1,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -4209,7 +4373,10 @@
         ]
       },
       "languages": [
-        "English"
+        "English",
+        "French",
+        "Spanish",
+        "German"
       ],
       "skills": [
         "Excel",
@@ -4233,31 +4400,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 1,
-          "prospection": 2,
+          "anglais": 0,
+          "prospection": 1,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "42-alexandre-ringot": {
       "id": "42-alexandre-ringot",
       "number": 42,
       "name": "Alexandre Ringot",
       "tier": "Tier1",
-      "matchingScore": 9,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 1,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 1,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -4319,7 +4489,8 @@
       },
       "languages": [
         "English",
-        "French"
+        "French",
+        "Spanish"
       ],
       "skills": [
         "Python",
@@ -4341,33 +4512,36 @@
         "market_fit": "Standard market fit",
         "culture": "Native anglophone cultural background"
       },
-      "rank": 15,
+      "rank": 13,
       "refined_analysis": {
-        "total_score": 9,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 1,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "43-chloe-morel": {
       "id": "43-chloe-morel",
       "number": 43,
       "name": "Chloe\u0301 Morel",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
-        "prospection": 1,
+        "anglais": 0,
+        "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 1,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -4450,31 +4624,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
-          "prospection": 1,
+          "anglais": 0,
+          "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "44-zine-eddine-arroussi": {
       "id": "44-zine-eddine-arroussi",
       "number": 44,
       "name": "Zine-Eddine Arroussi",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -4518,7 +4695,10 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "French",
+        "Spanish",
+        "Arabic"
       ],
       "skills": [
         "Excel",
@@ -4539,31 +4719,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "45-simon-dacosta": {
       "id": "45-simon-dacosta",
       "number": 45,
       "name": "Simon Dacosta",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 1,
-        "prospection": 0,
+        "anglais": 0,
+        "prospection": 1,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -4603,7 +4786,9 @@
         ]
       },
       "languages": [
-        "French"
+        "French NATIVE",
+        "English B2",
+        "German B1"
       ],
       "skills": [
         "Excel",
@@ -4625,31 +4810,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 1,
-          "prospection": 0,
+          "anglais": 0,
+          "prospection": 1,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "46-lucas-saint-supery": {
       "id": "46-lucas-saint-supery",
       "number": 46,
       "name": "Lucas Saint-Supe\u0301ry",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 2,
-        "prospection": 2,
-        "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "anglais": 0,
+        "prospection": 1,
+        "vente_industrie": 2,
+        "usa_exp": 2,
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -4703,31 +4891,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 2,
-          "prospection": 2,
-          "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "anglais": 0,
+          "prospection": 1,
+          "vente_industrie": 2,
+          "usa_exp": 2,
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "low"
     },
     "47-manuel-corti": {
       "id": "47-manuel-corti",
       "number": 47,
       "name": "Manuel Corti",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
-        "prospection": 1,
+        "anglais": 1,
+        "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -4771,7 +4962,11 @@
         ]
       },
       "languages": [
-        "English"
+        "Italian NATIVE",
+        "English C1",
+        "French B2",
+        "Spanish A2",
+        "German A2"
       ],
       "skills": [
         "Excel",
@@ -4792,31 +4987,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
-          "prospection": 1,
+          "anglais": 1,
+          "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "48-romain-bergeal": {
       "id": "48-romain-bergeal",
       "number": 48,
       "name": "Romain Bergeal",
       "tier": "Tier1",
-      "matchingScore": 9,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
-        "usa_exp": 1,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "vente_industrie": 2,
+        "usa_exp": 2,
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -4876,7 +5074,7 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "German C2"
       ],
       "skills": [
         "Excel",
@@ -4896,33 +5094,36 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 0,
+      "rank": 14,
       "refined_analysis": {
-        "total_score": 9,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
-          "usa_exp": 1,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "vente_industrie": 2,
+          "usa_exp": 2,
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "49-walid-aissat": {
       "id": "49-walid-aissat",
       "number": 49,
       "name": "Walid Aissat",
       "tier": "Tier1",
-      "matchingScore": 10,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -4983,7 +5184,9 @@
         ]
       },
       "languages": [
-        "English"
+        "English",
+        "French",
+        "Arabic"
       ],
       "skills": [
         "CRM",
@@ -5003,33 +5206,36 @@
         "market_fit": "Standard market fit",
         "culture": "European/francophone background"
       },
-      "rank": 9,
+      "rank": 15,
       "refined_analysis": {
-        "total_score": 10,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "50-kamil-ouaked": {
       "id": "50-kamil-ouaked",
       "number": 50,
       "name": "Kamil Ouaked",
       "tier": "Tier2",
-      "matchingScore": 5,
+      "matchingScore": 3,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 2,
-        "prospection": 0,
+        "anglais": 0,
+        "prospection": 1,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -5071,7 +5277,9 @@
         ]
       },
       "languages": [
-        "Languages not specified"
+        "English",
+        "French",
+        "Spanish"
       ],
       "skills": [
         "Power BI",
@@ -5088,31 +5296,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
-        "verdict": "\u00c0 \u00c9TUDIER",
+        "total_score": 3,
+        "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 2,
-          "prospection": 0,
+          "anglais": 0,
+          "prospection": 1,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "51-clement-assier": {
       "id": "51-clement-assier",
       "number": 51,
       "name": "Clement Assier",
       "tier": "Tier2",
-      "matchingScore": 4,
+      "matchingScore": 3,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 0,
+        "anglais": 0,
         "prospection": 1,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 0
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -5157,8 +5368,8 @@
         ]
       },
       "languages": [
-        "English",
-        "French"
+        "French NATIVE",
+        "English FLUENT"
       ],
       "skills": [
         "Python",
@@ -5174,31 +5385,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 4,
-        "verdict": "\u00c0 \u00c9TUDIER",
+        "total_score": 3,
+        "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 0,
+          "anglais": 0,
           "prospection": 1,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "52-phitoria-mfoume-obame": {
       "id": "52-phitoria-mfoume-obame",
       "number": 52,
       "name": "Phitoria Mfoume Obame",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 1,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -5259,8 +5473,9 @@
         ]
       },
       "languages": [
-        "English",
-        "Spanish"
+        "French C2",
+        "English C1",
+        "Spanish B1"
       ],
       "skills": [
         "Excel",
@@ -5279,19 +5494,22 @@
         "market_fit": "Market fit: BTP/Construction fit",
         "culture": "Cultural anchoring: International background"
       },
-      "rank": 4,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 1,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "53-arthur-roche": {
       "id": "53-arthur-roche",
@@ -5300,12 +5518,12 @@
       "tier": "Tier2",
       "matchingScore": 4,
       "scoreDetails": {
-        "langues": 0,
-        "vente": 1,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 0
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -5357,6 +5575,7 @@
         ]
       },
       "languages": [
+        "English",
         "French",
         "Spanish"
       ],
@@ -5378,28 +5597,31 @@
         "total_score": 4,
         "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 0,
-          "vente": 1,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "54-elsa-gomez": {
       "id": "54-elsa-gomez",
       "number": 54,
       "name": "Elsa Gomez",
       "tier": "Tier1",
-      "matchingScore": 12,
+      "matchingScore": 7,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 2,
-        "ancrage_culturel": 2
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -5452,7 +5674,9 @@
       },
       "languages": [
         "English",
-        "French"
+        "French",
+        "Spanish",
+        "German"
       ],
       "skills": [
         "Excel",
@@ -5472,33 +5696,36 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: Anglophone"
       },
-      "rank": 1,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 12,
+        "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 2,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "55-arthur-dekiouk": {
       "id": "55-arthur-dekiouk",
       "number": 55,
       "name": "Arthur Dekiouk",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
-        "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "vente_industrie": 2,
+        "usa_exp": 1,
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -5552,8 +5779,8 @@
         ]
       },
       "languages": [
-        "French",
-        "English"
+        "French NATIVE",
+        "English FLUENT"
       ],
       "skills": [
         "communication",
@@ -5569,33 +5796,36 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: Anglophone"
       },
-      "rank": 5,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
-          "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "vente_industrie": 2,
+          "usa_exp": 1,
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "56-lauren-abbou": {
       "id": "56-lauren-abbou",
       "number": 56,
       "name": "Lauren Abbou",
       "tier": "Tier2",
-      "matchingScore": 6,
+      "matchingScore": 3,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 1,
+        "anglais": 0,
         "prospection": 1,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -5653,7 +5883,9 @@
         ]
       },
       "languages": [
-        "English"
+        "English",
+        "French",
+        "Spanish"
       ],
       "skills": [
         "Excel",
@@ -5671,33 +5903,36 @@
         "market_fit": "Market fit: BTP/Construction fit",
         "culture": "Cultural anchoring: International background"
       },
-      "rank": 6,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 6,
-        "verdict": "\u00c0 \u00c9TUDIER",
+        "total_score": 3,
+        "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 1,
+          "anglais": 0,
           "prospection": 1,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "57-maxime-tessier": {
       "id": "57-maxime-tessier",
       "number": 57,
       "name": "Maxime Tessier",
       "tier": "Tier1",
-      "matchingScore": 8,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 1,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 2,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -5756,8 +5991,8 @@
       },
       "languages": [
         "English",
-        "Spanish",
-        "German"
+        "French",
+        "Spanish"
       ],
       "skills": [
         "Excel",
@@ -5777,33 +6012,36 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: International background"
       },
-      "rank": 7,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 8,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 1,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 2,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "58-matteo-morel": {
       "id": "58-matteo-morel",
       "number": 58,
       "name": "Matteo Morel",
       "tier": "Tier1",
-      "matchingScore": 9,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
+        "vente_industrie": 1,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -5862,6 +6100,7 @@
         ]
       },
       "languages": [
+        "English",
         "Spanish"
       ],
       "skills": [
@@ -5882,33 +6121,36 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: Anglophone"
       },
-      "rank": 8,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 9,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
+          "vente_industrie": 1,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "59-melanie-bret": {
       "id": "59-melanie-bret",
       "number": 59,
       "name": "Melanie Bret",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 6,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 1,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 0
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -5965,8 +6207,8 @@
         ]
       },
       "languages": [
-        "English",
-        "Spanish"
+        "English C1",
+        "Spanish B1"
       ],
       "skills": [
         "CRM",
@@ -5986,31 +6228,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 6,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 1,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "60-remi-goize\u0301": {
       "id": "60-remi-goize\u0301",
       "number": 60,
       "name": "Remi Goize\u0301",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
-        "prospection": 1,
+        "anglais": 0,
+        "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -6066,6 +6311,7 @@
       },
       "languages": [
         "English",
+        "French",
         "Spanish"
       ],
       "skills": [
@@ -6088,31 +6334,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 7,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
-          "prospection": 1,
+          "anglais": 0,
+          "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "61-romain-quero": {
       "id": "61-romain-quero",
       "number": 61,
       "name": "Romain Quero",
       "tier": "Tier2",
-      "matchingScore": 5,
+      "matchingScore": 3,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 0,
+        "anglais": 0,
         "prospection": 1,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -6160,8 +6409,10 @@
         ]
       },
       "languages": [
-        "French",
-        "English"
+        "French NATIVE",
+        "English B2",
+        "German B1",
+        "Portuguese B1"
       ],
       "skills": [
         "communication",
@@ -6177,31 +6428,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 5,
-        "verdict": "\u00c0 \u00c9TUDIER",
+        "total_score": 3,
+        "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 0,
+          "anglais": 0,
           "prospection": 1,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "62-estelle-ottou": {
       "id": "62-estelle-ottou",
       "number": 62,
       "name": "Estelle Ottou",
       "tier": "Tier3",
-      "matchingScore": 3,
+      "matchingScore": 2,
       "scoreDetails": {
-        "langues": 1,
-        "vente": 0,
-        "prospection": 0,
+        "anglais": 0,
+        "prospection": 1,
+        "vente_industrie": 0,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -6261,7 +6515,7 @@
       },
       "languages": [
         "English",
-        "Spanish"
+        "French"
       ],
       "skills": [
         "Excel",
@@ -6281,33 +6535,36 @@
         "market_fit": "Market fit: BTP/Construction fit",
         "culture": "Cultural anchoring: Anglophone"
       },
-      "rank": 9,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 3,
+        "total_score": 2,
         "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 1,
-          "vente": 0,
-          "prospection": 0,
+          "anglais": 0,
+          "prospection": 1,
+          "vente_industrie": 0,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "63-alvaro-juanes": {
       "id": "63-alvaro-juanes",
       "number": 63,
       "name": "Alvaro Juanes",
       "tier": "Tier1",
-      "matchingScore": 11,
+      "matchingScore": 10,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 1,
         "prospection": 2,
+        "vente_industrie": 2,
         "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 2
+        "ancrage_culturel": 2,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -6360,8 +6617,9 @@
         ]
       },
       "languages": [
-        "English",
-        "Spanish"
+        "Spanish NATIVE",
+        "English C2",
+        "Portuguese B2"
       ],
       "skills": [
         "management",
@@ -6375,33 +6633,36 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: Anglophone"
       },
-      "rank": 2,
+      "rank": 1,
       "refined_analysis": {
-        "total_score": 11,
+        "total_score": 10,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 1,
           "prospection": 2,
+          "vente_industrie": 2,
           "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 2
+          "ancrage_culturel": 2,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
     },
     "64-yanis-armande-lapierre": {
       "id": "64-yanis-armande-lapierre",
       "number": 64,
       "name": "Yanis Armande-Lapierre",
       "tier": "Tier1",
-      "matchingScore": 11,
+      "matchingScore": 5,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
+        "anglais": 0,
         "prospection": 2,
-        "usa_exp": 2,
-        "profil_marche": 1,
-        "ancrage_culturel": 2
+        "vente_industrie": 2,
+        "usa_exp": 0,
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -6452,9 +6713,7 @@
         ]
       },
       "languages": [
-        "English",
-        "French",
-        "Spanish"
+        "English"
       ],
       "skills": [
         "Sales",
@@ -6471,33 +6730,36 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: European"
       },
-      "rank": 3,
+      "rank": 0,
       "refined_analysis": {
-        "total_score": 11,
-        "verdict": "GO",
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 2,
-          "usa_exp": 2,
-          "profil_marche": 1,
-          "ancrage_culturel": 2
+          "vente_industrie": 2,
+          "usa_exp": 0,
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "65-audrey-mappa": {
       "id": "65-audrey-mappa",
       "number": 65,
       "name": "Audrey Mappa",
       "tier": "Tier2",
-      "matchingScore": 4,
+      "matchingScore": 3,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 0,
+        "anglais": 0,
         "prospection": 1,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 0
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -6551,8 +6813,8 @@
         ]
       },
       "languages": [
-        "English",
-        "French"
+        "French NATIVE",
+        "English B2"
       ],
       "skills": [
         "SAP",
@@ -6570,31 +6832,34 @@
       },
       "rank": 0,
       "refined_analysis": {
-        "total_score": 4,
-        "verdict": "\u00c0 \u00c9TUDIER",
+        "total_score": 3,
+        "verdict": "NO GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 0,
+          "anglais": 0,
           "prospection": 1,
+          "vente_industrie": 1,
           "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 0
+          "ancrage_culturel": 0,
+          "profil_marche": 1
         }
-      }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "medium"
     },
     "66-romain-poirier": {
       "id": "66-romain-poirier",
       "number": 66,
       "name": "Romain Poirier",
       "tier": "Tier1",
-      "matchingScore": 7,
+      "matchingScore": 4,
       "scoreDetails": {
-        "langues": 2,
-        "vente": 2,
-        "prospection": 1,
+        "anglais": 0,
+        "prospection": 2,
+        "vente_industrie": 1,
         "usa_exp": 0,
-        "profil_marche": 1,
-        "ancrage_culturel": 1
+        "ancrage_culturel": 0,
+        "profil_marche": 1
       },
       "location": "USA (TBD)",
       "contact": {
@@ -6646,8 +6911,9 @@
         ]
       },
       "languages": [
-        "French",
-        "English"
+        "English FLUENT",
+        "French NATIVE",
+        "Spanish INTERMEDIATE"
       ],
       "skills": [
         "SAP",
@@ -6663,19 +6929,98 @@
         "market_fit": "Market fit: Standard",
         "culture": "Cultural anchoring: International background"
       },
-      "rank": 10,
+      "rank": 0,
+      "refined_analysis": {
+        "total_score": 4,
+        "verdict": "\u00c0 \u00c9TUDIER",
+        "scoreDetails": {
+          "anglais": 0,
+          "prospection": 2,
+          "vente_industrie": 1,
+          "usa_exp": 0,
+          "ancrage_culturel": 0,
+          "profil_marche": 1
+        }
+      },
+      "confidence_extraction": 100,
+      "extraction_method": "pdftotext",
+      "extraction_quality": "high"
+    },
+    "67-ma\u00eblle-rouhier": {
+      "id": "67-ma\u00eblle-rouhier",
+      "number": 67,
+      "name": "Ma\u00eblle Rouhier",
+      "tier": "Tier2",
+      "matchingScore": 7,
+      "scoreDetails": {
+        "anglais": 0,
+        "prospection": 1,
+        "vente_industrie": 1,
+        "usa_exp": 2,
+        "ancrage_culturel": 2,
+        "profil_marche": 1
+      },
+      "cvFile": "recrutements/vie-usa-2026/cvs/CV Ma\u00eblle Rouhier.pdf",
+      "extraction_quality": "high",
+      "extraction_method": "pdftotext",
+      "confidence_extraction": 100,
+      "languages": [],
+      "education": [],
+      "experiences": [],
+      "skills": [],
+      "strengths": [],
+      "warnings": [],
       "refined_analysis": {
         "total_score": 7,
         "verdict": "GO",
         "scoreDetails": {
-          "langues": 2,
-          "vente": 2,
+          "anglais": 0,
           "prospection": 1,
-          "usa_exp": 0,
-          "profil_marche": 1,
-          "ancrage_culturel": 1
+          "vente_industrie": 1,
+          "usa_exp": 2,
+          "ancrage_culturel": 2,
+          "profil_marche": 1
         }
-      }
+      },
+      "rank": 0
+    },
+    "68-charly-garcia": {
+      "id": "68-charly-garcia",
+      "number": 68,
+      "name": "Charly Garcia",
+      "tier": "Tier2",
+      "matchingScore": 5,
+      "scoreDetails": {
+        "anglais": 0,
+        "prospection": 2,
+        "vente_industrie": 2,
+        "usa_exp": 0,
+        "ancrage_culturel": 0,
+        "profil_marche": 1
+      },
+      "cvFile": "recrutements/vie-usa-2026/cvs/CV M. GARCIA Charly (fr).pdf",
+      "extraction_quality": "high",
+      "extraction_method": "pdftotext",
+      "confidence_extraction": 100,
+      "languages": [],
+      "education": [],
+      "experiences": [],
+      "skills": [],
+      "strengths": [],
+      "warnings": [],
+      "refined_analysis": {
+        "total_score": 5,
+        "verdict": "\u00c0 \u00c9TUDIER",
+        "scoreDetails": {
+          "anglais": 0,
+          "prospection": 2,
+          "vente_industrie": 2,
+          "usa_exp": 0,
+          "ancrage_culturel": 0,
+          "profil_marche": 1
+        }
+      },
+      "rank": 0
     }
   }
 }

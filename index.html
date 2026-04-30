@@ -1277,9 +1277,10 @@ function renderFiche() {
         <h3 class="font-semibold text-gray-900 mb-3">📋 Lecture rapide</h3>
         <div class="space-y-3">
           <!-- Rank & Verdict badges -->
-          <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3 flex-wrap">
             <span class="text-xs font-semibold px-3 py-1 rounded-full bg-blue-100 text-blue-800">Classé #${c.rank || '?'} sur ${Object.keys(CANDIDATES).length}</span>
             ${analysis.verdict ? `<span class="text-xs font-semibold px-3 py-1 rounded-full ${{'GO':'bg-green-100 text-green-800','À ÉTUDIER':'bg-yellow-100 text-yellow-800','NO GO':'bg-red-100 text-red-800'}[analysis.verdict] || 'bg-gray-100 text-gray-800'}">${analysis.verdict}</span>` : ''}
+            ${c.confidence_extraction ? `<span class="text-xs font-semibold px-3 py-1 rounded-full ${c.confidence_extraction === 100 ? 'bg-emerald-100 text-emerald-800' : c.confidence_extraction >= 75 ? 'bg-cyan-100 text-cyan-800' : 'bg-amber-100 text-amber-800'}">Données ${c.confidence_extraction}%</span>` : ''}
           </div>
           <!-- Strengths -->
           ${c.strengths && c.strengths.length > 0 ? `
@@ -1381,6 +1382,16 @@ function renderFiche() {
             <p class="text-gray-500 text-xs font-medium">Classement:</p>
             <p class="font-medium text-gray-900 mt-1">Rang #${c.rank || '?'} sur ${Object.keys(CANDIDATES).length} candidats</p>
           </div>
+          <!-- Extraction -->
+          ${c.extraction_method ? `
+          <div>
+            <p class="text-gray-500 text-xs font-medium">Extraction des données:</p>
+            <div class="flex items-center gap-2 mt-1">
+              <span class="font-medium text-gray-900">${c.extraction_method === 'OCR' ? '🔍 OCR' : '📄 PDF Text'}</span>
+              <span class="text-xs text-gray-600">Confiance: ${c.confidence_extraction || 0}%</span>
+            </div>
+          </div>
+          ` : ''}
           <!-- LDM availability -->
           ${c.ldmFile ? `
           <div>
